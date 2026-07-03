@@ -1,5 +1,7 @@
 local L = Locales.esMX
 
+L["THANKS_FOR_USING_BAGANATOR_DONATE"] = "Gracias por usar Baganator. Considera hacer una donación para apoyar el desarrollo"
+
 L["BAGANATOR"] = "Baganator"
 L["TO_OPEN_OPTIONS_X"] = "Acceder a las opciones con /bgr"
 L["VERSION_COLON_X"] = "Versión: %s"
@@ -59,7 +61,6 @@ L["PERCENTAGE_PATTERN"] = "%s%%"
 L["HIDE_BOE_STATUS_ON_COMMON_2"] = "Ocultar el estado BoE en chatarra/común"
 L["NEW_ITEMS_FLASHING_ANIMATION"] = "Animación intermitente para nuevos objetos"
 L["FADE_ITEMS_NOT_MATCHING_SITUATION"] = "Desvanecer objetos que no coinciden"
-L["RECENT_CHARACTER_TABS"] = "Pestaña de personajes recientes"
 L["SEARCH_BOX"] = "Cuadro de búsqueda"
 L["ITEM_QUALITY_TEXT_COLORS"] = "Colores de texto de calidad del objeto"
 L["MARK_UNUSABLE_ITEMS_IN_RED"] = "Marcar objetos no utilizables en rojo"
@@ -151,6 +152,7 @@ L["GREY_JUNK_ITEMS"] = "Eliminar los objetos chatarra"
 L["JUNK_DETECTION_2"] = "Detección de chatarra"
 L["UPGRADE_DETECTION"] = "Detección de mejora"
 
+
 L["REALM_WIDE_GOLD_X"] = "Oro del reino: %s"
 L["ACCOUNT_GOLD_X"] = "Oro en cuenta: %s"
 L["REALM_X_X_X"] = "%s (x%s)"
@@ -158,7 +160,6 @@ L["HOLD_SHIFT_TO_SHOW_ACCOUNT_TOTAL"] = "<Mantén presionada la tecla mayús par
 
 L["CRAFTING_WINDOW"] = "Ventana de profesión"
 L["AUCTION_HOUSE"] = "Casa de subastas"
-L["VOID_STORAGE"] = "Depósito del vacío"
 L["MAIL"] = "Correo"
 L["VENDOR"] = "Vendedor"
 L["AUTO_OPEN"] = "Apertura automática"
@@ -224,11 +225,6 @@ L["THAT_ITEM_IS_LISTED_ON_THE_AUCTION_HOUSE"] = "Ese objeto está listado en la 
 L["THAT_ITEM_IS_IN_A_MAILBOX"] = "Ese objeto está en el buzón"
 L["THAT_ITEM_IS_IN_VOID_STORAGE"] = "Ese objeto está en el depósito del vacío"
 
-L["THAT_ITEM_IS_EQUIPPED"] = "Ese objeto está equipado"
-L["THAT_ITEM_IS_LISTED_ON_THE_AUCTION_HOUSE"] = "Ese objeto está listado en la casa de subastas"
-L["THAT_ITEM_IS_IN_A_MAILBOX"] = "Ese objeto está en el buzón"
-L["THAT_ITEM_IS_IN_VOID_STORAGE"] = "Ese objeto está en el depósito del vacío"
-
 L["SOUL"] = "Alma"
 L["HERBALISM"] = "Herboristería"
 L["ENCHANTING"] = "Encantamiento"
@@ -258,6 +254,7 @@ L["CATEGORY_RECENT_AUTO"] = "Recientes (Auto)"
 L["CATEGORY_TRADESKILLMASTER_AUTO"] = "TradeSkillMaster (Auto)"
 L["SECTION_EQUIPMENT"] = "Equipo"
 L["SECTION_CRAFTING"] = "Fabricación"
+L["SECTION_HOUSING"] = "Vivienda"
 L["GROUPING_ERA_0_1"] = "Poción"
 L["GROUPING_ERA_0_2"] = "Elixir"
 L["GROUPING_ERA_0_3"] = "Frasco"
@@ -275,6 +272,7 @@ L["GROUPING_ERA_7_8"] = "Carne"
 L["GROUPING_ERA_7_9"] = "Hierba"
 L["GROUPING_ERA_7_10"] = "Elemental"
 L["GROUPING_ERA_7_12"] = "Encantamiento"
+L["CRAFTED"] = "Fabricado"
 
 L["CATEGORY_SPACING"] = "Espacio entre categorías"
 L["EDIT"] = "Editar"
@@ -381,6 +379,7 @@ L["DISABLED"] = "desactivado"
 L["REMOVED_UNUSED_CATEGORIES"] = "Eliminación de todas las categorías personalizadas no utilizadas"
 
 L["BLIZZARD"] = "Blizzard"
+L["BLIZZARD_BLACK"] = "Blizzard Oscuro"
 L["DARK"] = "Oscuro"
 L["GW2_UI"] = "GW2 UI"
 L["ELVUI"] = "ElvUI"
@@ -405,6 +404,14 @@ L["SAVE_SEARCH"] = "Guardar búsqueda"
 L["CHOOSE_A_LABEL_FOR_THIS_SEARCH"] = "Elige una etiqueta para esta búsqueda"
 L["NOTHING_TO_SAVE"] = "Nada que guardar"
 
+L["ENTER_THE_NEW_PROFILE_NAME"] = "Ingresar el nuevo nombre del perfil:"
+L["THAT_STYLE_NAME_ALREADY_EXISTS"] = "El nombre del estilo ya existe"
+L["THAT_PROFILE_NAME_ALREADY_EXISTS"] = "El nombre del perfil ya existe"
+L["OVERWRITE_CURRENT_PROFILE"] = "¿Sobrescribir perfil actual?"
+L["OVERWRITE"] = "Sobrescribir"
+L["MAKE_NEW"] = "Crear nuevo"
+L["INVALID_IMPORT"] = "Importación inválida"
+
 L["SYNDICATOR_ENABLE_MESSAGE"] = "|cffd1b219Syndicator|r es necesario para utilizar Baganator."
 L["SYNDICATOR_INSTALL_MESSAGE"] = "Usa tu sitio web/cliente de addons para instalar |cffd1b219Syndicator|r para poder usar Baganator."
 
@@ -425,3 +432,4 @@ L["SLASH_SWAP_HELP"] = "Cambia de categorías a diseño de bolsa única o al rev
 L["SLASH_CATEGORIES"] = "categorías"
 L["SLASH_CATEGORIES_HELP"] = "Muestra las categorías que coinciden o no coinciden con los objetos en sus descripciones."
 L["SLASH_UNKNOWN_COMMAND"] = "Comando desconocido '%s'"
+L["CATEGORY_SETTINGS_HAVE_BEEN_RESET"] = "La configuración de la categoría se ha restablecido a los valores predeterminados"
