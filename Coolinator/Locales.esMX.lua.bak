@@ -1877,6 +1877,8 @@ L["WRAP_IN_GROUP"] = "Wrap in group"
 
 
 -- [INICIO INTEGRACIÓN EDIT/ESMX] --
+
+-- [INICIO INTEGRACIÓN EDIT/ESMX] --
 local L = Locales.esMX
 
 L["COOLINATOR"] = "Coolinator"
@@ -1903,7 +1905,7 @@ L["EDIT_THE_ICONS_AND_BARS_ONSCREEN"] = "Edita los iconos y barras en pantalla h
 L["CLOSE_DESIGNER"] = "Cerrar diseñador"
 L["INCOMPATIBLE_WIDGET_TYPE"] = "Tipo de widget incompatible"
 L["BEHAVIOUR"] = "Comportamiento"
-L["REMOVE_SPACING_FOR_HIDDEN_AURAS"] = "Eliminar espacio para auras ocultas"
+L["REMOVE_SPACING_FOR_HIDDEN_ICONS"] = "Eliminar espacio para auras ocultas"
 L["FADE_WHEN_MOUNTED"] = "Desvanecer al montar"
 L["USE_BLIZZARD_WIDGETS"] = "Usar widgets de Blizzard (sin estilo)"
 L["SHOW_KEYBINDINGS"] = "Mostrar atajos de teclado"

@@ -152,8 +152,8 @@ L["GREY_JUNK_ITEMS"] = "Eliminar los objetos chatarra"
 L["JUNK_DETECTION_2"] = "Detección de chatarra"
 L["UPGRADE_DETECTION"] = "Detección de mejora"
 
-
 L["REALM_WIDE_GOLD_X"] = "Oro del reino: %s"
+L["FACTION_REALM_WIDE_GOLD_X"] = "Oro de facción/reino: %s"
 L["ACCOUNT_GOLD_X"] = "Oro en cuenta: %s"
 L["REALM_X_X_X"] = "%s (x%s)"
 L["HOLD_SHIFT_TO_SHOW_ACCOUNT_TOTAL"] = "<Mantén presionada la tecla mayús para mostrar el total de la cuenta>"

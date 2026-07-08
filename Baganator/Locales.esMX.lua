@@ -984,7 +984,7 @@ L["GROUP_BY"] = "Gruppieren"
 L["GROUP_EMPTY_SLOTS"] = "Leere Taschenplätze gruppieren"
 L["GROUP_IDENTICAL_ITEMS"] = "Identische Gegenstände gruppieren"
 L["GROUPING_ERA_0_1"] = "Tränke"
-L["GROUPING_ERA_0_2"] = "Elexire"
+L["GROUPING_ERA_0_2"] = "Elixiere"
 L["GROUPING_ERA_0_3"] = "Fläschchen"
 L["GROUPING_ERA_0_4"] = "Schriftrollen"
 L["GROUPING_ERA_0_5"] = "Essen & Trinken"
@@ -2401,8 +2401,6 @@ L["XS_GUILD_BANK"] = "Banco de hermandad de %s"
 
 
 -- [INICIO INTEGRACIÓN EDIT/ESMX] --
-
--- [INICIO INTEGRACIÓN EDIT/ESMX] --
 local L = Locales.esMX
 
 L["THANKS_FOR_USING_BAGANATOR_DONATE"] = "Gracias por usar Baganator. Considera hacer una donación para apoyar el desarrollo"
@@ -2557,8 +2555,8 @@ L["GREY_JUNK_ITEMS"] = "Eliminar los objetos chatarra"
 L["JUNK_DETECTION_2"] = "Detección de chatarra"
 L["UPGRADE_DETECTION"] = "Detección de mejora"
 
-
 L["REALM_WIDE_GOLD_X"] = "Oro del reino: %s"
+L["FACTION_REALM_WIDE_GOLD_X"] = "Oro de facción/reino: %s"
 L["ACCOUNT_GOLD_X"] = "Oro en cuenta: %s"
 L["REALM_X_X_X"] = "%s (x%s)"
 L["HOLD_SHIFT_TO_SHOW_ACCOUNT_TOTAL"] = "<Mantén presionada la tecla mayús para mostrar el total de la cuenta>"

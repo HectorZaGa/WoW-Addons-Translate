@@ -46,6 +46,7 @@ L["REMOVE_SPACING_FOR_HIDDEN_ICONS"] = "Remove spacing for hidden icons"
 L["FADE_WHEN_MOUNTED"] = "Fade when mounted"
 L["USE_BLIZZARD_WIDGETS"] = "Use Blizzard widgets (no styling)"
 L["SHOW_KEYBINDINGS"] = "Show keybindings"
+L["MOUSE_BUTTON_X"] = "M%s"
 L["FONT"] = "Font"
 L["SHOW_OUTLINE"] = "Show outline"
 L["SHOW_SHADOW"] = "Show shadow"
@@ -65,6 +66,11 @@ L["INVALID_ANCHOR_NAME"] = "Invalid anchor name"
 L["SAVE_ANCHOR"] = "Save anchor"
 L["RESET_SAVED_ANCHORS"] = "Reset saved anchors"
 L["ARE_YOU_SURE_CLEAR_ANCHORS"] = "Are you sure you want to clear your saved anchors?"
+L["NAME"] = "Name"
+L["DURATION"] = "Duration"
+L["NAME"] = "Name"
+L["VALUE"] = "Value"
+L["ARCANE_FLURRY"] = "Arcane Flurry"
 
 L["ENTER_PROFILE_NAME"] = "Enter Profile Name:"
 L["ENTER_DESIGN_NAME"] = "Enter Profile Name:"
@@ -104,8 +110,7 @@ L["CHOOSE_ITEM"] = "Choose Item"
 L["CHOOSE_EQUIPMENT"] = "Choose Equipment"
 L["EQUIPMENT"] = "Equipment"
 L["POTION_EFFECT"] = "Potion Effect"
-L["WRAP_IN_GROUP"] = "Wrap in group"
-L["POPOUT_STANDALONE"] = "Popout (Standalone)"
+L["STACK"] = "Stack"
 L["NOTHING_IN_SLOT"] = "Nothing in slot"
 L["TOP_LEFT"] = "Top Left"
 L["TOP_RIGHT"] = "Top Right"
@@ -120,6 +125,8 @@ L["GROW_FROM"] = "Grow from"
 L["STYLE"] = "Style"
 L["BLIZZARD"] = "Blizzard"
 L["SQUARE"] = "Square"
+L["REVERSE"] = "Reverse"
+L["SWIPE_COLOR"] = "Swipe color"
 L["CENTER_HORIZONTAL"] = "Center Horizontal"
 L["CENTER_VERTICAL"] = "Center Vertical"
 
@@ -135,6 +142,7 @@ L["SCALE"] = "Scale"
 L["BORDER"] = "Border"
 L["BORDER_COLOR"] = "Border color"
 L["READY_BORDER_COLOR"] = "Ready border color"
+L["READY_FOREGROUND_COLOR"] = "Ready foreground color"
 L["FOREGROUND"] = "Foreground"
 L["FOREGROUND_COLOR"] = "Foreground color"
 L["BACKGROUND"] = "Background"
@@ -152,6 +160,7 @@ L["WARNING_COLOR_FADED"] = "Warning color faded"
 L["DANGER_COLOR"] = "Danger color"
 L["DANGER_COLOR_FADED"] = "Danger color faded"
 L["COLOR"] = "Color"
+L["WIDTH_RESTRICTION"] = "Width restriction"
 L["COLORS"] = "Colors"
 L["SHOW_ICON"] = "Show icon"
 L["SHOW_TOOLTIPS"] = "Show tooltips"
@@ -174,6 +183,7 @@ L["EMPOWERED_STAGE_1"] = "Empowered stage 1"
 L["EMPOWERED_STAGE_2"] = "Empowered stage 2"
 L["EMPOWERED_STAGE_3"] = "Empowered stage 3"
 L["EMPOWERED_STAGE_HOLD"] = "Empowered stage hold"
+L["HIDE_WHEN_READY"] = "Hide when ready"
 
 L["PLEASE_RELOAD_TO_GET_COOLINATOR_WORKING_REASON_X"] = "Please reload to get Coolinator working. Reason (%s)"
 L["DUE_TO_AURA_BARS_CHANGING_RELOAD_REQUIRED"] = "Due to aura bars changing a reload is required for Coolinator function"
@@ -241,6 +251,8 @@ L["ADD"] = "Add"
 L["ALIGN_X"] = "Align %s"
 --[[Translation missing --]]
 L["ALIGNMENT"] = "Alignment"
+--[[Translation missing --]]
+L["ARCANE_FLURRY"] = "Arcane Flurry"
 --[[Translation missing --]]
 L["ARE_YOU_SURE_CLEAR_ANCHORS"] = "Are you sure you want to clear your saved anchors?"
 --[[Translation missing --]]
@@ -362,6 +374,8 @@ L["DONATE"] = "Donate"
 --[[Translation missing --]]
 L["DUE_TO_AURA_BARS_CHANGING_RELOAD_REQUIRED"] = "Due to aura bars changing a reload is required for Coolinator function"
 --[[Translation missing --]]
+L["DURATION"] = "Duration"
+--[[Translation missing --]]
 L["EDIT_THE_ICONS_AND_BARS_ONSCREEN"] = "Edit the icons and bars onscreen by clicking on them"
 --[[Translation missing --]]
 L["EMPOWERED_STAGE_1"] = "Empowered stage 1"
@@ -410,6 +424,8 @@ L["GROW_FROM"] = "Grow from"
 --[[Translation missing --]]
 L["HEIGHT"] = "Height"
 --[[Translation missing --]]
+L["HIDE_ON_COOLDOWN"] = "Hide on cooldown"
+--[[Translation missing --]]
 L["HORIZONTAL"] = "Horizontal"
 --[[Translation missing --]]
 L["ICICLES"] = "Icicles"
@@ -448,6 +464,10 @@ L["MAELSTROM_WEAPON"] = "Maelstrom Weapon"
 --[[Translation missing --]]
 L["MAKE_NEW"] = "Make new"
 --[[Translation missing --]]
+L["MOUSE_BUTTON_X"] = "M%s"
+--[[Translation missing --]]
+L["NAME"] = "Name"
+--[[Translation missing --]]
 L["NEW_DESIGN"] = "New Design"
 --[[Translation missing --]]
 L["NEW_PROFILE_BLANK"] = "New Profile (blank)"
@@ -476,8 +496,6 @@ L["PASTE_YOUR_IMPORT_STRING_HERE"] = "Paste your import string here"
 --[[Translation missing --]]
 L["PLEASE_RELOAD_TO_GET_COOLINATOR_WORKING_REASON_X"] = "Please reload to get Coolinator working. Reason (%s)"
 --[[Translation missing --]]
-L["POPOUT_STANDALONE"] = "Popout (Standalone)"
---[[Translation missing --]]
 L["POTION_EFFECT"] = "Potion Effect"
 --[[Translation missing --]]
 L["PRESET"] = "Preset"
@@ -488,9 +506,13 @@ L["PROFILES"] = "Profiles"
 --[[Translation missing --]]
 L["READY_BORDER_COLOR"] = "Ready border color"
 --[[Translation missing --]]
-L["REMOVE_SPACING_FOR_HIDDEN_AURAS"] = "Remove spacing for hidden auras"
+L["READY_FOREGROUND_COLOR"] = "Ready foreground color"
+--[[Translation missing --]]
+L["REMOVE_SPACING_FOR_HIDDEN_ICONS"] = "Remove spacing for hidden icons"
 --[[Translation missing --]]
 L["RESET_SAVED_ANCHORS"] = "Reset saved anchors"
+--[[Translation missing --]]
+L["REVERSE"] = "Reverse"
 --[[Translation missing --]]
 L["RIGHT"] = "Right"
 --[[Translation missing --]]
@@ -544,7 +566,11 @@ L["SPEC_MISMATCH_IN_BLIZZARD_CDM"] = "Specialization data mismatch in Blizzard C
 --[[Translation missing --]]
 L["SQUARE"] = "Square"
 --[[Translation missing --]]
+L["STACK"] = "Stack"
+--[[Translation missing --]]
 L["STYLE"] = "Style"
+--[[Translation missing --]]
+L["SWIPE_COLOR"] = "Swipe color"
 --[[Translation missing --]]
 L["TEXTS"] = "Texts"
 --[[Translation missing --]]
@@ -580,6 +606,8 @@ L["USE_MASQUE"] = "Use Masque"
 --[[Translation missing --]]
 L["UTILITY"] = "Utility"
 --[[Translation missing --]]
+L["VALUE"] = "Value"
+--[[Translation missing --]]
 L["VERSION_COLON_X"] = "Version: %s"
 --[[Translation missing --]]
 L["VERTICAL"] = "Vertical"
@@ -595,8 +623,6 @@ L["WARNING_COLOR_FADED"] = "Warning color faded"
 L["WHAT_TO_EXPORT"] = "What to export?"
 --[[Translation missing --]]
 L["WIDTH"] = "Width"
---[[Translation missing --]]
-L["WRAP_IN_GROUP"] = "Wrap in group"
 
 
 local L = Locales.deDE
@@ -610,6 +636,8 @@ L["ADD"] = "hinzufügen"
 --[[Translation missing --]]
 L["ALIGN_X"] = "Align %s"
 L["ALIGNMENT"] = "Ausrichtung"
+--[[Translation missing --]]
+L["ARCANE_FLURRY"] = "Arcane Flurry"
 --[[Translation missing --]]
 L["ARE_YOU_SURE_CLEAR_ANCHORS"] = "Are you sure you want to clear your saved anchors?"
 L["AURA"] = "Aura"
@@ -700,6 +728,8 @@ L["DONATE"] = "Donate"
 --[[Translation missing --]]
 L["DUE_TO_AURA_BARS_CHANGING_RELOAD_REQUIRED"] = "Due to aura bars changing a reload is required for Coolinator function"
 --[[Translation missing --]]
+L["DURATION"] = "Duration"
+--[[Translation missing --]]
 L["EDIT_THE_ICONS_AND_BARS_ONSCREEN"] = "Edit the icons and bars onscreen by clicking on them"
 --[[Translation missing --]]
 L["EMPOWERED_STAGE_1"] = "Empowered stage 1"
@@ -748,6 +778,8 @@ L["GROW_FROM"] = "Grow from"
 --[[Translation missing --]]
 L["HEIGHT"] = "Height"
 --[[Translation missing --]]
+L["HIDE_ON_COOLDOWN"] = "Hide on cooldown"
+--[[Translation missing --]]
 L["HORIZONTAL"] = "Horizontal"
 --[[Translation missing --]]
 L["ICICLES"] = "Icicles"
@@ -786,6 +818,10 @@ L["MAELSTROM_WEAPON"] = "Maelstrom Weapon"
 --[[Translation missing --]]
 L["MAKE_NEW"] = "Make new"
 --[[Translation missing --]]
+L["MOUSE_BUTTON_X"] = "M%s"
+--[[Translation missing --]]
+L["NAME"] = "Name"
+--[[Translation missing --]]
 L["NEW_DESIGN"] = "New Design"
 --[[Translation missing --]]
 L["NEW_PROFILE_BLANK"] = "New Profile (blank)"
@@ -814,8 +850,6 @@ L["PASTE_YOUR_IMPORT_STRING_HERE"] = "Paste your import string here"
 --[[Translation missing --]]
 L["PLEASE_RELOAD_TO_GET_COOLINATOR_WORKING_REASON_X"] = "Please reload to get Coolinator working. Reason (%s)"
 --[[Translation missing --]]
-L["POPOUT_STANDALONE"] = "Popout (Standalone)"
---[[Translation missing --]]
 L["POTION_EFFECT"] = "Potion Effect"
 --[[Translation missing --]]
 L["PRESET"] = "Preset"
@@ -826,9 +860,13 @@ L["PROFILES"] = "Profiles"
 --[[Translation missing --]]
 L["READY_BORDER_COLOR"] = "Ready border color"
 --[[Translation missing --]]
-L["REMOVE_SPACING_FOR_HIDDEN_AURAS"] = "Remove spacing for hidden auras"
+L["READY_FOREGROUND_COLOR"] = "Ready foreground color"
+--[[Translation missing --]]
+L["REMOVE_SPACING_FOR_HIDDEN_ICONS"] = "Remove spacing for hidden icons"
 --[[Translation missing --]]
 L["RESET_SAVED_ANCHORS"] = "Reset saved anchors"
+--[[Translation missing --]]
+L["REVERSE"] = "Reverse"
 --[[Translation missing --]]
 L["RIGHT"] = "Right"
 --[[Translation missing --]]
@@ -882,7 +920,11 @@ L["SPEC_MISMATCH_IN_BLIZZARD_CDM"] = "Specialization data mismatch in Blizzard C
 --[[Translation missing --]]
 L["SQUARE"] = "Square"
 --[[Translation missing --]]
+L["STACK"] = "Stack"
+--[[Translation missing --]]
 L["STYLE"] = "Style"
+--[[Translation missing --]]
+L["SWIPE_COLOR"] = "Swipe color"
 --[[Translation missing --]]
 L["TEXTS"] = "Texts"
 --[[Translation missing --]]
@@ -918,6 +960,8 @@ L["USE_MASQUE"] = "Use Masque"
 --[[Translation missing --]]
 L["UTILITY"] = "Utility"
 --[[Translation missing --]]
+L["VALUE"] = "Value"
+--[[Translation missing --]]
 L["VERSION_COLON_X"] = "Version: %s"
 --[[Translation missing --]]
 L["VERTICAL"] = "Vertical"
@@ -933,8 +977,6 @@ L["WARNING_COLOR_FADED"] = "Warning color faded"
 L["WHAT_TO_EXPORT"] = "What to export?"
 --[[Translation missing --]]
 L["WIDTH"] = "Width"
---[[Translation missing --]]
-L["WRAP_IN_GROUP"] = "Wrap in group"
 
 
 local L = Locales.ruRU
@@ -945,6 +987,8 @@ L["ABILITY_CHARGES"] = "Перезарядка способностей"
 L["ADD"] = "Добавить"
 L["ALIGN_X"] = "Выравнивание %s"
 L["ALIGNMENT"] = "Выравнивание"
+--[[Translation missing --]]
+L["ARCANE_FLURRY"] = "Arcane Flurry"
 L["ARE_YOU_SURE_CLEAR_ANCHORS"] = "Вы уверены, что хотите удалить сохраненные привязки?"
 L["AURA"] = "Аура"
 L["AURA_BAR"] = "Полоса аур"
@@ -1005,6 +1049,8 @@ L["DEVELOPMENT_IS_TIME_CONSUMING"] = "|cff04cca4Разработка заним�
 L["DISCORD_DESCRIPTION"] = "Обновления, предложения и поддержка"
 L["DONATE"] = "Пожертвовать"
 L["DUE_TO_AURA_BARS_CHANGING_RELOAD_REQUIRED"] = "Для изменения панелей аур Coolinator требуется перезагрузка"
+--[[Translation missing --]]
+L["DURATION"] = "Duration"
 L["EDIT_THE_ICONS_AND_BARS_ONSCREEN"] = "Редактируйте значки и полосы на экране, нажимая на них"
 --[[Translation missing --]]
 L["EMPOWERED_STAGE_1"] = "Empowered stage 1"
@@ -1033,6 +1079,8 @@ L["GENERAL"] = "Общее"
 L["GROUP"] = "Группа"
 L["GROW_FROM"] = "Рост"
 L["HEIGHT"] = "Высота"
+--[[Translation missing --]]
+L["HIDE_ON_COOLDOWN"] = "Hide on cooldown"
 L["HORIZONTAL"] = "Горизонтальное"
 L["ICICLES"] = "Сосулька"
 L["ICON"] = "Иконка"
@@ -1052,6 +1100,10 @@ L["LEFT"] = "Слева"
 L["LINK"] = "Ссылка"
 L["MAELSTROM_WEAPON"] = "Оружие водоворота"
 L["MAKE_NEW"] = "Создать новый"
+--[[Translation missing --]]
+L["MOUSE_BUTTON_X"] = "M%s"
+--[[Translation missing --]]
+L["NAME"] = "Name"
 L["NEW_DESIGN"] = "Новый стиль"
 L["NEW_PROFILE_BLANK"] = "Новый профиль (пустой)"
 L["NEW_PROFILE_CLONE"] = "Новый профиль (клонированный текущий)"
@@ -1066,14 +1118,18 @@ L["PADDING"] = "Заполнение"
 L["PARENT"] = "Родитель"
 L["PASTE_YOUR_IMPORT_STRING_HERE"] = "Вставьте сюда вашу строку импорта"
 L["PLEASE_RELOAD_TO_GET_COOLINATOR_WORKING_REASON_X"] = "Пожалуйста, перезагрузите, чтобы Coolinator заработал. Причина (%s)"
-L["POPOUT_STANDALONE"] = "Выпадающий список (отдельный)"
 L["POTION_EFFECT"] = "Эффект Зелья"
 L["PRESET"] = "Шаблон"
 L["PROFILE"] = "Профиль"
 L["PROFILES"] = "Профили"
 L["READY_BORDER_COLOR"] = "Цвет рамки при готовности"
-L["REMOVE_SPACING_FOR_HIDDEN_AURAS"] = "Убрать пробелы для скрытых аур"
+--[[Translation missing --]]
+L["READY_FOREGROUND_COLOR"] = "Ready foreground color"
+--[[Translation missing --]]
+L["REMOVE_SPACING_FOR_HIDDEN_ICONS"] = "Remove spacing for hidden icons"
 L["RESET_SAVED_ANCHORS"] = "Сбросить сохраненные привязки"
+--[[Translation missing --]]
+L["REVERSE"] = "Reverse"
 L["RIGHT"] = "Справа"
 L["SAFE"] = "Безопасный"
 L["SAFE_COLOR"] = "Безопасный цвет"
@@ -1100,7 +1156,11 @@ L["SLASH_RESET_HELP"] = "Сбросьте все настройки Coolinator �
 L["SLASH_UNKNOWN_COMMAND"] = "Неизвестная команда '%s'"
 L["SPEC_MISMATCH_IN_BLIZZARD_CDM"] = "Несоответствие данных о специализации в Blizzard CDM"
 L["SQUARE"] = "Квадратный"
+--[[Translation missing --]]
+L["STACK"] = "Stack"
 L["STYLE"] = "Стиль"
+--[[Translation missing --]]
+L["SWIPE_COLOR"] = "Swipe color"
 L["TEXTS"] = "Тексты"
 L["TEXTURES"] = "Текстуры"
 L["THANKS_FOR_USING_COOLINATOR_DONATE"] = "Спасибо, что пользуетесь Coolinator. Подумайте о том, чтобы сделать пожертвование в поддержку разработки"
@@ -1118,6 +1178,8 @@ L["UNLEARNED"] = "Необученный"
 L["USE_BLIZZARD_WIDGETS"] = "Используйте виджеты Blizzard (без оформления)"
 L["USE_MASQUE"] = "Использовать Masque"
 L["UTILITY"] = "Утилита"
+--[[Translation missing --]]
+L["VALUE"] = "Value"
 L["VERSION_COLON_X"] = "Версия: %s"
 L["VERTICAL"] = "Вертикальное"
 L["VISIBLE"] = "Видимость"
@@ -1126,7 +1188,6 @@ L["WARNING_COLOR"] = "Предупреждающий цвет"
 L["WARNING_COLOR_FADED"] = "Блеклый предупреждающий цвет"
 L["WHAT_TO_EXPORT"] = "Что экспортировать?"
 L["WIDTH"] = "Ширина"
-L["WRAP_IN_GROUP"] = "Объединить в группу"
 
 
 local L = Locales.ptBR
@@ -1145,6 +1206,8 @@ L["ALIGN_X"] = "Align %s"
 --[[Translation missing --]]
 L["ALIGNMENT"] = "Alignment"
 --[[Translation missing --]]
+L["ARCANE_FLURRY"] = "Arcane Flurry"
+--[[Translation missing --]]
 L["ARE_YOU_SURE_CLEAR_ANCHORS"] = "Are you sure you want to clear your saved anchors?"
 --[[Translation missing --]]
 L["AURA"] = "Aura"
@@ -1265,6 +1328,8 @@ L["DONATE"] = "Donate"
 --[[Translation missing --]]
 L["DUE_TO_AURA_BARS_CHANGING_RELOAD_REQUIRED"] = "Due to aura bars changing a reload is required for Coolinator function"
 --[[Translation missing --]]
+L["DURATION"] = "Duration"
+--[[Translation missing --]]
 L["EDIT_THE_ICONS_AND_BARS_ONSCREEN"] = "Edit the icons and bars onscreen by clicking on them"
 --[[Translation missing --]]
 L["EMPOWERED_STAGE_1"] = "Empowered stage 1"
@@ -1313,6 +1378,8 @@ L["GROW_FROM"] = "Grow from"
 --[[Translation missing --]]
 L["HEIGHT"] = "Height"
 --[[Translation missing --]]
+L["HIDE_ON_COOLDOWN"] = "Hide on cooldown"
+--[[Translation missing --]]
 L["HORIZONTAL"] = "Horizontal"
 --[[Translation missing --]]
 L["ICICLES"] = "Icicles"
@@ -1351,6 +1418,10 @@ L["MAELSTROM_WEAPON"] = "Maelstrom Weapon"
 --[[Translation missing --]]
 L["MAKE_NEW"] = "Make new"
 --[[Translation missing --]]
+L["MOUSE_BUTTON_X"] = "M%s"
+--[[Translation missing --]]
+L["NAME"] = "Name"
+--[[Translation missing --]]
 L["NEW_DESIGN"] = "New Design"
 --[[Translation missing --]]
 L["NEW_PROFILE_BLANK"] = "New Profile (blank)"
@@ -1379,8 +1450,6 @@ L["PASTE_YOUR_IMPORT_STRING_HERE"] = "Paste your import string here"
 --[[Translation missing --]]
 L["PLEASE_RELOAD_TO_GET_COOLINATOR_WORKING_REASON_X"] = "Please reload to get Coolinator working. Reason (%s)"
 --[[Translation missing --]]
-L["POPOUT_STANDALONE"] = "Popout (Standalone)"
---[[Translation missing --]]
 L["POTION_EFFECT"] = "Potion Effect"
 --[[Translation missing --]]
 L["PRESET"] = "Preset"
@@ -1391,9 +1460,13 @@ L["PROFILES"] = "Profiles"
 --[[Translation missing --]]
 L["READY_BORDER_COLOR"] = "Ready border color"
 --[[Translation missing --]]
-L["REMOVE_SPACING_FOR_HIDDEN_AURAS"] = "Remove spacing for hidden auras"
+L["READY_FOREGROUND_COLOR"] = "Ready foreground color"
+--[[Translation missing --]]
+L["REMOVE_SPACING_FOR_HIDDEN_ICONS"] = "Remove spacing for hidden icons"
 --[[Translation missing --]]
 L["RESET_SAVED_ANCHORS"] = "Reset saved anchors"
+--[[Translation missing --]]
+L["REVERSE"] = "Reverse"
 --[[Translation missing --]]
 L["RIGHT"] = "Right"
 --[[Translation missing --]]
@@ -1447,7 +1520,11 @@ L["SPEC_MISMATCH_IN_BLIZZARD_CDM"] = "Specialization data mismatch in Blizzard C
 --[[Translation missing --]]
 L["SQUARE"] = "Square"
 --[[Translation missing --]]
+L["STACK"] = "Stack"
+--[[Translation missing --]]
 L["STYLE"] = "Style"
+--[[Translation missing --]]
+L["SWIPE_COLOR"] = "Swipe color"
 --[[Translation missing --]]
 L["TEXTS"] = "Texts"
 --[[Translation missing --]]
@@ -1483,6 +1560,8 @@ L["USE_MASQUE"] = "Use Masque"
 --[[Translation missing --]]
 L["UTILITY"] = "Utility"
 --[[Translation missing --]]
+L["VALUE"] = "Value"
+--[[Translation missing --]]
 L["VERSION_COLON_X"] = "Version: %s"
 --[[Translation missing --]]
 L["VERTICAL"] = "Vertical"
@@ -1498,8 +1577,6 @@ L["WARNING_COLOR_FADED"] = "Warning color faded"
 L["WHAT_TO_EXPORT"] = "What to export?"
 --[[Translation missing --]]
 L["WIDTH"] = "Width"
---[[Translation missing --]]
-L["WRAP_IN_GROUP"] = "Wrap in group"
 
 
 local L = Locales.esES
@@ -1518,6 +1595,8 @@ L["ALIGN_X"] = "Align %s"
 --[[Translation missing --]]
 L["ALIGNMENT"] = "Alignment"
 --[[Translation missing --]]
+L["ARCANE_FLURRY"] = "Arcane Flurry"
+--[[Translation missing --]]
 L["ARE_YOU_SURE_CLEAR_ANCHORS"] = "Are you sure you want to clear your saved anchors?"
 --[[Translation missing --]]
 L["AURA"] = "Aura"
@@ -1638,6 +1717,8 @@ L["DONATE"] = "Donate"
 --[[Translation missing --]]
 L["DUE_TO_AURA_BARS_CHANGING_RELOAD_REQUIRED"] = "Due to aura bars changing a reload is required for Coolinator function"
 --[[Translation missing --]]
+L["DURATION"] = "Duration"
+--[[Translation missing --]]
 L["EDIT_THE_ICONS_AND_BARS_ONSCREEN"] = "Edit the icons and bars onscreen by clicking on them"
 --[[Translation missing --]]
 L["EMPOWERED_STAGE_1"] = "Empowered stage 1"
@@ -1686,6 +1767,8 @@ L["GROW_FROM"] = "Grow from"
 --[[Translation missing --]]
 L["HEIGHT"] = "Height"
 --[[Translation missing --]]
+L["HIDE_ON_COOLDOWN"] = "Hide on cooldown"
+--[[Translation missing --]]
 L["HORIZONTAL"] = "Horizontal"
 --[[Translation missing --]]
 L["ICICLES"] = "Icicles"
@@ -1724,6 +1807,10 @@ L["MAELSTROM_WEAPON"] = "Maelstrom Weapon"
 --[[Translation missing --]]
 L["MAKE_NEW"] = "Make new"
 --[[Translation missing --]]
+L["MOUSE_BUTTON_X"] = "M%s"
+--[[Translation missing --]]
+L["NAME"] = "Name"
+--[[Translation missing --]]
 L["NEW_DESIGN"] = "New Design"
 --[[Translation missing --]]
 L["NEW_PROFILE_BLANK"] = "New Profile (blank)"
@@ -1752,8 +1839,6 @@ L["PASTE_YOUR_IMPORT_STRING_HERE"] = "Paste your import string here"
 --[[Translation missing --]]
 L["PLEASE_RELOAD_TO_GET_COOLINATOR_WORKING_REASON_X"] = "Please reload to get Coolinator working. Reason (%s)"
 --[[Translation missing --]]
-L["POPOUT_STANDALONE"] = "Popout (Standalone)"
---[[Translation missing --]]
 L["POTION_EFFECT"] = "Potion Effect"
 --[[Translation missing --]]
 L["PRESET"] = "Preset"
@@ -1764,9 +1849,13 @@ L["PROFILES"] = "Profiles"
 --[[Translation missing --]]
 L["READY_BORDER_COLOR"] = "Ready border color"
 --[[Translation missing --]]
-L["REMOVE_SPACING_FOR_HIDDEN_AURAS"] = "Remove spacing for hidden auras"
+L["READY_FOREGROUND_COLOR"] = "Ready foreground color"
+--[[Translation missing --]]
+L["REMOVE_SPACING_FOR_HIDDEN_ICONS"] = "Remove spacing for hidden icons"
 --[[Translation missing --]]
 L["RESET_SAVED_ANCHORS"] = "Reset saved anchors"
+--[[Translation missing --]]
+L["REVERSE"] = "Reverse"
 --[[Translation missing --]]
 L["RIGHT"] = "Right"
 --[[Translation missing --]]
@@ -1820,7 +1909,11 @@ L["SPEC_MISMATCH_IN_BLIZZARD_CDM"] = "Specialization data mismatch in Blizzard C
 --[[Translation missing --]]
 L["SQUARE"] = "Square"
 --[[Translation missing --]]
+L["STACK"] = "Stack"
+--[[Translation missing --]]
 L["STYLE"] = "Style"
+--[[Translation missing --]]
+L["SWIPE_COLOR"] = "Swipe color"
 --[[Translation missing --]]
 L["TEXTS"] = "Texts"
 --[[Translation missing --]]
@@ -1856,6 +1949,8 @@ L["USE_MASQUE"] = "Use Masque"
 --[[Translation missing --]]
 L["UTILITY"] = "Utility"
 --[[Translation missing --]]
+L["VALUE"] = "Value"
+--[[Translation missing --]]
 L["VERSION_COLON_X"] = "Version: %s"
 --[[Translation missing --]]
 L["VERTICAL"] = "Vertical"
@@ -1871,12 +1966,8 @@ L["WARNING_COLOR_FADED"] = "Warning color faded"
 L["WHAT_TO_EXPORT"] = "What to export?"
 --[[Translation missing --]]
 L["WIDTH"] = "Width"
---[[Translation missing --]]
-L["WRAP_IN_GROUP"] = "Wrap in group"
 
 
-
--- [INICIO INTEGRACIÓN EDIT/ESMX] --
 
 -- [INICIO INTEGRACIÓN EDIT/ESMX] --
 local L = Locales.esMX
@@ -1909,6 +2000,7 @@ L["REMOVE_SPACING_FOR_HIDDEN_ICONS"] = "Eliminar espacio para auras ocultas"
 L["FADE_WHEN_MOUNTED"] = "Desvanecer al montar"
 L["USE_BLIZZARD_WIDGETS"] = "Usar widgets de Blizzard (sin estilo)"
 L["SHOW_KEYBINDINGS"] = "Mostrar atajos de teclado"
+L["MOUSE_BUTTON_X"] = "M%s"
 L["FONT"] = "Fuente"
 L["SHOW_OUTLINE"] = "Mostrar contorno"
 L["SHOW_SHADOW"] = "Mostrar sombra"
@@ -1928,6 +2020,11 @@ L["INVALID_ANCHOR_NAME"] = "Nombre de anclaje inválido"
 L["SAVE_ANCHOR"] = "Guardar anclaje"
 L["RESET_SAVED_ANCHORS"] = "Restablecer anclajes guardados"
 L["ARE_YOU_SURE_CLEAR_ANCHORS"] = "¿Estás seguro de que quieres borrar tus anclajes guardados?"
+L["NAME"] = "Nombre"
+L["DURATION"] = "Duración"
+L["NAME"] = "Nombre"
+L["VALUE"] = "Valor"
+L["ARCANE_FLURRY"] = "Tormenta arcana"
 
 L["ENTER_PROFILE_NAME"] = "Introduce el nombre del perfil:"
 L["ENTER_DESIGN_NAME"] = "Introduce el nombre del perfil:"
@@ -1967,6 +2064,7 @@ L["CHOOSE_ITEM"] = "Elegir objeto"
 L["CHOOSE_EQUIPMENT"] = "Elegir equipo"
 L["EQUIPMENT"] = "Equipo"
 L["POTION_EFFECT"] = "Efecto de poción"
+L["STACK"] = "Pila"
 L["WRAP_IN_GROUP"] = "Agrupar"
 L["POPOUT_STANDALONE"] = "Ventana independiente"
 L["NOTHING_IN_SLOT"] = "Nada en la ranura"
@@ -1983,6 +2081,8 @@ L["GROW_FROM"] = "Crecer desde"
 L["STYLE"] = "Estilo"
 L["BLIZZARD"] = "Blizzard"
 L["SQUARE"] = "Cuadrado"
+L["REVERSE"] = "Invertido"
+L["SWIPE_COLOR"] = "Color del barrido"
 L["CENTER_HORIZONTAL"] = "Centrar horizontal"
 L["CENTER_VERTICAL"] = "Centrar vertical"
 
@@ -1998,6 +2098,7 @@ L["SCALE"] = "Escala"
 L["BORDER"] = "Borde"
 L["BORDER_COLOR"] = "Color del borde"
 L["READY_BORDER_COLOR"] = "Color del borde listo"
+L["READY_FOREGROUND_COLOR"] = "Color del primer plano listo"
 L["FOREGROUND"] = "Primer plano"
 L["FOREGROUND_COLOR"] = "Color del primer plano"
 L["BACKGROUND"] = "Fondo"
@@ -2015,6 +2116,7 @@ L["WARNING_COLOR_FADED"] = "Color de advertencia difuminado"
 L["DANGER_COLOR"] = "Color de peligro"
 L["DANGER_COLOR_FADED"] = "Color de peligro difuminado"
 L["COLOR"] = "Color"
+L["WIDTH_RESTRICTION"] = "Restricción de ancho"
 L["COLORS"] = "Colores"
 L["SHOW_ICON"] = "Mostrar icono"
 L["SHOW_TOOLTIPS"] = "Mostrar tooltips"
@@ -2027,6 +2129,7 @@ L["BOTTOM"] = "Inferior"
 L["ALIGNMENT"] = "Alineación"
 L["SHOW_SWIPE"] = "Mostrar barrido"
 L["DESATURATE_ON_COOLDOWN"] = "Desaturar en enfriamiento"
+L["HIDE_ON_COOLDOWN"] = "Ocultar en enfriamiento"
 L["CASTING"] = "Lanzando"
 L["CHANNELING"] = "Canalizando"
 L["INTERRUPTED"] = "Interrumpido"
@@ -2036,6 +2139,7 @@ L["EMPOWERED_STAGE_1"] = "Fase potenciada 1"
 L["EMPOWERED_STAGE_2"] = "Fase potenciada 2"
 L["EMPOWERED_STAGE_3"] = "Fase potenciada 3"
 L["EMPOWERED_STAGE_HOLD"] = "Mantener fase potenciada"
+L["HIDE_WHEN_READY"] = "Ocultar cuando está listo"
 
 L["PLEASE_RELOAD_TO_GET_COOLINATOR_WORKING_REASON_X"] = "Recarga para que Coolinator funcione. Motivo (%s)"
 L["DUE_TO_AURA_BARS_CHANGING_RELOAD_REQUIRED"] = "Debido a cambios en las barras de auras, es necesaria una recarga para que Coolinator funcione"
@@ -2092,13 +2196,12 @@ L["THANKS_FOR_USING_COOLINATOR_DONATE"] = "Gracias por usar Coolinator. Consider
 local L = Locales.zhTW
 L["ABILITY"] = "技能"
 L["ABILITY_BAR"] = "技能量條"
---[[Translation missing --]]
-L["ABILITY_CHARGE"] = "Ability Charge"
---[[Translation missing --]]
-L["ABILITY_CHARGES"] = "Ability Charges"
+L["ABILITY_CHARGE"] = "技能充能"
+L["ABILITY_CHARGES"] = "技能充能層數"
 L["ADD"] = "新增"
 L["ALIGN_X"] = "對齊%s"
 L["ALIGNMENT"] = "對齊方式"
+L["ARCANE_FLURRY"] = "秘法亂舞"
 L["ARE_YOU_SURE_CLEAR_ANCHORS"] = "確認要清除定位點嗎？"
 L["AURA"] = "光環"
 L["AURA_BAR"] = "光環量條"
@@ -2118,17 +2221,13 @@ L["BOTTOM"] = "下方"
 L["BOTTOM_LEFT"] = "左下"
 L["BOTTOM_RIGHT"] = "右下"
 L["BY_PLUSMOUSE"] = "作者：plusmouse"
---[[Translation missing --]]
-L["CAST"] = "Cast"
---[[Translation missing --]]
-L["CAST_BAR"] = "Cast Bar"
---[[Translation missing --]]
-L["CASTING"] = "Casting"
+L["CAST"] = "施法"
+L["CAST_BAR"] = "施法條"
+L["CASTING"] = "施放中"
 L["CENTER"] = "置中"
 L["CENTER_HORIZONTAL"] = "水平置中"
 L["CENTER_VERTICAL"] = "垂直置中"
---[[Translation missing --]]
-L["CHANNELING"] = "Channeling"
+L["CHANNELING"] = "引導中"
 L["CHOOSE_A_NEW_DESIGN_NAME"] = "輸入新設計名稱"
 L["CHOOSE_ABILITY"] = "選擇技能"
 L["CHOOSE_AN_ANCHOR_NAME"] = "選擇定位點名稱："
@@ -2137,13 +2236,10 @@ L["CHOOSE_EQUIPMENT"] = "選擇裝備"
 L["CHOOSE_ITEM"] = "選擇物品"
 L["CHOOSE_POTION_EFFECT"] = "選擇藥水效果"
 L["CLASS"] = "職業"
---[[Translation missing --]]
-L["CLOSE_DESIGNER"] = "Close Designer"
+L["CLOSE_DESIGNER"] = "關閉設計模式"
 L["COLOR"] = "顏色"
---[[Translation missing --]]
-L["COLORS"] = "Colors"
---[[Translation missing --]]
-L["COMPLETED"] = "Completed"
+L["COLORS"] = "顏色"
+L["COMPLETED"] = "已完成"
 L["CONFIRM_DELETE_DESIGN_X"] = "您確定要刪除設計\"%s\"嗎？"
 L["CONFIRM_DELETE_PRESET_X"] = "您確定要刪除預設\"%s\"嗎？這將會影響所有設計。"
 L["CONFIRM_DELETE_PROFILE_X"] = "確定要刪除設定檔『%s』嗎？"
@@ -2166,15 +2262,12 @@ L["DEVELOPMENT_IS_TIME_CONSUMING"] = "|cff04cca4開發插件需要大量的時�
 L["DISCORD_DESCRIPTION"] = "更新、功能建議與支持"
 L["DONATE"] = "贊助"
 L["DUE_TO_AURA_BARS_CHANGING_RELOAD_REQUIRED"] = "由於光環量條的更動，重載介面才能讓 Coolinator 正常運作"
+L["DURATION"] = "持續時間"
 L["EDIT_THE_ICONS_AND_BARS_ONSCREEN"] = "點擊畫面上的圖示和量條即可進行編輯"
---[[Translation missing --]]
-L["EMPOWERED_STAGE_1"] = "Empowered stage 1"
---[[Translation missing --]]
-L["EMPOWERED_STAGE_2"] = "Empowered stage 2"
---[[Translation missing --]]
-L["EMPOWERED_STAGE_3"] = "Empowered stage 3"
---[[Translation missing --]]
-L["EMPOWERED_STAGE_HOLD"] = "Empowered stage hold"
+L["EMPOWERED_STAGE_1"] = "聚能階段1"
+L["EMPOWERED_STAGE_2"] = "聚能階段2"
+L["EMPOWERED_STAGE_3"] = "聚能階段3"
+L["EMPOWERED_STAGE_HOLD"] = "聚能中"
 L["ENABLE"] = "啟用"
 L["ENABLE_IF_LINES_FALLING_OFF_FONT"] = "字型缺字時啟用"
 L["ENTER_DESIGN_NAME"] = "輸入設計名稱："
@@ -2194,6 +2287,7 @@ L["GENERAL"] = "一般"
 L["GROUP"] = "群組"
 L["GROW_FROM"] = "增長方向"
 L["HEIGHT"] = "高度"
+L["HIDE_ON_COOLDOWN"] = "冷卻時隱藏"
 L["HORIZONTAL"] = "水平"
 L["ICICLES"] = "冰柱"
 L["ICON"] = "圖示"
@@ -2202,8 +2296,7 @@ L["IMPORT"] = "匯入"
 L["IMPORTED_X"] = "已匯入\"%s\""
 L["INCOMPATIBLE_WIDGET_TYPE"] = "不相容的元件類型"
 L["INSERT"] = "插入"
---[[Translation missing --]]
-L["INTERRUPTED"] = "Interrupted"
+L["INTERRUPTED"] = "被中斷"
 L["INVALID_ANCHOR_NAME"] = "無效的定位點名稱"
 L["INVALID_DESIGN_NAME"] = "無效的設計名稱"
 L["INVALID_IMPORT"] = "無效的匯入字串"
@@ -2214,6 +2307,8 @@ L["LEFT"] = "左"
 L["LINK"] = "連結"
 L["MAELSTROM_WEAPON"] = "漩渦武器"
 L["MAKE_NEW"] = "新建"
+L["MOUSE_BUTTON_X"] = "M%s"
+L["NAME"] = "名稱"
 L["NEW_DESIGN"] = "新設計"
 L["NEW_PROFILE_BLANK"] = "新設定（空白）"
 L["NEW_PROFILE_CLONE"] = "新設定（複製目前）"
@@ -2228,14 +2323,15 @@ L["PADDING"] = "間距"
 L["PARENT"] = "上層"
 L["PASTE_YOUR_IMPORT_STRING_HERE"] = "在這裡貼上您的匯入字串"
 L["PLEASE_RELOAD_TO_GET_COOLINATOR_WORKING_REASON_X"] = "請重載您的介面以確保 Coolinator 順利運行。理由：(%s)"
-L["POPOUT_STANDALONE"] = "彈出（獨立）"
 L["POTION_EFFECT"] = "藥水效果"
 L["PRESET"] = "預設"
 L["PROFILE"] = "設定檔"
 L["PROFILES"] = "設定檔"
 L["READY_BORDER_COLOR"] = "準備就緒的邊框顏色"
-L["REMOVE_SPACING_FOR_HIDDEN_AURAS"] = "光環隱藏時移除間距"
+L["READY_FOREGROUND_COLOR"] = "準備就緒的前景顏色"
+L["REMOVE_SPACING_FOR_HIDDEN_ICONS"] = "圖示隱藏時不佔位"
 L["RESET_SAVED_ANCHORS"] = "重置已儲存的定位點"
+L["REVERSE"] = "反轉"
 L["RIGHT"] = "右"
 L["SAFE"] = "安全"
 L["SAFE_COLOR"] = "安全顏色"
@@ -2243,8 +2339,7 @@ L["SAFE_COLOR_FADED"] = "安全顏色（淡）"
 L["SAVE_ANCHOR"] = "儲存定位點"
 L["SCALE"] = "縮放"
 L["SELECT_GROUP"] = "選擇群組"
---[[Translation missing --]]
-L["SETTING_CHANGED_THAT_REQUIRES_A_RELOAD"] = "Setting changed that requires a reload."
+L["SETTING_CHANGED_THAT_REQUIRES_A_RELOAD"] = "設定已修改完成，需要重載介面。"
 L["SHOW_FRACTIONS"] = "顯示小數"
 L["SHOW_GCD_SWIPE"] = "顯示公共冷卻動畫"
 L["SHOW_ICON"] = "顯示圖示"
@@ -2263,7 +2358,9 @@ L["SLASH_RESET_HELP"] = "重置所有 Coolinator 的設定檔，然後重新載�
 L["SLASH_UNKNOWN_COMMAND"] = "未知指令 '%s'"
 L["SPEC_MISMATCH_IN_BLIZZARD_CDM"] = "暴雪冷卻管理器中的專精資料不符"
 L["SQUARE"] = "方形"
+L["STACK"] = "疊層 "
 L["STYLE"] = "樣式"
+L["SWIPE_COLOR"] = "過渡動畫顏色"
 L["TEXTS"] = "文字"
 L["TEXTURES"] = "材質"
 L["THANKS_FOR_USING_COOLINATOR_DONATE"] = "感謝使用 Coolinator。請考慮贊助以支持開發"
@@ -2276,13 +2373,12 @@ L["TOP"] = "上"
 L["TOP_LEFT"] = "左上"
 L["TOP_RIGHT"] = "右上"
 L["TRANSPARENCY"] = "透明度"
---[[Translation missing --]]
-L["UNINTERRUPTABLE"] = "Uninterruptable"
+L["UNINTERRUPTABLE"] = "無法中斷"
 L["UNLEARNED"] = "未習得"
 L["USE_BLIZZARD_WIDGETS"] = "使用暴雪元件（無樣式）"
---[[Translation missing --]]
-L["USE_MASQUE"] = "Use Masque"
+L["USE_MASQUE"] = "使用 Masque"
 L["UTILITY"] = "通用"
+L["VALUE"] = "數值"
 L["VERSION_COLON_X"] = "版本：%s"
 L["VERTICAL"] = "垂直"
 L["VISIBLE"] = "可見"
@@ -2291,7 +2387,6 @@ L["WARNING_COLOR"] = "警告顏色"
 L["WARNING_COLOR_FADED"] = "警告顏色（淡）"
 L["WHAT_TO_EXPORT"] = "匯出什麼？"
 L["WIDTH"] = "寬度"
-L["WRAP_IN_GROUP"] = "包含在群組內"
 
 
 local L = Locales.zhCN
@@ -2302,6 +2397,7 @@ L["ABILITY_CHARGES"] = "技能充能层数"
 L["ADD"] = "添加"
 L["ALIGN_X"] = "对齐 %s"
 L["ALIGNMENT"] = "对齐方式"
+L["ARCANE_FLURRY"] = "奥术飓风"
 L["ARE_YOU_SURE_CLEAR_ANCHORS"] = "确定要清除已保存的锚点吗？"
 L["AURA"] = "光环"
 L["AURA_BAR"] = "光环栏"
@@ -2362,6 +2458,7 @@ L["DEVELOPMENT_IS_TIME_CONSUMING"] = "|cff04cca4开发耗时巨大|r"
 L["DISCORD_DESCRIPTION"] = "更新、功能建议与支持"
 L["DONATE"] = "赞助"
 L["DUE_TO_AURA_BARS_CHANGING_RELOAD_REQUIRED"] = "由于光环栏变更，需重载才能使 Coolinator 正常工作"
+L["DURATION"] = "持续时间"
 L["EDIT_THE_ICONS_AND_BARS_ONSCREEN"] = "点击屏幕上的图标和状态栏即可编辑"
 L["EMPOWERED_STAGE_1"] = "蓄力阶段1"
 L["EMPOWERED_STAGE_2"] = "蓄力阶段2"
@@ -2386,6 +2483,7 @@ L["GENERAL"] = "常规"
 L["GROUP"] = "组"
 L["GROW_FROM"] = "增长方向"
 L["HEIGHT"] = "高度"
+L["HIDE_ON_COOLDOWN"] = "冷却时隐藏"
 L["HORIZONTAL"] = "水平"
 L["ICICLES"] = "冰刺"
 L["ICON"] = "图标"
@@ -2405,6 +2503,8 @@ L["LEFT"] = "左"
 L["LINK"] = "链接"
 L["MAELSTROM_WEAPON"] = "漩涡武器"
 L["MAKE_NEW"] = "新建"
+L["MOUSE_BUTTON_X"] = "M%s"
+L["NAME"] = "名称"
 L["NEW_DESIGN"] = "新建方案"
 L["NEW_PROFILE_BLANK"] = "新建配置（空白）"
 L["NEW_PROFILE_CLONE"] = "新建配置（复制当前）"
@@ -2419,14 +2519,15 @@ L["PADDING"] = "间距"
 L["PARENT"] = "父级"
 L["PASTE_YOUR_IMPORT_STRING_HERE"] = "在此粘贴导入字符串"
 L["PLEASE_RELOAD_TO_GET_COOLINATOR_WORKING_REASON_X"] = "请重载界面以使 Coolinator 正常工作。原因（%s）"
-L["POPOUT_STANDALONE"] = "弹出（独立）"
 L["POTION_EFFECT"] = "药水效果"
 L["PRESET"] = "预设"
 L["PROFILE"] = "配置"
 L["PROFILES"] = "配置"
 L["READY_BORDER_COLOR"] = "就绪边框颜色"
-L["REMOVE_SPACING_FOR_HIDDEN_AURAS"] = "隐藏光环时移除间距"
+L["READY_FOREGROUND_COLOR"] = "就绪前景色"
+L["REMOVE_SPACING_FOR_HIDDEN_ICONS"] = "移除隐藏图标的间距"
 L["RESET_SAVED_ANCHORS"] = "重置已保存的锚点"
+L["REVERSE"] = "反向"
 L["RIGHT"] = "右"
 L["SAFE"] = "安全"
 L["SAFE_COLOR"] = "安全颜色"
@@ -2453,7 +2554,9 @@ L["SLASH_RESET_HELP"] = "重置所有 Coolinator 设置，然后重载。"
 L["SLASH_UNKNOWN_COMMAND"] = "未知命令 “%s”"
 L["SPEC_MISMATCH_IN_BLIZZARD_CDM"] = "暴雪冷却管理器中专精数据不匹配"
 L["SQUARE"] = "方形"
+L["STACK"] = "堆叠"
 L["STYLE"] = "样式"
+L["SWIPE_COLOR"] = "滑动颜色"
 L["TEXTS"] = "文本"
 L["TEXTURES"] = "材质"
 L["THANKS_FOR_USING_COOLINATOR_DONATE"] = "感谢使用Coolinator，请考虑赞助以支持开发"
@@ -2471,6 +2574,7 @@ L["UNLEARNED"] = "未学习"
 L["USE_BLIZZARD_WIDGETS"] = "使用暴雪控件（无样式）"
 L["USE_MASQUE"] = "使用 Masque"
 L["UTILITY"] = "通用"
+L["VALUE"] = "数值"
 L["VERSION_COLON_X"] = "版本：%s"
 L["VERTICAL"] = "垂直"
 L["VISIBLE"] = "可见"
@@ -2479,7 +2583,6 @@ L["WARNING_COLOR"] = "警告颜色"
 L["WARNING_COLOR_FADED"] = "警告颜色（淡化）"
 L["WHAT_TO_EXPORT"] = "导出什么？"
 L["WIDTH"] = "宽度"
-L["WRAP_IN_GROUP"] = "包含在组内"
 
 
 local L = Locales.koKR
@@ -2493,6 +2596,8 @@ L["ADD"] = "추가"
 --[[Translation missing --]]
 L["ALIGN_X"] = "Align %s"
 L["ALIGNMENT"] = "정렬"
+--[[Translation missing --]]
+L["ARCANE_FLURRY"] = "Arcane Flurry"
 --[[Translation missing --]]
 L["ARE_YOU_SURE_CLEAR_ANCHORS"] = "Are you sure you want to clear your saved anchors?"
 L["AURA"] = "오라"
@@ -2574,6 +2679,8 @@ L["DEVELOPMENT_IS_TIME_CONSUMING"] = "|cff04cca4개발에는 엄청난 시간이
 L["DISCORD_DESCRIPTION"] = "업데이트, 기능 제안 및 지원"
 L["DONATE"] = "후원"
 L["DUE_TO_AURA_BARS_CHANGING_RELOAD_REQUIRED"] = "오라 바 변경으로 Coolinator 작동을 위해 다시 불러와야 합니다"
+--[[Translation missing --]]
+L["DURATION"] = "Duration"
 L["EDIT_THE_ICONS_AND_BARS_ONSCREEN"] = "화면의 아이콘과 바를 클릭해 편집하세요"
 --[[Translation missing --]]
 L["EMPOWERED_STAGE_1"] = "Empowered stage 1"
@@ -2609,6 +2716,8 @@ L["GENERAL"] = "일반"
 L["GROUP"] = "그룹"
 L["GROW_FROM"] = "확장 시작점"
 L["HEIGHT"] = "높이"
+--[[Translation missing --]]
+L["HIDE_ON_COOLDOWN"] = "Hide on cooldown"
 L["HORIZONTAL"] = "가로"
 L["ICICLES"] = "고드름"
 L["ICON"] = "아이콘"
@@ -2632,6 +2741,10 @@ L["LINK"] = "링크"
 --[[Translation missing --]]
 L["MAELSTROM_WEAPON"] = "Maelstrom Weapon"
 L["MAKE_NEW"] = "새로 만들기"
+--[[Translation missing --]]
+L["MOUSE_BUTTON_X"] = "M%s"
+--[[Translation missing --]]
+L["NAME"] = "Name"
 L["NEW_DESIGN"] = "새 디자인"
 L["NEW_PROFILE_BLANK"] = "새 프로필 (빈)"
 L["NEW_PROFILE_CLONE"] = "새 프로필 (현재 복제)"
@@ -2647,7 +2760,6 @@ L["PADDING"] = "여백"
 L["PARENT"] = "상위"
 L["PASTE_YOUR_IMPORT_STRING_HERE"] = "가져오기 문자열을 여기에 붙여넣으세요"
 L["PLEASE_RELOAD_TO_GET_COOLINATOR_WORKING_REASON_X"] = "Coolinator 작동을 위해 다시 불러오세요. 사유 (%s)"
-L["POPOUT_STANDALONE"] = "팝아웃 (독립)"
 L["POTION_EFFECT"] = "물약 효과"
 --[[Translation missing --]]
 L["PRESET"] = "Preset"
@@ -2655,9 +2767,14 @@ L["PROFILE"] = "프로필"
 L["PROFILES"] = "프로필"
 --[[Translation missing --]]
 L["READY_BORDER_COLOR"] = "Ready border color"
-L["REMOVE_SPACING_FOR_HIDDEN_AURAS"] = "숨긴 오라의 간격 제거"
+--[[Translation missing --]]
+L["READY_FOREGROUND_COLOR"] = "Ready foreground color"
+--[[Translation missing --]]
+L["REMOVE_SPACING_FOR_HIDDEN_ICONS"] = "Remove spacing for hidden icons"
 --[[Translation missing --]]
 L["RESET_SAVED_ANCHORS"] = "Reset saved anchors"
+--[[Translation missing --]]
+L["REVERSE"] = "Reverse"
 L["RIGHT"] = "오른쪽"
 L["SAFE"] = "안전"
 L["SAFE_COLOR"] = "안전 색상"
@@ -2691,7 +2808,11 @@ L["SLASH_RESET_HELP"] = "모든 Coolinator 설정을 초기화한 뒤 다시 불
 L["SLASH_UNKNOWN_COMMAND"] = "알 수 없는 명령어 '%s'"
 L["SPEC_MISMATCH_IN_BLIZZARD_CDM"] = "블리자드 CDM의 전문화 데이터 불일치"
 L["SQUARE"] = "사각형"
+--[[Translation missing --]]
+L["STACK"] = "Stack"
 L["STYLE"] = "스타일"
+--[[Translation missing --]]
+L["SWIPE_COLOR"] = "Swipe color"
 --[[Translation missing --]]
 L["TEXTS"] = "Texts"
 L["TEXTURES"] = "텍스처"
@@ -2714,6 +2835,8 @@ L["USE_BLIZZARD_WIDGETS"] = "블리자드 위젯 사용 (스타일 없음)"
 L["USE_MASQUE"] = "Use Masque"
 --[[Translation missing --]]
 L["UTILITY"] = "Utility"
+--[[Translation missing --]]
+L["VALUE"] = "Value"
 L["VERSION_COLON_X"] = "버전: %s"
 L["VERTICAL"] = "세로"
 --[[Translation missing --]]
@@ -2723,7 +2846,6 @@ L["WARNING_COLOR"] = "경고 색상"
 L["WARNING_COLOR_FADED"] = "경고 색상 (흐림)"
 L["WHAT_TO_EXPORT"] = "무엇을 내보낼까요?"
 L["WIDTH"] = "너비"
-L["WRAP_IN_GROUP"] = "그룹으로 묶기"
 
 
 local L = Locales.itIT
@@ -2741,6 +2863,8 @@ L["ADD"] = "Add"
 L["ALIGN_X"] = "Align %s"
 --[[Translation missing --]]
 L["ALIGNMENT"] = "Alignment"
+--[[Translation missing --]]
+L["ARCANE_FLURRY"] = "Arcane Flurry"
 --[[Translation missing --]]
 L["ARE_YOU_SURE_CLEAR_ANCHORS"] = "Are you sure you want to clear your saved anchors?"
 --[[Translation missing --]]
@@ -2862,6 +2986,8 @@ L["DONATE"] = "Donate"
 --[[Translation missing --]]
 L["DUE_TO_AURA_BARS_CHANGING_RELOAD_REQUIRED"] = "Due to aura bars changing a reload is required for Coolinator function"
 --[[Translation missing --]]
+L["DURATION"] = "Duration"
+--[[Translation missing --]]
 L["EDIT_THE_ICONS_AND_BARS_ONSCREEN"] = "Edit the icons and bars onscreen by clicking on them"
 --[[Translation missing --]]
 L["EMPOWERED_STAGE_1"] = "Empowered stage 1"
@@ -2910,6 +3036,8 @@ L["GROW_FROM"] = "Grow from"
 --[[Translation missing --]]
 L["HEIGHT"] = "Height"
 --[[Translation missing --]]
+L["HIDE_ON_COOLDOWN"] = "Hide on cooldown"
+--[[Translation missing --]]
 L["HORIZONTAL"] = "Horizontal"
 --[[Translation missing --]]
 L["ICICLES"] = "Icicles"
@@ -2948,6 +3076,10 @@ L["MAELSTROM_WEAPON"] = "Maelstrom Weapon"
 --[[Translation missing --]]
 L["MAKE_NEW"] = "Make new"
 --[[Translation missing --]]
+L["MOUSE_BUTTON_X"] = "M%s"
+--[[Translation missing --]]
+L["NAME"] = "Name"
+--[[Translation missing --]]
 L["NEW_DESIGN"] = "New Design"
 --[[Translation missing --]]
 L["NEW_PROFILE_BLANK"] = "New Profile (blank)"
@@ -2976,8 +3108,6 @@ L["PASTE_YOUR_IMPORT_STRING_HERE"] = "Paste your import string here"
 --[[Translation missing --]]
 L["PLEASE_RELOAD_TO_GET_COOLINATOR_WORKING_REASON_X"] = "Please reload to get Coolinator working. Reason (%s)"
 --[[Translation missing --]]
-L["POPOUT_STANDALONE"] = "Popout (Standalone)"
---[[Translation missing --]]
 L["POTION_EFFECT"] = "Potion Effect"
 --[[Translation missing --]]
 L["PRESET"] = "Preset"
@@ -2988,9 +3118,13 @@ L["PROFILES"] = "Profiles"
 --[[Translation missing --]]
 L["READY_BORDER_COLOR"] = "Ready border color"
 --[[Translation missing --]]
-L["REMOVE_SPACING_FOR_HIDDEN_AURAS"] = "Remove spacing for hidden auras"
+L["READY_FOREGROUND_COLOR"] = "Ready foreground color"
+--[[Translation missing --]]
+L["REMOVE_SPACING_FOR_HIDDEN_ICONS"] = "Remove spacing for hidden icons"
 --[[Translation missing --]]
 L["RESET_SAVED_ANCHORS"] = "Reset saved anchors"
+--[[Translation missing --]]
+L["REVERSE"] = "Reverse"
 --[[Translation missing --]]
 L["RIGHT"] = "Right"
 --[[Translation missing --]]
@@ -3044,7 +3178,11 @@ L["SPEC_MISMATCH_IN_BLIZZARD_CDM"] = "Specialization data mismatch in Blizzard C
 --[[Translation missing --]]
 L["SQUARE"] = "Square"
 --[[Translation missing --]]
+L["STACK"] = "Stack"
+--[[Translation missing --]]
 L["STYLE"] = "Style"
+--[[Translation missing --]]
+L["SWIPE_COLOR"] = "Swipe color"
 --[[Translation missing --]]
 L["TEXTS"] = "Texts"
 --[[Translation missing --]]
@@ -3080,6 +3218,8 @@ L["USE_MASQUE"] = "Use Masque"
 --[[Translation missing --]]
 L["UTILITY"] = "Utility"
 --[[Translation missing --]]
+L["VALUE"] = "Value"
+--[[Translation missing --]]
 L["VERSION_COLON_X"] = "Version: %s"
 --[[Translation missing --]]
 L["VERTICAL"] = "Vertical"
@@ -3095,6 +3235,4 @@ L["WARNING_COLOR_FADED"] = "Warning color faded"
 L["WHAT_TO_EXPORT"] = "What to export?"
 --[[Translation missing --]]
 L["WIDTH"] = "Width"
---[[Translation missing --]]
-L["WRAP_IN_GROUP"] = "Wrap in group"
 

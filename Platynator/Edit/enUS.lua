@@ -360,3 +360,4 @@ L["SLASH_RESET"] = "reset"
 L["SLASH_RESET_HELP"] = "Reset all Platynator settings, then reload."
 L["SLASH_HELP"] = "Open the Platynator settings."
 L["SLASH_UNKNOWN_COMMAND"] = "Unknown command '%s'"
+

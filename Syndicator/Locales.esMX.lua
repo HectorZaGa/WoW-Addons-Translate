@@ -1146,6 +1146,8 @@ L["X_CHARACTERS_SHOWN"] = "%s personajes mostrados"
 -- [INICIO INTEGRACIÓN EDIT/ESMX] --
 
 -- [INICIO INTEGRACIÓN EDIT/ESMX] --
+
+-- [INICIO INTEGRACIÓN EDIT/ESMX] --
 local L = Locales.esMX
 
 L["SYNDICATOR"] = "Syndicator"

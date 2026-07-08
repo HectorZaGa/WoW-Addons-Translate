@@ -4,8 +4,10 @@ if GetLocale() ~= "esMX" or GetLocale() ~= "esMX" then return end
 local _, ns = ...
 local L = ns.L
 
-L["Additionally enable addons from these sets"] = "Activar además los AddOns de estos conjuntos"
-L["Addon List"] = "Lista de AddOns"
+L["Additionally enable addons from these sets"] = "Activar también los addons de estos conjuntos"
+L["Addon List"] = "Lista de addons"
+L["Additionally enable addons from these sets"] = "Además, habilitar addons de estos conjuntos"
+L["Addon List"] = "Lista de addons"
 L["Create new set"] = "Crear nuevo perfil"
 L["Changes (%d)"] = "Cambios (%d)"
 L["Delete"] = "Eliminar"
