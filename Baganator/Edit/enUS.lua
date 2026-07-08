@@ -433,3 +433,4 @@ L["SLASH_CATEGORIES"] = "categories"
 L["SLASH_CATEGORIES_HELP"] = "Show categories matching or not matching items in their tooltips."
 L["SLASH_UNKNOWN_COMMAND"] = "Unknown command '%s'"
 L["CATEGORY_SETTINGS_HAVE_BEEN_RESET"] = "Category settings have been reset"
+

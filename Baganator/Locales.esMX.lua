@@ -2399,6 +2399,10 @@ L["XS_BANK_AND_BAGS"] = "Banco y bolsas de %s"
 L["XS_GUILD_BANK"] = "Banco de hermandad de %s"
 
 
+
+-- [INICIO INTEGRACIÓN EDIT/ESMX] --
+
+-- [INICIO INTEGRACIÓN EDIT/ESMX] --
 local L = Locales.esMX
 
 L["THANKS_FOR_USING_BAGANATOR_DONATE"] = "Gracias por usar Baganator. Considera hacer una donación para apoyar el desarrollo"
@@ -2834,7 +2838,7 @@ L["SLASH_CATEGORIES"] = "categorías"
 L["SLASH_CATEGORIES_HELP"] = "Muestra las categorías que coinciden o no coinciden con los objetos en sus descripciones."
 L["SLASH_UNKNOWN_COMMAND"] = "Comando desconocido '%s'"
 L["CATEGORY_SETTINGS_HAVE_BEEN_RESET"] = "La configuración de la categoría se ha restablecido a los valores predeterminados"
-
+-- [FIN INTEGRACIÓN EDIT/ESMX] --
 
 local L = Locales.zhTW
 L["ACCOUNT_GOLD_X"] = "帳號金幣：%s"

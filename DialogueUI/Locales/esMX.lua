@@ -87,6 +87,7 @@ L["Format Your Progress"] = "Tu progreso: |cffffffff%d/%d|r";
 L["Format And More"] = LFG_LIST_AND_MORE or "y %d más...";
 L["Format Chapter Progress"] = STORY_CHAPTERS or "%d/%d capítulos";
 L["Format Quest Progress"] = "%d/%d misiones";
+L["Format RP Name Example"] = "Se te llamará:\n%s";
 
 --Settings
 L["UI"] = "UI";
@@ -101,6 +102,7 @@ L["Move Position"] = "Mover";
 L["Reset Position"] = RESET_POSITION or "Restablecer posición";
 L["Drag To Move"] = "Haz clic izquierdo y arrastra para mover la ventana.";
 L["Middle Click To Reset Position"] = "Clic central para restablecer la posición.";
+L["No Available Choice"] = "No hay opciones disponibles";
 
 L["Quest"] = "Misión";
 L["Gossip"] = "Chisme";
@@ -226,6 +228,7 @@ L["Valuable Reward Popup Desc"] = "Cuando recibas un objeto valioso, como una me
 L["Auto Complete Quest"] = "Completado automático de misión";
 L["Auto Complete Quest Desc"] = "Completa automáticamente la siguiente misión y luego muestra el diálogo y las recompensas en una ventana separada. Si las recompensas incluyen un cofre, puedes hacer clic para abrirlo.\n\n- Cubo de dulces (Halloween)\n- Misión semanal de Khaz Algar";
 L["Press Key To Use Item"] = "Presiona botón para usar";
+L["Press Key To Use Item Desc Generic"] = "Pulsa el botón de Confirmar (actual: %s) para usar el objeto cuando estés fuera de combate.";
 L["Press Key To Use Item Desc PC"] = "Presiona [KEY:PC:SPACE] para usar el objeto cuando estés fuera de combate.";
 L["Press Key To Use Item Desc Xbox"] = "Presiona [KEY:XBOX:PAD3] para usar el objeto cuando estés fuera de combate.";
 L["Press Key To Use Item Desc PlayStation"] = "Presiona [KEY:PS:PAD3] para usar el objeto cuando estés fuera de combate.";
@@ -337,6 +340,8 @@ L["Translator Source"] = "Fuente: ";
 L["Translator No Quest Data Format"] = "No se encontró entrada para [Misión: %s]";
 L["Translator Click To Hide Translation"] = "Haz clic para ocultar la traducción";
 L["Translator Click To Show Translation"] = "Haz clic para mostrar la traducción";
+L["Translator Click To Hide Original"] = "Haz clic derecho para ocultar los textos originales.";
+L["Translator Click To Show Original"] = "Haz clic derecho para mostrar los textos originales.";
 
 --Compatibilidad con AddOns de voz en off
 L["VO Provider Format"] = "|cffffffff%s|r está manejando la voz en off";

@@ -4,7 +4,6 @@ This repository provides **Spanish (es_ES/es_MX) translations** for the followin
 
 | AddOn Name | Folder | Status |
 |------------|--------|---------|
-| **Ai Voiceover** | `AI_VoiceOver` | 🛑 |
 | **Altoholic** | `Altoholic` | 🛑 |
 | **Altoholic Achievements** | `Altoholic_Achievements` | 🛑 |
 | **Altoholic Agenda** | `Altoholic_Agenda` | 🛑 |
@@ -16,13 +15,6 @@ This repository provides **Spanish (es_ES/es_MX) translations** for the followin
 | **Altoholic Summary** | `Altoholic_Summary` | 🛑 |
 | **Baganator** | `Baganator` | ✅ |
 | **Betteraddonlist** | `BetterAddonList` | 🛑 |
-| **Betterbags** | `BetterBags` | 🛑 |
-| **Betterbags Battlepetitems** | `BetterBags_BattlePetItems` | 🛑 |
-| **Betterbags Dragonflight** | `BetterBags_Dragonflight` | 🛑 |
-| **Betterbags Legendary** | `BetterBags_Legendary` | 🛑 |
-| **Betterbags Secrets** | `BetterBags_Secrets` | 🛑 |
-| **Betterbags Warwithin** | `BetterBags_WarWithin` | 🛑 |
-| **Betterbags Worldevents** | `BetterBags_WorldEvents` | 🛑 |
 | **Betterwardrobe** | `BetterWardrobe` | 🛑 |
 | **Btwquests** | `BtWQuests` | 🛑 |
 | **Btwquestsbattleforazeroth** | `BtWQuestsBattleForAzeroth` | 🛑 |
@@ -32,6 +24,7 @@ This repository provides **Spanish (es_ES/es_MX) translations** for the followin
 | **Btwqueststhewarwithin** | `BtWQuestsTheWarWithin` | 🛑 |
 | **Buttonforge** | `ButtonForge` | 🛑 |
 | **Chat Sound Customizer** | `Chat_Sound_Customizer` | 🛑 |
+| **Coolinator** | `Coolinator` | ✅ |
 | **Datastore** | `DataStore` | 🛑 |
 | **Datastore Auctions** | `DataStore_Auctions` | 🛑 |
 | **Datastore Characters** | `DataStore_Characters` | 🛑 |
@@ -40,7 +33,7 @@ This repository provides **Spanish (es_ES/es_MX) translations** for the followin
 | **Datastore Inventory** | `DataStore_Inventory` | 🛑 |
 | **Datastore Mails** | `DataStore_Mails` | 🛑 |
 | **Datastore Quests** | `DataStore_Quests` | 🛑 |
-| **Dialogueui** | `DialogueUI` | 🛑 |
+| **Dialogueui** | `DialogueUI` | ✅ |
 | **Dynamiccam** | `DynamicCam` | 🛑 |
 | **Handynotes** | `HandyNotes` | 🛑 |
 | **Handynotes Battleforazeroth** | `HandyNotes_BattleForAzeroth` | 🛑 |
@@ -56,30 +49,30 @@ This repository provides **Spanish (es_ES/es_MX) translations** for the followin
 | **Handynotes Warlordsofdraenor** | `HandyNotes_WarlordsOfDraenor` | 🛑 |
 | **Handynotes Worldofwarcraft** | `HandyNotes_WorldOfWarcraft` | 🛑 |
 | **Handynotes Wrathofthelichking** | `HandyNotes_WrathOfTheLichKing` | 🛑 |
-| **Interaction** | `Interaction` | 🛑 |
-| **Itemversion** | `ItemVersion` | 🛑 |
+| **Interaction** | `Interaction` | ✅ |
+| **Itemversion** | `ItemVersion` | ✅ |
 | **Kui Nameplates Core Config** | `Kui_Nameplates_Core_Config` | 🛑 |
 | **Leatrix Maps** | `Leatrix_Maps` | 🛑 |
 | **Ls Toasts** | `ls_Toasts` | 🛑 |
 | **Moveany** | `MoveAny` | 🛑 |
 | **Mythicdungeontools** | `MythicDungeonTools` | 🛑 |
-| **Narcissus** | `Narcissus` | 🛑 |
+| **Narcissus** | `Narcissus` | ✅ |
 | **Nys Todolist** | `Nys_ToDoList` | 🛑 |
-| **Platynator** | `Platynator` | 🛑 |
-| **Plumber** | `Plumber` | 🛑 |
+| **Platynator** | `Platynator` | ✅ |
+| **Plumber** | `Plumber` | ✅ |
 | **Rematch** | `Rematch` | 🛑 |
-| **Scrap** | `Scrap` | 🛑 |
+| **Scrap** | `Scrap` | ✅ |
 | **Shadowedunitframes** | `ShadowedUnitFrames` | 🛑 |
-| **Syndicator** | `Syndicator` | 🛑 |
+| **Syndicator** | `Syndicator` | ✅ |
 | **Tomtom** | `TomTom` | 🛑 |
-| **Vaultloom** | `Vaultloom` | 🛑 |
+| **Vaultloom** | `Vaultloom` | ✅ |
 | **Warbandworldquest** | `WarbandWorldQuest` | 🛑 |
-| **Waypointui** | `WaypointUI` | 🛑 |
-| **Worldquesttab** | `WorldQuestTab` | 🛑 |
+| **Waypointui** | `WaypointUI` | ✅ |
+| **Worldquesttab** | `WorldQuestTab` | ✅ |
 
 ---
 
-**Total: 72 translated addons**
+**Total: 65 translated addons**
 
 ## 📋 Translation Status
 

@@ -51,6 +51,7 @@ L["Day Plural"] = "Días";
 L["Day Singular"] = "Día";
 L["Hour Plural"] = "Horas";
 L["Hour Singular"] = "Hora";
+L["Last Visit"] = "Última visita: ";
 
 L["Swap items"] = "Intercambiar objetos";
 L["Press Copy"] = NARCI_COLOR_GREY_70.. "Presiona |r".. NARCI_SHORTCUTS_COPY.. NARCI_COLOR_GREY_70 .." para copiar";
@@ -115,6 +116,8 @@ L["MinimapButton Reenabled"] = "|cffffd100Has activado el botón del minimapa de
 L["MinimapButton LibDBIcon"] = "Usar LibDBIcon";
 L["MinimapButton LibDBIcon Desc"] = "Usar LibDBIcon para crear nuestro botón del minimapa.\nEstás viendo esta opción porque has instalado LibDBIcon-1.0 o un addon que integra esta librería.";
 L["MinimapButton LibDBIcon Hide"] = "Ocultar botón";
+L["MinimapButton Click Behavior"] = "Comportamiento al hacer clic";
+L["MinimapButton Click Behavior tooltip"] = "Cambiar qué interfaz de Narcissus abrir cuando se hace clic en el botón del minimapa.";
 L["Corrupted Item Parser"] = "|cffffffffalternar analizador de objetos corruptos|r";
 L["Toggle Dressing Room"] = "|cffffffffalternar "..DRESSUP_FRAME.."|r";
 L["Reset Camera"] = "Restablecer cámara";
@@ -125,6 +128,7 @@ L["Layout"] = "Diseño";
 L["Symmetry"] = "Simetría";
 L["Asymmetry"] = "Asimetría";
 L["Copy Texts"] = "Copiar lista de objetos";
+L["Toggle Item List"] = "Alternar lista de objetos";
 L["Syntax"] = "Sintaxis";
 L["Plain Text"] = "Texto sin formato";
 L["BB Code"] = "BB Code";
@@ -244,6 +248,9 @@ L["Orbit Camera Description Off"] = "Cuando abres este panel de personaje, la c�
 L["Camera Safe Mode"] = "Modo de cámara seguro";
 L["Camera Safe Mode Description"] = "Deshabilita completamente la función de actioncam después de cerrar el panel de personaje.";
 L["Camera Safe Mode Description Extra"] = "Esta opción está bloqueada porque estás usando dynamiccam.";
+L["Camera Auto Zoom In"] = "Auto Zoom-In";
+L["Camera Auto Zoom In On"] = "Acerca automáticamente la cámara al abrir la interfaz de personaje.";
+L["Camera Auto Zoom In Off"] = "La cámara solo se moverá horizontalmente al abrir la interfaz de personaje.";
 L["Camera Transition"] = "Transición de la cámara";
 L["Camera Transition Description On"] = "La cámara se moverá suavemente a la posición predeterminada cuando abres este panel de personaje.";
 L["Camera Transition Description Off"] = "La transición de la cámara será instantánea. Comenzará desde la segunda vez que uses este panel de personaje.\nLa transición instantánea anulará la configuración de cámara predeterminada #4.";
@@ -267,6 +274,8 @@ L["Expansion Features"] = "Características de la expansión";
 L["LFR Wing Details"] = "Detalles del ala de Buscador de Bandas";
 L["LFR Wing Details Description"] = "Mostrar los nombres de los jefes y los bloqueos cuando hables con los PNJs de la cola individual para Buscador de Bandas.";
 L["Speedy Screenshot Alert"] = "El mensaje de captura de pantalla desaparece más rápido";
+L["Use Game Quality Color"] = "Usar los colores de calidad de WoW";
+L["Use Game Quality Color Desc"] = "Usa los colores de calidad de los objetos configurados en Opciones > Accesibilidad > Colores.";
 
 --Control de Modelo--
 L["Ranged Weapon"] = "A distancia";
@@ -313,6 +322,7 @@ L["Light Source"] = "Fuente de luz";
 L["Light Source Independent"] = "Independiente";
 L["Light Source Interconnected"] = "Interconectado";
 L["Adjustment"] = "Ajuste";
+L["Unsupported Model Unit Alert"] = "No se puede añadir el objetivo dentro de una instancia.";
 
 --Navegador de Animaciones--
 L["Animation"] = "Animación";
@@ -375,6 +385,8 @@ L["Switch Form To Human"] = "Cambiar a la forma|cffffffff Humana|r";
 L["InGame Command"] = "Comando en juego";
 L["Hide Player Items"] = "Ocultar objetos del jugador";
 L["Hide Player Items Tooltip"] = "Oculta cualquier cosa que no pertenezca a este conjunto de objetos.";
+L["Hide Duplicated Appearance"] = "Ocultar duplicados";
+L["Hide Duplicated Appearance Tooltip"] = "Algunos conjuntos pueden contener objetos con la misma apariencia. Activa esta opción para mostrar solo las apariencias únicas.";
 
 --Navegador de PNJs--
 NARCI_NPC_BROWSER_TITLE_LEVEL = ".*%?%?.?";      --Nivel ?? --Usa esto para verificar si la segunda línea de la información sobre herramientas es el título del PNJ o el tipo de unidad
@@ -680,6 +692,7 @@ L["Showcase Splash 3"] = "Haz clic en el botón de abajo para girar tu personaje
 L["Showcase Splash 4"] = "Graba la pantalla con software de grabación de video y luego conviértelo a gif.";
 L["Loop Animation Alert Kultiran"] = "Bucle - actualmente no funciona en masculinos kultiranos";
 L["Loop Animation"] = "Animación en bucle";
+L["Sheathing Position"] = "Posición del arma";
 
 --Conjuntos de Objetos--
 L["Class Set Indicator"] = "Indicador de conjunto de clase";
@@ -787,6 +800,9 @@ L["Format Stat EXP"] = "+%d%% Ganancia de EXP";
 L["Format Rank"] = AZERITE_ESSENCE_RANK or "Rango %d";
 L["Cloak Rank"] = "Rango de capa";
 
+L["Artifact Ability"] = "Habilidad del artefacto";
+L["Toggle Artifact UI"] = "Haz clic para mostrar u ocultar la interfaz del artefacto.";
+
 
 --Gestor de Gemas--
 L["Gem Manager"] = "Gestor de gemas";
@@ -843,3 +859,37 @@ L["GamePad Select"] = "Seleccionar";
 L["GamePad Cancel"] = "Cancelar";
 L["GamePad Use"] = "Usar";
 L["GamePad Equip"] = "Equipar";
+
+
+--TransmogUI--
+L["Transmog UI"] = "Interfaz de transfiguración";
+L["Transmog UI Description"] = "Crea conjuntos personalizados a los que pueden acceder todos tus personajes.";
+L["OutfitSource Default"] = "Personaje actual";
+L["OutfitSource Default Tooltip"] = "Los datos se almacenan en el servidor.";
+L["OutfitSource Shared"] = "Lista compartida";
+L["OutfitSource Shared Tooltip"] = "Todos tus personajes pueden acceder a esta lista.\n\nLos datos se almacenan localmente en el addon Narcissus.";
+L["OutfitSource Alts"] = "Otros personajes";
+L["OutfitSource Alts Tooltip"] = "Puedes ver los conjuntos personalizados de otro personaje si has iniciado sesión con él teniendo el addon Narcissus habilitado.\n\nNo podrás modificar los conjuntos desde tu personaje actual.";
+L["Cannot Delete On Alts"] = "No puedes modificar este conjunto porque pertenece a otro personaje";
+L["Your Money Amount"] = "Tu saldo";
+L["TransmogSet No Valid Items"] = "No hay objetos válidos.";
+L["Copy To Shared List"] = "Copiar a la lista compartida";
+L["Insturction Delete Without Confirm"] = "Mayús + clic para eliminar sin confirmación.";
+L["Press Key To Copy Format"] = "Pulsa |cffffd100%s|r para copiar";
+L["Added To Shared List"] = "Añadido a la lista compartida";
+L["Added To Shared List Alert Format"] = "Ya has añadido este conjunto a la lista compartida con el nombre \"%s\"";
+L["New Set Location Default"] = "Este conjunto personalizado se guardará en tu personaje actual.";
+L["New Set Location Shared"] = "Este conjunto personalizado se añadirá a la lista compartida.";
+L["Save Custom Set Location"] = "Guardar en:";
+L["Save Slots Colon"] = "Guardar espacios: ";
+L["Error View Outfit In Combat"] = "No puedes ver conjuntos personalizados mientras estás en combate";
+L["Profile Management"] = "Administración de perfiles";
+L["Delete Character Data"] = "Eliminar personaje";
+L["Delete Character Data Tooltip"] = "Esta opción sirve para limpiar los datos de personajes inactivos o eliminados.\n\nElimina los datos de conjuntos personalizados almacenados localmente para este personaje. El addon Narcissus volverá a almacenarlos cuando inicies sesión con ese personaje.";
+
+
+--WardrobeCollection--
+L["ModuleName WardrobeCollection"] = "Pestaña apariencias";
+L["ModuleDescription WardrobeCollection"] = "Añade una casilla para ocultar los espacios no coleccionados en el modelo de vista previa al ver un conjunto en la pestaña Apariencias. También permite usar Ctrl + clic sobre un conjunto para verlo en el Probador."
+L["Hide Uncollected Slots"] = "Ocultar no coleccionados";
+L["Hide Uncollected Slots Tooltip"] = "Ocultar espacios no coleccionados |cffffd100(%s)|r";

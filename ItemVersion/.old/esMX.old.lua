@@ -51,8 +51,6 @@ L["Platform"] = "Plataforma"
 L["Issue URL"] = "URL del reporte"
 L["Show build number"] = "Mostrar número de compilación"
 L["Include or omit the build number in the tooltip"] = "Incluir o omitir el número de compilación en el tooltip"
-
--- these expac strings aren't known in non-mainline, unfortunately
 L["Shadowlands"] = true
 L["Dragonflight"] = true
 L["The War Within"] = true

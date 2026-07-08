@@ -129,7 +129,7 @@ L["Not Found"] = "No encontrado";   --Objeto no encontrado
 L["Own"] = "Poseer";   --Algo que el jugador tiene/posee
 L["Numbers To Earn"] = "# Para ganar";     --El número de objetos/monedas que el jugador puede ganar. La redacción debe ser lo más abreviada posible.
 L["Numbers Of Earned"] = "# Ganados";    --El número de cosas que el jugador ha ganado
-L["Track Upgrade Currency"] = "Rastrear crestas";       --Cresta: por ejemplo, Cresta de Ensueño de Draco
+L["Track Upgrade Currency"] = "Rastrear crestas";       --Cresta: Por ejemplo, Cresta de Ensueño de Draco
 L["Track Upgrade Currency Tooltip"] = "Fija la cresta de nivel superior que has ganado en la barra.";
 L["Track Holiday Item"] = "Rastrear moneda de evento";       --por ejemplo, Golosinas Travesuras (Fin de Halloween)
 L["Currently Pinned Colon"] = "Actualmente fijado:";  --Indica el objeto actualmente fijado
@@ -285,7 +285,7 @@ L["Data Loading In Progress"] = "Plumber está cargando los datos";
 
 --Tooltip RichSoil
 L["ModuleName TooltipRichSoil"] = "Acceso rápido: Semillas resistentes";
-L["ModuleDescription TooltipRichSoil"] = "Para herboristas: muestra una lista de Semillas resistentes al hacer doble clic sobre Tierra fértil."..L["Quick Slot Generic Description"];
+L["ModuleDescription TooltipRichSoil"] = "Para herboristas: Muestra una lista de Semillas resistentes al hacer doble clic sobre Tierra fértil."..L["Quick Slot Generic Description"];
 L["Instruction Show Resilient Seeds"] = "<Doble clic para mostrar las Semillas resistentes>";
 L["No Resilient Seed"] = "No tienes Semillas resistentes";
 
@@ -599,8 +599,8 @@ L["LootUI Option Background Opacity Tooltip"] = "Establece la opacidad del fondo
 L["LootUI Option Custom Quality Color"] = "Usar color de calidad personalizado";
 L["LootUI Option Custom Quality Color Tooltip"] = "Usa los colores que configuraste en Opciones del Juego > Accesibilidad > Colores.";
 L["LootUI Option Grow Direction"] = "Expandir hacia arriba";
-L["LootUI Option Grow Direction Tooltip 1"] = "Si está habilitado: la esquina inferior izquierda de la ventana permanece fija y las nuevas notificaciones aparecerán encima de las anteriores.";
-L["LootUI Option Grow Direction Tooltip 2"] = "Si está deshabilitado: la esquina superior izquierda de la ventana permanece fija y las nuevas notificaciones aparecerán debajo de las anteriores.";
+L["LootUI Option Grow Direction Tooltip 1"] = "Si está habilitado: La esquina inferior izquierda de la ventana permanece fija y las nuevas notificaciones aparecerán encima de las anteriores.";
+L["LootUI Option Grow Direction Tooltip 2"] = "Si está deshabilitado: La esquina superior izquierda de la ventana permanece fija y las nuevas notificaciones aparecerán debajo de las anteriores.";
 L["Junk Items"] = "Objetos basura";
 L["LootUI Option Combine Items"] = "Combinar objetos similares";
 L["LootUI Option Combine Items Tooltip"] = "Mostrar objetos similares en una sola fila. Categorías compatibles:\n\n- Objetos en desuso\n- Recuerdos de época (Remix de Legion)";
@@ -758,8 +758,8 @@ L["LandingButtonOption UseLibDBIcon NoBorder Tooltip"] = "Elimina el borde dorad
 L["LandingButtonOption PrimaryUI"] = "Clic izquierdo para abrir";
 L["LandingButtonOption PrimaryUI Tooltip"] = "Elige qué interfaz se abre al hacer clic izquierdo en el botón del minimapa.";
 L["LandingButtonOption SmartExpansion"] = "Selección automática de expansión";
-L["LandingButtonOption SmartExpansion Tooltip 1"] = "Cuando está activado: el clic izquierdo abre la interfaz adecuada según tu ubicación actual.";
-L["LandingButtonOption SmartExpansion Tooltip 2"] = "Cuando está desactivado: el clic izquierdo siempre abre %s.";
+L["LandingButtonOption SmartExpansion Tooltip 1"] = "Cuando está activado: El clic izquierdo abre la interfaz adecuada según tu ubicación actual.";
+L["LandingButtonOption SmartExpansion Tooltip 2"] = "Cuando está desactivado: El clic izquierdo siempre abre %s.";
 L["LandingButtonOption ReduceSize"] = "Reducir tamaño del botón";
 L["LandingButtonOption DarkColor"] = "Usar tema oscuro";
 L["LandingButtonOption HideWhenIdle"] = "Ocultar cuando esté inactivo";
@@ -792,50 +792,50 @@ L["Press Key To Copy Format"] = "Pulsa |cffffd100%s|r para copiar";
 
 
 --TransmogOutfitSelect
-L["ModuleName TransmogOutfitSelect"] = "Colección de atuendos: acceso rápido";
+L["ModuleName TransmogOutfitSelect"] = "Colección de atuendos: Acceso rápido";
 L["ModuleDescription1 TransmogOutfitSelect"] = "Permite abrir la colección de atuendos y equipar apariencias guardadas en cualquier lugar.";
-L["ModuleDescription2 TransmogOutfitSelect"] = "Para ello: abre la interfaz de transfiguración y arrastra el botón de acceso rápido a tus barras de acción.";
+L["ModuleDescription2 TransmogOutfitSelect"] = "Para ello: Abre la interfaz de transfiguración y arrastra el botón de acceso rápido a tus barras de acción.";
 L["Outfit Collection"] = "Colección de atuendos";
 L["Quick Access Outfit Button"] = "Acceso rápido";
 L["Quick Access Outfit Button Tooltip"] = "Haz clic y arrastra este botón a tus barras de acción para cambiar de atuendo en cualquier lugar.";
 
 
 --QuestWatchCycle
-L["ModuleName QuestWatchCycle"] = "Atajos: enfocar misión";
+L["ModuleName QuestWatchCycle"] = "Atajos: Enfocar misión";
 L["ModuleDescription QuestWatchCycle"] = "Permite usar teclas para enfocar la siguiente o anterior misión en el rastreador.\n\n|cffd4641cConfigura las teclas en Asignación de teclas > Addon Plumber.|r";
 
 
 --CraftSearchExtended
 L["ModuleName CraftSearchExtended"] = "Ampliar resultados de búsqueda";
-L["ModuleDescription CraftSearchExtended"] = "Muestra más resultados al buscar ciertos términos.\n\n- Alquimia e inscripción: encuentra recetas de pigmentos de vivienda buscando colores de tintes.";
+L["ModuleDescription CraftSearchExtended"] = "Muestra más resultados al buscar ciertos términos.\n\n- Alquimia e inscripción: Encuentra recetas de pigmentos de vivienda buscando colores de tintes.";
 
 
 --DecorModelScaleRef
-L["ModuleName DecorModelScaleRef"] = "Vista previa de decoración: referencia de escala (banana)";
+L["ModuleName DecorModelScaleRef"] = "Vista previa de decoración: Referencia de escala (banana)";
 L["ModuleDescription DecorModelScaleRef"] = "- Añade una referencia de tamaño (una banana) en la vista previa de decoración.\n\n- Permite cambiar la inclinación de la cámara manteniendo el botón izquierdo y moviendo verticalmente.";
 L["Toggle Banana"] = "Activar banana";
 
 
 --Player Housing
 L["ModuleName Housing_Macro"] = "Macros de vivienda";
-L["ModuleDescription Housing_Macro"] = "Puedes crear una macro de teletransporte a casa: crea una macro nueva y escribe |cffd7c0a3#plumber:home|r en el campo de comando.";
+L["ModuleDescription Housing_Macro"] = "Puedes crear una macro de teletransporte a casa: Crea una macro nueva y escribe |cffd7c0a3#plumber:home|r en el campo de comando.";
 L["Teleport Home"] = "Teletransportarse a casa";
 L["Instruction Drag To Action Bar"] = "<Haz clic y arrastra a tus barras de acción>";
 L["Leave Home"] = HOUSING_DASHBOARD_RETURN or "Volver a la ubicación anterior";
 L["Toggle Torch"] = "Alternar antorcha";
-L["ModuleName Housing_DecorHover"] = "Editor: modo decorar (1)";
+L["ModuleName Housing_DecorHover"] = "Editor: Modo decorar (1)";
 L["ModuleDescription Housing_DecorHover"] = "En modo decorar:\n\n- Muestra coste, nombre y cantidad en almacenamiento al pasar el cursor sobre un objeto.\n\n- Permite duplicar decoraciones con Alt.\n\nEl nuevo objeto no hereda ángulos ni escala.";
 L["Duplicate"] = "Duplicar";
 L["Duplicate Decor Key"] = "Tecla de duplicar";
 L["Enable Duplicate"] = "Activar duplicación";
 L["Enable Duplicate tooltip"] = "En modo decorar, puedes pasar el cursor sobre un objeto y pulsar una tecla para crear otra instancia.";
-L["ModuleName Housing_CustomizeMode"] = "Editor: modo personalización (3)";
+L["ModuleName Housing_CustomizeMode"] = "Editor: Modo personalización (3)";
 L["ModuleDescription Housing_CustomizeMode"] = "En modo personalización:\n\n- Copiar tintes entre decoraciones.\n\n- Mostrar nombres de color en lugar de índices.\n\n- Shift + clic en un tinte para rastrear la receta.";
 L["Copy Dyes"] = "Copiar";
 L["Dyes Copied"] = "Tintes copiados";
 L["Apply Dyes"] = "Aplicar";
 L["Preview Dyes"] = "Previsualizar";
-L["ModuleName TooltipDyeDeez"] = "Información: pigmento de tinte";
+L["ModuleName TooltipDyeDeez"] = "Información: Pigmento de tinte";
 L["ModuleDescription TooltipDyeDeez"] = "Muestra el nombre del color de los pigmentos en la información emergente.";
 L["Instruction Show More Info"] = "<Pulsa Alt para más información>";
 L["Instruction Show Less Info"] = "<Pulsa Alt para menos información>";
@@ -844,7 +844,7 @@ L["ModuleDescription Housing_ItemAcquiredAlert"] = "Permite hacer clic en la ale
 
 
 --Housing Clock
-L["ModuleName Housing_Clock"] = "Editor: reloj";
+L["ModuleName Housing_Clock"] = "Editor: Reloj";
 L["ModuleDescription Housing_Clock"] = "Muestra un reloj en la parte superior durante la edición de vivienda.\n\nTambién registra el tiempo en el editor.";
 L["Time Spent In Editor"] = "Tiempo en el editor";
 L["This Session Colon"] = "Esta sesión: ";
@@ -874,8 +874,8 @@ L["BreakTime Title AllCaps"] = "DESCANSO";
 L["BreakTime Delay Button"] = "Posponer";
 L["BreakTime Delay Button Tooltip Format"] = "Recordarme en %d min.";
 L["BreakTime Cancel Button"] = "Cancelar";
-L["BreakTime Cancel Button Tooltip Format 1"] = "Clic izquierdo: cancelar este ciclo. El siguiente será en %d min.";
-L["BreakTime Cancel Button Tooltip 2"] = "Mantener pulsado: cancelar toda la sesión.";
+L["BreakTime Cancel Button Tooltip Format 1"] = "Clic izquierdo: Cancelar este ciclo. El siguiente será en %d min.";
+L["BreakTime Cancel Button Tooltip 2"] = "Mantener pulsado: Cancelar toda la sesión.";
 L["BreakTime Announce Time Before Alert Format"] = "El próximo aviso será en |cffffffff%d|r min.";
 L["BreakTime Announce Timer Cancelled"] = "Has cancelado el temporizador de esta sesión.";
 L["BreakTime Current Schedule Format"] = "Descanso de |cffffffff%1$d|r min cada |cffffffff%2$d|r min.";
@@ -899,23 +899,23 @@ L["BreakTime Shared Countdown Tooltip Format"] = "Descanso programado en |cfffff
 
 
 --CatalystUI
-L["ModuleName CatalystUI"] = "Catalizador: ver objeto en probador";
+L["ModuleName CatalystUI"] = "Catalizador: Ver objeto en probador";
 L["ModuleDescription CatalystUI"] = "Permite Ctrl + clic para ver el objeto en el probador o Shift + clic para enlazarlo al chat.";
 
 
 --HuntTable
-L["ModuleName HuntTable"] = "Presas: tabla de caza";
+L["ModuleName HuntTable"] = "Presas: Tabla de caza";
 L["ModuleDescription HuntTable"] = "- Reemplaza iconos genéricos por indicadores de dificultad.\n\n- Muestra si la presa es requisito de un logro.";
 L["Prey Target Has Achievement"] = "Este objetivo es requisito de un logro no completado.";
 
 
 --PreyQuestSuperTrack
-L["ModuleName PreyQuestSuperTrack"] = "Presas: ruta del objetivo";
+L["ModuleName PreyQuestSuperTrack"] = "Presas: Ruta del objetivo";
 L["ModuleDescription PreyQuestSuperTrack"] = "Al revelar la ubicación del objetivo, el rastreador también coloca un marcador en el mapa.";
 
 
 --BlizzFixActionBarArt
-L["ModuleName BlizzFixActionBarArt"] = "Blizz Fix: arte de barras";
+L["ModuleName BlizzFixActionBarArt"] = "Blizz Fix: Arte de barras";
 L["ModuleDescription BlizzFixActionBarArt"] = "Corrige el problema donde el arte de barras reaparece tras ocultar/mostrar la UI o salir del editor de vivienda.";
 
 

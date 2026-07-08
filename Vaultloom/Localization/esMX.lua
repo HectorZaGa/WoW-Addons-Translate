@@ -39,7 +39,7 @@ local esMX = {
     PROFESSIONS_SUBTITLE = "Semanales de profesiones de Midnight para el personaje seleccionado.",
     PROFESSIONS_SUBTITLE_WITH_DARKMOON = "Semanales de Midnight y misiones de profesión de la Feria de la Luna Negra para el personaje seleccionado.",
     PROFESSIONS_PROGRESS = "Progreso",
-    PROFESSIONS_DARKMOON_HINT = "Luna Negra: mensual",
+    PROFESSIONS_DARKMOON_HINT = "Luna Negra: Mensual",
     PROFESSIONS_ROW_DARKMOON = "Feria de la Luna Negra",
     PROFESSIONS_ROW_SERVICE = "Servicios solicitados",
     PROFESSIONS_ROW_TREATISE = "Tratado thalassiano",
@@ -62,7 +62,7 @@ local esMX = {
     PVE_DARKMOON_CONTENT_SUBTITLE = "Diarias de la Luna Negra y entregas repetibles.",
     PVE_DARKMOON_SUBTITLE = "Diarias, carreras, duelos de mascotas y artefactos de la Luna Negra.",
     PVE_DARKMOON_INACTIVE_SUBTITLE = "La Feria de la Luna Negra no está activa.",
-    PVE_DARKMOON_MONTHLY_SUMMARY = "Misiones de feria: mensual",
+    PVE_DARKMOON_MONTHLY_SUMMARY = "Misiones de feria: Mensual",
     PVE_DARKMOON_START_ITEM_HINT = "Empieza con el objeto: %s",
     PVE_DARKMOON_TOKEN_HINT = "Requiere %s.",
     PVE_DARKMOON_DAILY_HINT = "Diaria durante la Feria de la Luna Negra.",
@@ -83,13 +83,13 @@ local esMX = {
     RENOWN_HEADER_META_FORMAT = "%s  |  %s",
     RENOWN_STAT_LINE_FORMAT = "Total %s XP  |  Siguiente rango: %s  |  Copia: SavedVariables",
     RENOWN_XP_TOOLTIP_TITLE = "XP de crónica",
-    RENOWN_XP_TOOLTIP_BODY = "La XP viene de tareas completadas de Vaultloom: filas de la cámara, objetivos diarios y semanales, calabozos, bandas, abismos, JcJ, profesiones y tareas de vecindario completadas.",
+    RENOWN_XP_TOOLTIP_BODY = "La XP viene de tareas completadas de Vaultloom: Filas de la cámara, objetivos diarios y semanales, calabozos, bandas, abismos, JcJ, profesiones y tareas de vecindario completadas.",
     RENOWN_RESET_BUTTON = "Reiniciar",
     RENOWN_RESET_CONFIRM = "¿Reiniciar el progreso de Crónica para %s? No se puede deshacer.",
     RENOWN_BACKUP_HINT = "Archivo de copia:\nWTF\\Account\\<Account>\nSavedVariables\\Vaultloom.lua",
     RENOWN_BACKUP_TOOLTIP_TITLE = "Archivo de copia",
-    RENOWN_FRAME_SHOWN = "Marco: sí",
-    RENOWN_FRAME_HIDDEN = "Marco: no",
+    RENOWN_FRAME_SHOWN = "Marco: Sí",
+    RENOWN_FRAME_HIDDEN = "Marco: No",
     RENOWN_FRAME_DEFAULT = "Oro estándar",
     RENOWN_FRAME_SELECTED = "Elegido",
     RENOWN_FRAME_CLICK_TOOLTIP = "Haz clic para usar este marco de retrato.",
@@ -100,19 +100,19 @@ local esMX = {
     RENOWN_FRAME_DROPDOWN_TITLE = "Marco de retrato",
     RENOWN_FRAME_DROPDOWN_TOOLTIP = "Elige marcos de retrato desbloqueados desde el menú.",
     RENOWN_FRAME_MENU_OPTION_TOOLTIP = "Usa este marco alrededor del retrato del personaje.",
-    RENOWN_BADGE_SHOWN = "Badge: sí",
-    RENOWN_BADGE_HIDDEN = "Badge: no",
+    RENOWN_BADGE_SHOWN = "Badge: Sí",
+    RENOWN_BADGE_HIDDEN = "Badge: No",
     RENOWN_BADGE_DEFAULT = "Rango actual",
     RENOWN_BADGE_DROPDOWN_FORMAT = "Badge: %s",
     RENOWN_BADGE_DROPDOWN_TITLE = "Badge del encabezado",
     RENOWN_BADGE_DROPDOWN_TOOLTIP = "Elige el badge desbloqueado que aparece en el encabezado y la crónica.",
     RENOWN_BADGE_MENU_OPTION_TOOLTIP = "Usa este badge en el encabezado del personaje.",
     RENOWN_BADGE_TOGGLE_TOOLTIP = "Muestra u oculta el badge de encabezado elegido.",
-    RENOWN_WARBAND_BADGE_SHOWN = "Banda: sí",
-    RENOWN_WARBAND_BADGE_HIDDEN = "Banda: no",
+    RENOWN_WARBAND_BADGE_SHOWN = "Banda: Sí",
+    RENOWN_WARBAND_BADGE_HIDDEN = "Banda: No",
     RENOWN_WARBAND_BADGE_TOGGLE_TOOLTIP = "Muestra u oculta el badge de banda en el panel izquierdo de personajes.",
-    RENOWN_TOAST_SHOWN = "Popups: sí",
-    RENOWN_TOAST_HIDDEN = "Popups: no",
+    RENOWN_TOAST_SHOWN = "Popups: Sí",
+    RENOWN_TOAST_HIDDEN = "Popups: No",
     RENOWN_TOAST_TOGGLE_TOOLTIP = "Muestra u oculta los popups de XP de crónica. El seguimiento de XP continúa.",
     RENOWN_TOAST_XP_GAIN = "XP de crónica",
     RENOWN_TOAST_TASK_DONE = "Tarea completada",
@@ -181,8 +181,8 @@ local esMX = {
     RENOWN_SOURCE_PROFESSIONS = "Profesiones",
     RENOWN_SOURCE_PVP = "Semanal JcJ",
     RENOWN_SOURCE_FOCUS = "Filas Fokus",
-    RENOWN_ACTIVITY_VAULT_SLOT = "Cámara %s: casilla %d desbloqueada",
-    RENOWN_ACTIVITY_VAULT_GOAL_SLOT = "Cámara %s: recompensa máxima de casilla %d alcanzada",
+    RENOWN_ACTIVITY_VAULT_SLOT = "Cámara %s: Casilla %d desbloqueada",
+    RENOWN_ACTIVITY_VAULT_GOAL_SLOT = "Cámara %s: Recompensa máxima de casilla %d alcanzada",
     RENOWN_ACTIVITY_VAULT_MAX = "Fila de Cámara %s al máximo",
     RENOWN_ACTIVITY_PREY_DIFFICULTY = "Presa %s completada",
     RENOWN_ACTIVITY_PREY_TOTAL = "Límite total de presas alcanzado",
@@ -244,7 +244,7 @@ local esMX = {
     PROFESSIONS_KNOWLEDGE_LABEL = "Conocimiento",
     PROFESSIONS_KNOWLEDGE_TOOLTIP_AVAILABLE = "%s tiene %d puntos de conocimiento sin gastar.",
     PROFESSIONS_KNOWLEDGE_TOOLTIP_EMPTY = "%s no tiene puntos de conocimiento sin gastar.",
-    PROFESSIONS_KNOWLEDGE_TOOLTIP_OPEN = "Clic izquierdo: abrir esta profesión.",
+    PROFESSIONS_KNOWLEDGE_TOOLTIP_OPEN = "Clic izquierdo: Abrir esta profesión.",
     PROFESSIONS_KNOWLEDGE_TOOLTIP_ALT = "La apertura directa solo funciona con el personaje conectado actualmente.",
     SIDEBAR_TITLE = "Banda guerrera",
     SIDEBAR_SUBTITLE = "La fase 2 conectará aquí la lista real y la selección de personajes.",
@@ -258,7 +258,7 @@ local esMX = {
     HERO_MONEY_SYNC = "Oro %s  |  Última sincronización %s",
     HERO_PROFESSION_PRIMARY_LABEL = "Profesion principal",
     HERO_PROFESSION_SECONDARY_LABEL = "Profesion secundaria",
-    HERO_PROFESSION_OPEN_HINT = "Clic izquierdo: abrir esta profesion.",
+    HERO_PROFESSION_OPEN_HINT = "Clic izquierdo: Abrir esta profesion.",
     HERO_PROFESSION_ALT_HINT = "Conecta con este personaje para abrir la ventana de profesion.",
     HERO_EMPTY = "Aún no se han encontrado datos en vivo de personajes de Vaultloom.",
     HERO_META = "%s  |  nivel %d  |  %s",
@@ -294,7 +294,7 @@ local esMX = {
     SIDEBAR_ROW_LEVEL_SHORT = "Niv. %d",
     SIDEBAR_ROW_ILVL = "ilvl %d",
     SIDEBAR_MAIN = "PRINCIPAL",
-    SIDEBAR_SET_MAIN_RIGHT_CLICK = "Clic derecho: establecer como principal",
+    SIDEBAR_SET_MAIN_RIGHT_CLICK = "Clic derecho: Establecer como principal",
     SIDEBAR_SORT_NAME = "Nombre",
     SIDEBAR_SORT_LEVEL = "Nivel",
     SIDEBAR_SORT_ITEM_LEVEL = "iLvl",
@@ -360,9 +360,9 @@ local esMX = {
     CUSTOM_TASKS_UNAVAILABLE_TOOLTIP = "Esta fila no está disponible para el personaje seleccionado ahora mismo.",
     CUSTOM_TASKS_TRACKER_GROUP = "Trackers Fokus",
     CUSTOM_TASKS_TRACKER_VAULT = "Gran Cámara",
-    CUSTOM_TASKS_TRACKER_VAULT_RAID = "Gran Cámara: banda",
-    CUSTOM_TASKS_TRACKER_VAULT_DUNGEON = "Gran Cámara: calabozos",
-    CUSTOM_TASKS_TRACKER_VAULT_WORLD = "Gran Cámara: mundo / abismos / cacería",
+    CUSTOM_TASKS_TRACKER_VAULT_RAID = "Gran Cámara: Banda",
+    CUSTOM_TASKS_TRACKER_VAULT_DUNGEON = "Gran Cámara: Calabozos",
+    CUSTOM_TASKS_TRACKER_VAULT_WORLD = "Gran Cámara: Mundo / abismos / cacería",
     CUSTOM_TASKS_TRACKER_VAULT_MISSING = "No hay instantánea de Gran Cámara disponible para este personaje.",
     CUSTOM_TASKS_TRACKER_DELVES = "Progreso de abismos",
     CUSTOM_TASKS_TRACKER_DELVES_TOOLTIP = "Sigue el resumen actual de abismos para este personaje.",
@@ -391,7 +391,7 @@ local esMX = {
     CUSTOM_TASKS_TOOLTIP_ADD_MENU = "Abre los trackers y filas de misión que puedes añadir.",
     CUSTOM_TASKS_TOOLTIP_TRACKER_TOGGLE = "Muestra u oculta el tracker Fokus flotante.",
     CUSTOM_TASKS_TOOLTIP_TRACKER_LOCK = "Bloquea o desbloquea el arrastre del tracker.",
-    CUSTOM_TASKS_TOOLTIP_TRACKER_STYLE = "Cambia el estilo del tracker: marco, filas o solo texto.",
+    CUSTOM_TASKS_TOOLTIP_TRACKER_STYLE = "Cambia el estilo del tracker: Marco, filas o solo texto.",
     CUSTOM_TASKS_TOOLTIP_TRACKER_FONT = "Cambia el tamaño de fuente del tracker.",
     CUSTOM_TASKS_TOOLTIP_SCALE_DOWN = "Más pequeño",
     CUSTOM_TASKS_TOOLTIP_SCALE_DOWN_TEXT = "Hace más pequeño el tracker flotante.",
@@ -415,7 +415,7 @@ local esMX = {
     SETTINGS_ALT_SCORE_HIDE = "Ocultar",
     SETTINGS_MAIN_TABS_TITLE = "Pestañas principales",
     SETTINGS_MAIN_TABS_HINT = "Elige qué pestañas principales son visibles en la navegación superior.",
-    SETTINGS_MAIN_TABS_TOGGLE_TOOLTIP = "Clic izquierdo: mostrar u ocultar esta pestaña principal.",
+    SETTINGS_MAIN_TABS_TOGGLE_TOOLTIP = "Clic izquierdo: Mostrar u ocultar esta pestaña principal.",
     SETTINGS_MAIN_TABS_LAST_VISIBLE_HINT = "Al menos una pestaña principal debe permanecer visible.",
     NEWS_ENTRY_TITLE = "Cambios %s",
     NEWS_POPUP_TITLE = "Novedades de Vaultloom",
@@ -431,39 +431,39 @@ local esMX = {
             version = "0.9.98",
             date = "29 de junio de 2026",
             items = {
-                "AÑADIDO: el seguimiento semanal de Omnium Folio se ha añadido a la pestaña JcE semanal.",
+                "AÑADIDO: El seguimiento semanal de Omnium Folio se ha añadido a la pestaña JcE semanal.",
             },
         },
         {
             version = "0.9.97",
             date = "25 de junio de 2026",
             items = {
-                "CORREGIDO: ajuste de versión de WoW para el parche 12.0.7.",
+                "CORREGIDO: Ajuste de versión de WoW para el parche 12.0.7.",
             },
         },
         {
             version = "0.9.96",
             date = "27 de mayo de 2026",
             items = {
-                "AÑADIDO: nuevas opciones para el popup de XP de Crónica: ahora tiene varios estilos y tamaño ajustable.",
+                "AÑADIDO: Nuevas opciones para el popup de XP de Crónica: Ahora tiene varios estilos y tamaño ajustable.",
                 "CORREGIDO: Nodos de recolección no funcionaba como debía y los filtros podían sobrescribir la base de datos antigua. Los nodos guardados ahora deberían permanecer.",
-                "ACTUALIZADO: la ventana de Vaultloom ahora se puede mover fuera del borde de la pantalla y devolver a la posición predeterminada con /vl reset.",
+                "ACTUALIZADO: La ventana de Vaultloom ahora se puede mover fuera del borde de la pantalla y devolver a la posición predeterminada con /vl reset.",
             },
         },
         {
             version = "0.9.95",
             date = "24 de mayo de 2026",
             items = {
-                "AÑADIDO: nueva función Botín discreto, un pequeño extra para mostrar de forma simplificada el botín y los cofres.",
-                "CORREGIDO: error ACCESS_VIOLATION al desconectar causado por escanear las misiones de la Feria de la Luna Negra.",
+                "AÑADIDO: Nueva función Botín discreto, un pequeño extra para mostrar de forma simplificada el botín y los cofres.",
+                "CORREGIDO: Error ACCESS_VIOLATION al desconectar causado por escanear las misiones de la Feria de la Luna Negra.",
             },
         },
         {
             version = "0.9.94",
             date = "16 de mayo de 2026",
             items = {
-                "AÑADIDO: añadida la misión semanal de abismos con botín de banda guerrera.",
-                "CORREGIDO: optimización de CPU de Nodos de recolección. Se eliminaron muchos datos extra guardados; ahora funciona con más estabilidad.",
+                "AÑADIDO: Añadida la misión semanal de abismos con botín de banda guerrera.",
+                "CORREGIDO: Optimización de CPU de Nodos de recolección. Se eliminaron muchos datos extra guardados; ahora funciona con más estabilidad.",
                 "ACTUALIZADO: Compendio (Beta) actualizado con muchos arreglos de Midnight, entradas añadidas y mejor agrupación de monturas promocionales.",
             },
         },
@@ -471,35 +471,35 @@ local esMX = {
             version = "0.9.932",
             date = "12 de mayo de 2026",
             items = {
-                "CORREGIDO: los alters ya no reciben spam de XP de Crónica por las abismos generosas; ahora esta actividad solo cuenta correctamente a partir del nivel 90.",
-                "CORREGIDO: error Lua al usar profesiones de recolección dentro de instancias mientras la función de nodos de recolección estaba activa.",
+                "CORREGIDO: Los alters ya no reciben spam de XP de Crónica por las abismos generosas; ahora esta actividad solo cuenta correctamente a partir del nivel 90.",
+                "CORREGIDO: Error Lua al usar profesiones de recolección dentro de instancias mientras la función de nodos de recolección estaba activa.",
             },
         },
         {
             version = "0.9.93",
             date = "11 de mayo de 2026",
             items = {
-                "ACTUALIZADO: las decoraciones del Compendio ahora leen las cantidades poseídas desde el catálogo de vivienda.",
-                "ACTUALIZADO: el progreso de decoraciones cuenta una decoración como completada cuando se posee al menos una copia.",
-                "CORREGIDO: las ventanas de la IU de Blizzard ahora se abren sobre la ventana principal de Vaultloom, mientras Vaultloom sigue por encima de las barras de acción y la IU normal.",
-                "CORREGIDO: la ventana de vendedor de Vaultloom vuelve a admitir clics modificados de Blizzard en objetos, incluyendo vista previa/probador y enlaces en el chat.",
+                "ACTUALIZADO: Las decoraciones del Compendio ahora leen las cantidades poseídas desde el catálogo de vivienda.",
+                "ACTUALIZADO: El progreso de decoraciones cuenta una decoración como completada cuando se posee al menos una copia.",
+                "CORREGIDO: Las ventanas de la IU de Blizzard ahora se abren sobre la ventana principal de Vaultloom, mientras Vaultloom sigue por encima de las barras de acción y la IU normal.",
+                "CORREGIDO: La ventana de vendedor de Vaultloom vuelve a admitir clics modificados de Blizzard en objetos, incluyendo vista previa/probador y enlaces en el chat.",
                 "CORREGIDO: One-Click Processing ya no provoca una advertencia protegida de `Hide()` en combate; la limpieza del botón seguro se retrasa hasta salir del combate.",
-                "CORREGIDO: los pines de nodos de recolección se ocultan en instancias y calabozos para evitar que aparezcan nodos del mundo exterior en mapas de calabozo.",
-                "CORREGIDO: las instantáneas de nodos de recolección ya no se guardan dentro de instancias, evitando que botín de calabozos se guarde en mapas del mundo exterior.",
+                "CORREGIDO: Los pines de nodos de recolección se ocultan en instancias y calabozos para evitar que aparezcan nodos del mundo exterior en mapas de calabozo.",
+                "CORREGIDO: Las instantáneas de nodos de recolección ya no se guardan dentro de instancias, evitando que botín de calabozos se guarde en mapas del mundo exterior.",
             },
         },
         {
             version = "0.9.92",
             date = "8 de mayo de 2026",
             items = {
-                "NUEVO: nueva pestaña Compendio (Beta). Muestra contenido coleccionable de Midnight como monturas, mascotas, juguetes, decoraciones y recetas en una vista con búsqueda, filtros, tooltips y puntos de ruta.",
-                "NUEVO Feature mapa del mundo: nodos de recolección. Vaultloom crea tu propia base de datos al recolectar minería, hierbas, desuello, materiales de cocina, madera y peces, y muestra los nodos descubiertos en el mapa y minimapa.",
-                "NUEVO Feature mapa del mundo: tesoros de Midnight. Muestra los tesoros de Midnight no recogidos como pines de mapa.",
-                "NUEVO Feature mapa del mundo: conocimiento de profesiones. Muestra en el mapa los puntos de conocimiento para las profesiones activas del personaje.",
-                "NUEVO: nuevo botón de Vaultloom directamente en el mapa para activar o desactivar rápidamente los features de mapa.",
-                "ACTUALIZADO: pines de mapa, iconos de nodos, iconos de tesoros y pines de raros mejorados visualmente para leerse mejor.",
+                "NUEVO: Nueva pestaña Compendio (Beta). Muestra contenido coleccionable de Midnight como monturas, mascotas, juguetes, decoraciones y recetas en una vista con búsqueda, filtros, tooltips y puntos de ruta.",
+                "NUEVO Feature mapa del mundo: Nodos de recolección. Vaultloom crea tu propia base de datos al recolectar minería, hierbas, desuello, materiales de cocina, madera y peces, y muestra los nodos descubiertos en el mapa y minimapa.",
+                "NUEVO Feature mapa del mundo: Tesoros de Midnight. Muestra los tesoros de Midnight no recogidos como pines de mapa.",
+                "NUEVO Feature mapa del mundo: Conocimiento de profesiones. Muestra en el mapa los puntos de conocimiento para las profesiones activas del personaje.",
+                "NUEVO: Nuevo botón de Vaultloom directamente en el mapa para activar o desactivar rápidamente los features de mapa.",
+                "ACTUALIZADO: Pines de mapa, iconos de nodos, iconos de tesoros y pines de raros mejorados visualmente para leerse mejor.",
                 "ACTUALIZADO: Mover ventanas Blizzard soporta más ventanas estándar y evita escalado problemático en vistas sensibles de Blizzard.",
-                "CORREGIDO: la instantánea de oro de los personajes ahora se guarda con más fiabilidad para que los alters no aparezcan con 0 de oro al cambiar de personaje.",
+                "CORREGIDO: La instantánea de oro de los personajes ahora se guarda con más fiabilidad para que los alters no aparezcan con 0 de oro al cambiar de personaje.",
             },
         },
         {
@@ -514,14 +514,14 @@ local esMX = {
             version = "0.9.9",
             date = "7 de mayo de 2026",
             items = {
-                "NUEVO: los distintivos de profesiones ahora se muestran en el encabezado de la pestaña principal para todos los personajes.",
-                "NUEVO: el oro de cada personaje ahora se muestra en el encabezado de la pestaña principal.",
-                "NUEVA FUNCIÓN símbolos de mapa de raros de Midnight: se muestran pequeños distintivos en el mapa para ver dónde aparecen los raros.",
-                "NUEVA FUNCIÓN Filtros de vendedor: 3 modos diferentes para filtrar objetos del vendedor: nueva ventana completa de Vaultloom, solo filtros con la IU original de WoW o versión mixta con ambas. Se puede filtrar casi todo: recetas, profesiones, equipo, objetos de decoración y objetos ya obtenidos o conocidos. Además, se corrigió un bug de la IU de Blizzard que muestra la moneda incorrecta en algunos vendedores.",
+                "NUEVO: Los distintivos de profesiones ahora se muestran en el encabezado de la pestaña principal para todos los personajes.",
+                "NUEVO: El oro de cada personaje ahora se muestra en el encabezado de la pestaña principal.",
+                "NUEVA FUNCIÓN símbolos de mapa de raros de Midnight: Se muestran pequeños distintivos en el mapa para ver dónde aparecen los raros.",
+                "NUEVA FUNCIÓN Filtros de vendedor: 3 modos diferentes para filtrar objetos del vendedor: Nueva ventana completa de Vaultloom, solo filtros con la IU original de WoW o versión mixta con ambas. Se puede filtrar casi todo: Recetas, profesiones, equipo, objetos de decoración y objetos ya obtenidos o conocidos. Además, se corrigió un bug de la IU de Blizzard que muestra la moneda incorrecta en algunos vendedores.",
                 "NUEVA FUNCIÓN aceptar misiones automáticamente y entregarlas de forma opcional.",
                 "NUEVA FUNCIÓN mostrar el ID de objeto directamente en los tooltips.",
-                "CORREGIDO: la barra de progreso de presa ya no debería hacer aparecer la IU de Blizzard en Lunargenta.",
-                "AÑADIDO: soporte para italiano, portugués y ruso.",
+                "CORREGIDO: La barra de progreso de presa ya no debería hacer aparecer la IU de Blizzard en Lunargenta.",
+                "AÑADIDO: Soporte para italiano, portugués y ruso.",
             },
         },
         {
@@ -552,8 +552,8 @@ local esMX = {
             version = "0.9.963",
             date = "3 de mayo de 2026",
             items = {
-                "NUEVO: pestaña Crónica: los popups de XP ahora se pueden mover con un popup de prueba y guardar en la posición que prefieras.",
-                "ACTUALIZADO: los ajustes de Crónica ahora tienen su propio menú de opciones agrupado para visualización, badges y controles de popups.",
+                "NUEVO: Pestaña Crónica: Los popups de XP ahora se pueden mover con un popup de prueba y guardar en la posición que prefieras.",
+                "ACTUALIZADO: Los ajustes de Crónica ahora tienen su propio menú de opciones agrupado para visualización, badges y controles de popups.",
             },
         },
         {
@@ -561,41 +561,41 @@ local esMX = {
             date = "1 de mayo de 2026",
             items = {
                 "NUEVO: Vaultloom Armory está disponible como nueva opción activable en el menú de funciones. Actívala allí para añadir una vista general extendida del personaje con comprobaciones de equipo, ranuras, encantamientos y estadísticas de combate compactas.",
-                "CORREGIDO: corregido el error Lua de raros causado por nombres protegidos en tooltips de Blizzard.",
-                "ACTUALIZADO: menú de funciones rediseñado con botones de categoría, lista desplazable, casillas y ajustes compactos.",
+                "CORREGIDO: Corregido el error Lua de raros causado por nombres protegidos en tooltips de Blizzard.",
+                "ACTUALIZADO: Menú de funciones rediseñado con botones de categoría, lista desplazable, casillas y ajustes compactos.",
             },
         },
         {
             version = "0.9.95",
             date = "30 de abril de 2026",
             items = {
-                "NUEVO: la pestaña JcE ahora tiene un menú de raros para los raros de Midnight, estado diario, monturas y puntos de ruta de Blizzard con clic.",
+                "NUEVO: La pestaña JcE ahora tiene un menú de raros para los raros de Midnight, estado diario, monturas y puntos de ruta de Blizzard con clic.",
             },
         },
         {
             version = "0.9.94",
             date = "29 de abril de 2026",
             items = {
-                "CORREGIDO: el progreso de recompensa máxima de la Gran Cámara para mundo / abismos / cacería ahora cuenta correctamente las actividades de nivel máximo.",
-                "CORREGIDO: los popups de XP de Crónica ahora se activan con más fiabilidad para tareas relevantes de Vaultloom sin tener que abrir el addon primero.",
+                "CORREGIDO: El progreso de recompensa máxima de la Gran Cámara para mundo / abismos / cacería ahora cuenta correctamente las actividades de nivel máximo.",
+                "CORREGIDO: Los popups de XP de Crónica ahora se activan con más fiabilidad para tareas relevantes de Vaultloom sin tener que abrir el addon primero.",
             },
         },
         {
             version = "0.9.93",
             date = "29 de abril de 2026",
             items = {
-                "ACTUALIZADO: añadida una nueva misión de Asaltos del Vacío al grupo de eventos JcE.",
+                "ACTUALIZADO: Añadida una nueva misión de Asaltos del Vacío al grupo de eventos JcE.",
             },
         },
         {
             version = "0.9.92",
             date = "29 de abril de 2026",
             items = {
-                "NUEVO: las notificaciones emergentes de XP de misiones de Crónica ahora se pueden desactivar por separado en Opciones manteniendo activo el resto de Crónica.",
+                "NUEVO: Las notificaciones emergentes de XP de misiones de Crónica ahora se pueden desactivar por separado en Opciones manteniendo activo el resto de Crónica.",
                 "NUEVO: Mythic+ ahora tiene un botón de llaves de banda guerrera bajo la piedra actual para ver todos los alters y sus llaves guardadas de un vistazo. Inicia sesión una vez con cada alter para que Vaultloom pueda guardar su llave.",
-                "NUEVO: añadida la fila de misión diaria Duelo de decoración a la pestaña diaria JcE.",
-                "ACTUALIZADO: añadida la nueva misión semanal del archimago Aethas y ampliado el grupo de misiones semanales JcJ.",
-                "CORREGIDO: varios ajustes visuales de la IU y el progreso de cacería ahora se reinicia correctamente con el reinicio semanal.",
+                "NUEVO: Añadida la fila de misión diaria Duelo de decoración a la pestaña diaria JcE.",
+                "ACTUALIZADO: Añadida la nueva misión semanal del archimago Aethas y ampliado el grupo de misiones semanales JcJ.",
+                "CORREGIDO: Varios ajustes visuales de la IU y el progreso de cacería ahora se reinicia correctamente con el reinicio semanal.",
             },
         },
         {
@@ -620,14 +620,14 @@ local esMX = {
             version = "0.8.89",
             date = "27 de abril de 2026",
             items = {
-                "Nueva pestaña Crónica (Beta): gana XP con todos tus personajes y tu banda guerrera completando tareas dentro de Vaultloom. Desbloquea nuevos rangos y consigue badges y marcos de personaje que puedes mostrar en tu tarjeta de personaje como prefieras. Si no quieres usar el sistema, puedes desactivarlo en Opciones.",
+                "Nueva pestaña Crónica (Beta): Gana XP con todos tus personajes y tu banda guerrera completando tareas dentro de Vaultloom. Desbloquea nuevos rangos y consigue badges y marcos de personaje que puedes mostrar en tu tarjeta de personaje como prefieras. Si no quieres usar el sistema, puedes desactivarlo en Opciones.",
             },
         },
         {
             version = "0.8.28",
             date = "26 de abril de 2026",
             items = {
-                "Nuevo tab Fokus completo: crea tu propia lista de misiones y tareas por personaje o como plantilla global, añade, elimina y reordena filas, y sigue solo lo que te importa.",
+                "Nuevo tab Fokus completo: Crea tu propia lista de misiones y tareas por personaje o como plantilla global, añade, elimina y reordena filas, y sigue solo lo que te importa.",
                 "Añadido un rastreador Fokus flotante fuera de la ventana principal con bloqueo, escala, opacidad, fuente y estilos con marco o solo texto.",
                 "Fokus ahora puede seguir objetivos de la Gran Cámara, abismos, caza de presas y conocimiento de profesión junto a las filas normales de misiones.",
                 "Añadido Stat Focus para colorear y ordenar las estadísticas secundarias importantes según la clase y especialización directamente en los tooltips de objetos.",
@@ -691,8 +691,8 @@ local esMX = {
     FEATURES_STATUS_NEXT_UP = "Próximo",
     FEATURES_TOGGLE_ON = "Activo",
     FEATURES_TOGGLE_OFF = "Inactivo",
-    FEATURES_TOOLTIP_ENABLE = "Clic izquierdo: activar función",
-    FEATURES_TOOLTIP_DISABLE = "Clic izquierdo: desactivar función",
+    FEATURES_TOOLTIP_ENABLE = "Clic izquierdo: Activar función",
+    FEATURES_TOOLTIP_DISABLE = "Clic izquierdo: Desactivar función",
     FEATURE_CATEGORY_PROGRESS = "Progreso",
     FEATURE_CATEGORY_PROGRESS_DESC = "Pequeñas ayudas de progreso.",
     FEATURE_CATEGORY_CHARACTER = "Personaje",
@@ -713,7 +713,7 @@ local esMX = {
     FEATURE_CATEGORY_EXPERIMENTAL_DESC = "Ideas tempranas que aún necesitan más pruebas.",
     FEATURE_PREY_BAR_TITLE = "Barra de progreso de presas",
     FEATURE_PREY_BAR_DESCRIPTION = "Muestra una barra de progreso de presas en la zona de caza.",
-    FEATURE_PREY_BAR_INITIAL_TEXT = "Primer módulo planeado: una barra limpia de progreso de presas que solo aparece durante una caza de presas activa en la zona correspondiente.",
+    FEATURE_PREY_BAR_INITIAL_TEXT = "Primer módulo planeado: Una barra limpia de progreso de presas que solo aparece durante una caza de presas activa en la zona correspondiente.",
     FEATURE_PREY_BAR_NOTE = "Solo visible durante una caza de presas activa. El botón de la IU de Blizzard muestra u oculta el símbolo de presa de Blizzard.",
     FEATURE_PREY_BAR_PREVIEW_LABEL = "Vista en vivo",
     FEATURE_PREY_BAR_PREVIEW_NOTE = "Barra fina de mundo con porcentaje, contexto de zona y progreso de misión.",
@@ -730,8 +730,8 @@ local esMX = {
     FEATURE_PREY_BAR_FRAME_SHOWN = "Marco",
     FEATURE_PREY_BAR_FRAME_HIDDEN = "Limpio",
     FEATURE_PREY_BAR_FRAME_TOOLTIP = "Muestra u oculta el fondo de la barra de presas.",
-    FEATURE_PREY_BAR_RUNTIME_TOOLTIP_DRAG = "Arrastrar izq.: mover",
-    FEATURE_PREY_BAR_RUNTIME_TOOLTIP_WHEEL = "Mayús + rueda: tamaño",
+    FEATURE_PREY_BAR_RUNTIME_TOOLTIP_DRAG = "Arrastrar izq.: Mover",
+    FEATURE_PREY_BAR_RUNTIME_TOOLTIP_WHEEL = "Mayús + rueda: Tamaño",
     FEATURE_PREY_HUNT_ICONS_TITLE = "Iconos de caza de presas",
     FEATURE_PREY_HUNT_ICONS_DESCRIPTION = "Sustituye los signos de exclamación de presas en el mapa por iconos personalizados. Desactívalo y usa /reload si los marcadores de Blizzard no vuelven de inmediato.",
     FEATURE_PREY_HUNT_ICONS_NOTE = "Calaveras, demonios y cabezas de jefe muestran la dificultad de la caza. El distintivo de trofeo significa que el objetivo aún cuenta para el logro.",
@@ -770,18 +770,18 @@ local esMX = {
     FEATURE_SPEC_SWITCHER_RUNTIME_LABEL = "Configuraciones",
     FEATURE_SPEC_SWITCHER_RUNTIME_EMPTY = "Sin configuraciones guardadas",
     FEATURE_SPEC_SWITCHER_RUNTIME_PENDING = "Cargando: %s",
-    FEATURE_SPEC_SWITCHER_RUNTIME_TOOLTIP_SWITCH = "Clic izquierdo: cambiar de especialización",
-    FEATURE_SPEC_SWITCHER_RUNTIME_TOOLTIP_CYCLE = "Clic izquierdo: recorrer configuraciones guardadas",
-    FEATURE_SPEC_SWITCHER_RUNTIME_TOOLTIP_OPEN = "Clic izquierdo: abrir configuraciones guardadas",
-    FEATURE_SPEC_SWITCHER_RUNTIME_TOOLTIP_MENU = "Clic derecho: abrir configuraciones guardadas",
-    FEATURE_SPEC_SWITCHER_RUNTIME_TOOLTIP_DRAG = "Arrastrar izq.: mover",
-    FEATURE_SPEC_SWITCHER_RUNTIME_TOOLTIP_WHEEL = "Mayús + rueda: tamaño",
+    FEATURE_SPEC_SWITCHER_RUNTIME_TOOLTIP_SWITCH = "Clic izquierdo: Cambiar de especialización",
+    FEATURE_SPEC_SWITCHER_RUNTIME_TOOLTIP_CYCLE = "Clic izquierdo: Recorrer configuraciones guardadas",
+    FEATURE_SPEC_SWITCHER_RUNTIME_TOOLTIP_OPEN = "Clic izquierdo: Abrir configuraciones guardadas",
+    FEATURE_SPEC_SWITCHER_RUNTIME_TOOLTIP_MENU = "Clic derecho: Abrir configuraciones guardadas",
+    FEATURE_SPEC_SWITCHER_RUNTIME_TOOLTIP_DRAG = "Arrastrar izq.: Mover",
+    FEATURE_SPEC_SWITCHER_RUNTIME_TOOLTIP_WHEEL = "Mayús + rueda: Tamaño",
     FEATURE_SPEC_SWITCHER_RUNTIME_TOOLTIP_COMBAT = "No disponible en combate",
     FEATURE_SPEC_SWITCHER_MENU_TITLE = "Configuraciones de %s",
     FEATURE_SPEC_SWITCHER_MENU_SUBTITLE = "Elige una configuración de talentos guardada.",
     FEATURE_SPEC_SWITCHER_MENU_EMPTY = "Aún no hay configuraciones guardadas para esta especialización.",
-    FEATURE_SPEC_SWITCHER_ERROR_SPEC_COMBAT = "Vaultloom: no se puede cambiar de especialización en combate.",
-    FEATURE_SPEC_SWITCHER_ERROR_LOADOUT_COMBAT = "Vaultloom: no se pueden cargar talentos en combate.",
+    FEATURE_SPEC_SWITCHER_ERROR_SPEC_COMBAT = "Vaultloom: No se puede cambiar de especialización en combate.",
+    FEATURE_SPEC_SWITCHER_ERROR_LOADOUT_COMBAT = "Vaultloom: No se pueden cargar talentos en combate.",
     FEATURE_TRAVEL_BAR_TITLE = "Barra de viaje",
     FEATURE_TRAVEL_BAR_DESCRIPTION = "Muestra una barra móvil de piedra de hogar y viajes con accesos inteligentes de teletransporte.",
     FEATURE_TRAVEL_BAR_NOTE = "El botón principal usa una piedra de hogar aleatoria. Los demás botones usan opciones directas como Dalaran, la ciudadela, viaje de clase y teletransportes extra.",
@@ -802,18 +802,18 @@ local esMX = {
     FEATURE_TRAVEL_BAR_CONFIG_TRAVEL = "Viaje",
     FEATURE_TRAVEL_BAR_CONFIG_BUTTON = "Botones",
     FEATURE_TRAVEL_BAR_CONFIG_OPEN_TOOLTIP = "Abre la lista de botones visibles.",
-    FEATURE_TRAVEL_BAR_RUNTIME_TOOLTIP_DRAG = "Arrastrar izq.: mover",
-    FEATURE_TRAVEL_BAR_RUNTIME_TOOLTIP_WHEEL = "Mayús + rueda: tamaño",
-    FEATURE_TRAVEL_BAR_RUNTIME_TOOLTIP_MENU_TRAVEL = "Clic izquierdo: abrir menú de viaje",
-    FEATURE_TRAVEL_BAR_RUNTIME_TOOLTIP_MENU_HEARTH = "Clic derecho: abrir menú de piedras de hogar",
-    FEATURE_TRAVEL_BAR_RUNTIME_TOOLTIP_MENU_SHIFT_HEARTH = "Mayús + clic izquierdo: menú de piedras de hogar",
-    FEATURE_TRAVEL_BAR_RUNTIME_TOOLTIP_BUTTON_MENU = "Clic derecho en un botón: abrir menú",
-    FEATURE_TRAVEL_BAR_RUNTIME_TOOLTIP_MAIN_USE = "Clic izquierdo: usar una piedra de hogar aleatoria",
-    FEATURE_TRAVEL_BAR_RUNTIME_TOOLTIP_MAIN_MENU = "Clic derecho: abrir menú de piedras de hogar",
-    FEATURE_TRAVEL_BAR_RUNTIME_TOOLTIP_DIRECT_USE = "Clic izquierdo: usar esta opción de viaje",
-    FEATURE_TRAVEL_BAR_RUNTIME_TOOLTIP_DIRECT_MENU = "Clic derecho: abrir menú de viaje",
-    FEATURE_TRAVEL_BAR_RUNTIME_TOOLTIP_MORE_USE = "Clic izquierdo: usar la opción de viaje seleccionada",
-    FEATURE_TRAVEL_BAR_RUNTIME_TOOLTIP_MORE_MENU = "Clic derecho: abrir menú de viaje",
+    FEATURE_TRAVEL_BAR_RUNTIME_TOOLTIP_DRAG = "Arrastrar izq.: Mover",
+    FEATURE_TRAVEL_BAR_RUNTIME_TOOLTIP_WHEEL = "Mayús + rueda: Tamaño",
+    FEATURE_TRAVEL_BAR_RUNTIME_TOOLTIP_MENU_TRAVEL = "Clic izquierdo: Abrir menú de viaje",
+    FEATURE_TRAVEL_BAR_RUNTIME_TOOLTIP_MENU_HEARTH = "Clic derecho: Abrir menú de piedras de hogar",
+    FEATURE_TRAVEL_BAR_RUNTIME_TOOLTIP_MENU_SHIFT_HEARTH = "Mayús + clic izquierdo: Menú de piedras de hogar",
+    FEATURE_TRAVEL_BAR_RUNTIME_TOOLTIP_BUTTON_MENU = "Clic derecho en un botón: Abrir menú",
+    FEATURE_TRAVEL_BAR_RUNTIME_TOOLTIP_MAIN_USE = "Clic izquierdo: Usar una piedra de hogar aleatoria",
+    FEATURE_TRAVEL_BAR_RUNTIME_TOOLTIP_MAIN_MENU = "Clic derecho: Abrir menú de piedras de hogar",
+    FEATURE_TRAVEL_BAR_RUNTIME_TOOLTIP_DIRECT_USE = "Clic izquierdo: Usar esta opción de viaje",
+    FEATURE_TRAVEL_BAR_RUNTIME_TOOLTIP_DIRECT_MENU = "Clic derecho: Abrir menú de viaje",
+    FEATURE_TRAVEL_BAR_RUNTIME_TOOLTIP_MORE_USE = "Clic izquierdo: Usar la opción de viaje seleccionada",
+    FEATURE_TRAVEL_BAR_RUNTIME_TOOLTIP_MORE_MENU = "Clic derecho: Abrir menú de viaje",
     FEATURE_TRAVEL_BAR_RUNTIME_TOOLTIP_DESTINATION = "Teletransporta a: %s",
     FEATURE_TRAVEL_BAR_RUNTIME_TOOLTIP_HOME = "Teletransporta a tu hogar: %s",
     FEATURE_TRAVEL_BAR_RUNTIME_TOOLTIP_HOME_GENERIC = "Teletransporta a tu hogar.",
@@ -828,11 +828,11 @@ local esMX = {
     FEATURE_TRAVEL_BAR_MENU_EDIT_DONE = "Listo",
     FEATURE_TRAVEL_BAR_MENU_STATE_SHOWN = "Activo",
     FEATURE_TRAVEL_BAR_MENU_STATE_HIDDEN = "Inactivo",
-    FEATURE_TRAVEL_BAR_MENU_EDIT_SHOW = "Clic izquierdo: mostrar en la barra",
-    FEATURE_TRAVEL_BAR_MENU_EDIT_HIDE = "Clic izquierdo: ocultar de la barra",
-    FEATURE_TRAVEL_BAR_ERROR_COMBAT = "Vaultloom: los menús de viaje no se pueden abrir en combate.",
-    FEATURE_TRAVEL_BAR_ERROR_KEEP_ONE_HEARTH = "Vaultloom: mantén visible al menos una piedra de hogar.",
-    FEATURE_TRAVEL_BAR_ERROR_KEEP_ONE_TRAVEL = "Vaultloom: mantén visible al menos una opción de viaje.",
+    FEATURE_TRAVEL_BAR_MENU_EDIT_SHOW = "Clic izquierdo: Mostrar en la barra",
+    FEATURE_TRAVEL_BAR_MENU_EDIT_HIDE = "Clic izquierdo: Ocultar de la barra",
+    FEATURE_TRAVEL_BAR_ERROR_COMBAT = "Vaultloom: Los menús de viaje no se pueden abrir en combate.",
+    FEATURE_TRAVEL_BAR_ERROR_KEEP_ONE_HEARTH = "Vaultloom: Mantén visible al menos una piedra de hogar.",
+    FEATURE_TRAVEL_BAR_ERROR_KEEP_ONE_TRAVEL = "Vaultloom: Mantén visible al menos una opción de viaje.",
     FEATURE_GEAR_ITEM_LEVEL_TITLE = "Nivel de objeto del equipo",
     FEATURE_GEAR_ITEM_LEVEL_DESCRIPTION = "Muestra el nivel de objeto directamente en tus ranuras de equipo.",
     FEATURE_GEAR_ITEM_LEVEL_NOTE = "Solo en la ventana de personaje. El botón Blanco / Coloreado cambia el color del número.",
@@ -845,7 +845,7 @@ local esMX = {
     FEATURE_GEAR_ITEM_LEVEL_STYLE_TOOLTIP = "Cambia el color de los números de nivel de objeto.",
     FEATURE_INVENTORY_TRACKER_TITLE = "Inventario Vaultloom",
     FEATURE_INVENTORY_TRACKER_DESCRIPTION = "Muestra en tooltips las cantidades guardadas de tus personajes, banco, banco de componentes, equipo y banco de banda.",
-    FEATURE_INVENTORY_TRACKER_NOTE = "Los escaneos usan eventos: bolsas tras actualizarse, banco solo abierto y tooltips con totales guardados.",
+    FEATURE_INVENTORY_TRACKER_NOTE = "Los escaneos usan eventos: Bolsas tras actualizarse, banco solo abierto y tooltips con totales guardados.",
     FEATURE_INVENTORY_TRACKER_PREVIEW_LABEL = "Tooltip de objeto",
     FEATURE_INVENTORY_TRACKER_PREVIEW_NOTE = "Totales por personaje con fuentes, resumen compacto o solo total.",
     FEATURE_INVENTORY_TRACKER_MODE_LABEL = "Tooltip",
@@ -893,7 +893,7 @@ local esMX = {
     FEATURE_SHOPPING_LIST_INPUT_PLACEHOLDER = "Pega enlace de objeto o ID",
     FEATURE_SHOPPING_LIST_DROP_TARGET = "Soltar objeto",
     FEATURE_SHOPPING_LIST_DROP_TOOLTIP = "Arrastra un objeto aquí para añadirlo a la lista de compra.",
-    FEATURE_SHOPPING_LIST_DROP_EMPTY = "Vaultloom: arrastra un objeto al cuadrado.",
+    FEATURE_SHOPPING_LIST_DROP_EMPTY = "Vaultloom: Arrastra un objeto al cuadrado.",
     FEATURE_SHOPPING_LIST_ADD = "Añadir",
     FEATURE_SHOPPING_LIST_ADD_RECIPE = "Receta",
     FEATURE_SHOPPING_LIST_RECIPE_BUTTON = "Lista de compra",
@@ -901,9 +901,9 @@ local esMX = {
     FEATURE_SHOPPING_LIST_AUCTION_BUTTON = "Añadir lista",
     FEATURE_SHOPPING_LIST_AUCTION_BUTTON_TOOLTIP = "Añade el objeto mostrado actualmente en la casa de subastas.",
     FEATURE_SHOPPING_LIST_MINI_BUTTON_TITLE = "Lista de compra",
-    FEATURE_SHOPPING_LIST_MINI_BUTTON_CLICK = "Clic izquierdo: abrir o cerrar",
-    FEATURE_SHOPPING_LIST_MINI_BUTTON_DRAG = "Arrastrar con clic izquierdo: mover",
-    FEATURE_SHOPPING_LIST_MINI_BUTTON_WHEEL = "Mayús + rueda: tamaño",
+    FEATURE_SHOPPING_LIST_MINI_BUTTON_CLICK = "Clic izquierdo: Abrir o cerrar",
+    FEATURE_SHOPPING_LIST_MINI_BUTTON_DRAG = "Arrastrar con clic izquierdo: Mover",
+    FEATURE_SHOPPING_LIST_MINI_BUTTON_WHEEL = "Mayús + rueda: Tamaño",
     FEATURE_SHOPPING_LIST_EMPTY = "Tu lista de compra está vacía.",
     FEATURE_SHOPPING_LIST_KIND_RECIPE = "Receta",
     FEATURE_SHOPPING_LIST_KIND_ITEM = "Objeto",
@@ -917,12 +917,12 @@ local esMX = {
     FEATURE_SHOPPING_LIST_REMOVE = "Quitar",
     FEATURE_SHOPPING_LIST_REMOVE_TOOLTIP = "Quita esta entrada.",
     FEATURE_SHOPPING_LIST_ADDED_FORMAT = "Vaultloom: %s añadido.",
-    FEATURE_SHOPPING_LIST_RECIPE_ADDED_FORMAT = "Vaultloom: receta %s añadida.",
-    FEATURE_SHOPPING_LIST_ERROR_FEATURE_DISABLED = "Vaultloom: activa primero la Lista de compra en Funciones.",
-    FEATURE_SHOPPING_LIST_ERROR_NO_ITEM = "Vaultloom: no se encontró enlace de objeto ni ID.",
-    FEATURE_SHOPPING_LIST_ERROR_NO_AUCTION_ITEM = "Vaultloom: no se encontró un objeto de la casa de subastas.",
-    FEATURE_SHOPPING_LIST_ERROR_NO_RECIPE = "Vaultloom: no se encontró una receta de profesión seleccionada.",
-    FEATURE_SHOPPING_LIST_ERROR_RECIPE_REAGENTS = "Vaultloom: no se encontraron componentes para esta receta.",
+    FEATURE_SHOPPING_LIST_RECIPE_ADDED_FORMAT = "Vaultloom: Receta %s añadida.",
+    FEATURE_SHOPPING_LIST_ERROR_FEATURE_DISABLED = "Vaultloom: Activa primero la Lista de compra en Funciones.",
+    FEATURE_SHOPPING_LIST_ERROR_NO_ITEM = "Vaultloom: No se encontró enlace de objeto ni ID.",
+    FEATURE_SHOPPING_LIST_ERROR_NO_AUCTION_ITEM = "Vaultloom: No se encontró un objeto de la casa de subastas.",
+    FEATURE_SHOPPING_LIST_ERROR_NO_RECIPE = "Vaultloom: No se encontró una receta de profesión seleccionada.",
+    FEATURE_SHOPPING_LIST_ERROR_RECIPE_REAGENTS = "Vaultloom: No se encontraron componentes para esta receta.",
     FEATURE_BAG_ITEM_LEVEL_TITLE = "Nivel de objeto en bolsas",
     FEATURE_BAG_ITEM_LEVEL_DESCRIPTION = "Muestra el nivel de objeto en equipo equipable de bolsas y banco.",
     FEATURE_BAG_ITEM_LEVEL_NOTE = "Visible en botones de objetos de bolsas y banco. El botón Blanco / Coloreado cambia el color del número.",
@@ -958,7 +958,7 @@ local esMX = {
     FEATURE_GEAR_SOCKET_ENCHANT_DESCRIPTION = "Muestra el estado de encantamiento y los iconos de ranura junto a tus ranuras de equipo.",
     FEATURE_GEAR_SOCKET_ENCHANT_NOTE = "Solo en la ventana de personaje.",
     FEATURE_GEAR_SOCKET_ENCHANT_PREVIEW_LABEL = "Marcadores laterales de equipo",
-    FEATURE_GEAR_SOCKET_ENCHANT_PREVIEW_NOTE = "Arriba: marca o x de encantamiento. Debajo: iconos de ranura y ranuras vacías.",
+    FEATURE_GEAR_SOCKET_ENCHANT_PREVIEW_NOTE = "Arriba: Marca o x de encantamiento. Debajo: Iconos de ranura y ranuras vacías.",
     FEATURE_GEAR_SOCKET_ENCHANT_TOGGLE_TOOLTIP = "Activa o desactiva los marcadores de encantamiento y ranura en tus ranuras de equipo.",
     FEATURE_GEAR_SOCKET_ENCHANT_EMPTY_SOCKET = "Ranura vacía",
     FEATURE_GEAR_SOCKET_ENCHANT_EMPTY_SOCKET_NOTE = "No hay gema insertada.",
@@ -1017,11 +1017,11 @@ local esMX = {
     FEATURE_BLIZZARD_WINDOW_MOVER_SCALE_ON = "Escala activa",
     FEATURE_BLIZZARD_WINDOW_MOVER_SCALE_OFF = "Escala inactiva",
     FEATURE_BLIZZARD_WINDOW_MOVER_SCALE_TOOLTIP = "Activa o desactiva Ctrl + rueda para escalar ventanas compatibles.",
-    FEATURE_BLIZZARD_WINDOW_MOVER_RESET_POSITION = "Vaultloom: posición de ventana restablecida.",
-    FEATURE_BLIZZARD_WINDOW_MOVER_RESET_SCALE = "Vaultloom: escala de ventana restablecida.",
+    FEATURE_BLIZZARD_WINDOW_MOVER_RESET_POSITION = "Vaultloom: Posición de ventana restablecida.",
+    FEATURE_BLIZZARD_WINDOW_MOVER_RESET_SCALE = "Vaultloom: Escala de ventana restablecida.",
     FEATURE_BLIZZARD_WINDOW_MOVER_COMPAT = "Vaultloom: BlizzMove está cargado, así que el movedor de ventanas de Vaultloom queda en pausa para evitar mover marcos dos veces.",
     FEATURE_STAT_FOCUS_TITLE = "Foco de atributos",
-    FEATURE_STAT_FOCUS_DESCRIPTION = "Muestra la prioridad de atributos de tu clase y especialización actuales en descripciones de objetos.\nColores: naranja = mejor o empatado como mejor, morado = segundo, azul = tercero, verde = cuarto.",
+    FEATURE_STAT_FOCUS_DESCRIPTION = "Muestra la prioridad de atributos de tu clase y especialización actuales en descripciones de objetos.\nColores: Naranja = mejor o empatado como mejor, morado = segundo, azul = tercero, verde = cuarto.",
     FEATURE_STAT_FOCUS_NOTE = "Los preajustes automáticos siguen tu clase y especialización actuales.",
     FEATURE_STAT_FOCUS_PREVIEW_LABEL = "Descripción de equipo",
     FEATURE_STAT_FOCUS_PREVIEW_NOTE = "Elige entre bloque, líneas de atributo coloreadas, ambos o una línea compacta.",
@@ -1098,10 +1098,10 @@ local esMX = {
     LABEL_PROGRESS = "Progreso",
     LABEL_RESET = "Reinicio",
     DAILY_RESET = "Reinicio diario",
-    MINIMAP_TOOLTIP_OPEN = "Clic izquierdo: abrir o cerrar IU",
-    MINIMAP_TOOLTIP_DRAG = "Arrastrar der.: mover botón",
-    MINIMAP_TOOLTIP_OPEN_SHORT = "Clic: abrir",
-    BROKER_TOOLTIP_MINIMAP_NOTE = "Consejo: oculta el botón del minimapa en las opciones de Vaultloom si solo quieres el lanzador broker.",
+    MINIMAP_TOOLTIP_OPEN = "Clic izquierdo: Abrir o cerrar IU",
+    MINIMAP_TOOLTIP_DRAG = "Arrastrar der.: Mover botón",
+    MINIMAP_TOOLTIP_OPEN_SHORT = "Clic izquierdo: Abrir",
+    BROKER_TOOLTIP_MINIMAP_NOTE = "Consejo: Oculta el botón del minimapa en las opciones de Vaultloom si solo quieres el lanzador broker.",
     PVE_PREY_TITLE = "Presas",
     PVE_PREY_SUBTITLE = "Objetivos de presa derrotados por dificultad, más la misión semanal vinculada.",
     PVE_PREY_SUBTITLE_ACTIVE = "Objetivos de presa derrotados por dificultad. Presa activa: %s.",
@@ -1293,7 +1293,7 @@ esMX.RAID_DIFFICULTY_HEROIC = "Heroica"
 esMX.RAID_DIFFICULTY_MYTHIC = "Mítica"
 esMX.RAID_JOURNAL_ALL_CLASSES = "Todas las clases"
 esMX.RAID_JOURNAL_CLASS_FILTER_PLAYER = "Clase: %s"
-esMX.RAID_JOURNAL_CLASS_FILTER_ALL = "Clase: todas las clases"
+esMX.RAID_JOURNAL_CLASS_FILTER_ALL = "Clase: Todas las clases"
 esMX.RAID_JOURNAL_CLASS_FILTER_MENU_TITLE = "Filtro de clase"
 esMX.RAID_JOURNAL_CLASS_FILTER_MENU_PLAYER = "Clase actual: %s"
 esMX.RAID_JOURNAL_CLASS_FILTER_MENU_ALL = "Todas las clases"
@@ -1319,7 +1319,7 @@ esMX.RAID_JOURNAL_TOOLTIP_NO_ITEM = "Aún no hay tooltip de objeto disponible."
 esMX.RAID_LOOT_TRACKER_NONE = "Sin seguimiento"
 esMX.RAID_LOOT_TRACKER_WISH = "En lista"
 esMX.RAID_LOOT_TRACKER_OBTAINED = "Obtenido"
-esMX.RAID_LOOT_TRACKER_CLICK = "Clic izquierdo: cambiar estado"
+esMX.RAID_LOOT_TRACKER_CLICK = "Clic izquierdo: Cambiar estado"
 esMX.RAID_LOOT_TRACKER_CONTEXT = "Para %s en %s"
 esMX.RAID_LOOT_TRACKER_WISH_COUNT = "Deseados: %d"
 esMX.RAID_LOOT_TRACKER_OBTAINED_COUNT = "Obtenidos: %d"
@@ -1328,8 +1328,8 @@ esMX.WISHLIST_BUTTON = "Deseos"
 esMX.WISHLIST_TITLE = "Lista de deseos"
 esMX.WISHLIST_SUBTITLE = "Todo el botín deseado para el personaje seleccionado en bandas y calabozos."
 esMX.WISHLIST_BUTTON_SUMMARY = "%d deseados  |  %d obtenidos"
-esMX.WISHLIST_BUTTON_OPEN = "Clic izquierdo: abrir lista de deseos"
-esMX.WISHLIST_BUTTON_CLOSE = "Clic izquierdo: cerrar lista de deseos"
+esMX.WISHLIST_BUTTON_OPEN = "Clic izquierdo: Abrir lista de deseos"
+esMX.WISHLIST_BUTTON_CLOSE = "Clic izquierdo: Cerrar lista de deseos"
 esMX.WISHLIST_SUMMARY_CHARACTER = "%d objetos deseados para %s-%s"
 esMX.WISHLIST_SUMMARY_BREAKDOWN = "Bandas %d  |  Calabozos %d"
 esMX.WISHLIST_EMPTY = "Aún no hay objetos deseados. Usa el icono de seguimiento en las filas de botín para añadir objetos aquí."
@@ -1458,7 +1458,7 @@ esMX.FEATURE_QUIET_LOOT_MENU_TOAST_SIZE_FORMAT = "Tamano popup: %d%%"
 esMX.FEATURE_QUIET_LOOT_MENU_RESET_LOOT = "Reiniciar ventana"
 esMX.FEATURE_QUIET_LOOT_MENU_RESET_TOASTS = "Reiniciar posicion popup"
 esMX.FEATURE_QUIET_LOOT_MENU_HIDE_TEST = "Ocultar prueba"
-esMX.FEATURE_QUIET_LOOT_TEST_HINT = "Modo de prueba Botin discreto: arrastra la ventana de botin o las filas popup para guardar su posicion. Clic derecho abre este menu."
+esMX.FEATURE_QUIET_LOOT_TEST_HINT = "Modo de prueba Botin discreto: Arrastra la ventana de botin o las filas popup para guardar su posicion. Clic derecho abre este menu."
 esMX.FEATURE_QUIET_LOOT_ANCHOR_LABEL = "Ancla"
 esMX.FEATURE_QUIET_LOOT_SETTING_ON = "Activado"
 esMX.FEATURE_QUIET_LOOT_SETTING_OFF = "Desactivado"
@@ -1512,15 +1512,15 @@ esMX.FEATURE_MERCHANT_FILTERS_TAG_KNOWN = "Conocido"
 esMX.FEATURE_MERCHANT_FILTERS_TAG_NO_MONEY = "No comprable"
 esMX.FEATURE_MERCHANT_FILTERS_TAG_OTHER_PROFESSION = "Otra profesión"
 esMX.FEATURE_MERCHANT_FILTERS_COMPAT = "Vaultloom: VendorFilter está cargado. Desactívalo antes de usar los filtros de vendedor de Vaultloom."
-esMX.FEATURE_MERCHANT_FILTERS_SAVE_OFF = "Recordar: desactivado"
-esMX.FEATURE_MERCHANT_FILTERS_SAVE_MERCHANT = "Recordar: vendedor"
-esMX.FEATURE_MERCHANT_FILTERS_SAVE_GLOBAL = "Recordar: global"
+esMX.FEATURE_MERCHANT_FILTERS_SAVE_OFF = "Recordar: Desactivado"
+esMX.FEATURE_MERCHANT_FILTERS_SAVE_MERCHANT = "Recordar: Vendedor"
+esMX.FEATURE_MERCHANT_FILTERS_SAVE_GLOBAL = "Recordar: Global"
 esMX.FEATURE_MERCHANT_FILTERS_EMPTY_BUYBACK = "Sin objetos de recompra."
 esMX.FEATURE_MERCHANT_FILTERS_SELL_JUNK = "Vender basura"
 esMX.FEATURE_MERCHANT_FILTERS_SELL_JUNK_COUNT_FORMAT = "Basura (%d)"
 esMX.FEATURE_MERCHANT_FILTERS_SELLING_JUNK = "Vendiendo..."
 esMX.FEATURE_MERCHANT_FILTERS_SOLD_JUNK_FORMAT = "%d objetos vendidos por %s."
-esMX.FEATURE_MERCHANT_FILTERS_CLASS_ALL = "Clase: todas"
+esMX.FEATURE_MERCHANT_FILTERS_CLASS_ALL = "Clase: Todas"
 esMX.FEATURE_MERCHANT_FILTERS_CLASS_PLAYER_FORMAT = "Clase: %s"
 esMX.FEATURE_MERCHANT_FILTERS_TAG_OTHER_CLASS = "Otra clase"
 esMX.FEATURE_MERCHANT_FILTERS_HIDE_GEAR_ALL = "Ocultar equipo"
@@ -1601,10 +1601,10 @@ esMX.FEATURE_GATHERING_NODES_BUTTON_TITLE = "Nodos de recoleccion"
 esMX.FEATURE_GATHERING_NODES_BUTTON_ON = "Marcadores activos"
 esMX.FEATURE_GATHERING_NODES_BUTTON_OFF = "Marcadores inactivos"
 esMX.FEATURE_GATHERING_NODES_BUTTON_COUNT_FORMAT = "%d nodos guardados"
-esMX.FEATURE_GATHERING_NODES_BUTTON_CLICK = "Clic izquierdo: mostrar u ocultar marcadores"
-esMX.FEATURE_GATHERING_NODES_BUTTON_FILTERS = "Clic derecho: filtros"
-esMX.FEATURE_GATHERING_NODES_BUTTON_DRAG = "Arrastrar izq.: mover"
-esMX.FEATURE_GATHERING_NODES_BUTTON_WHEEL = "Mayus + rueda: tamano"
+esMX.FEATURE_GATHERING_NODES_BUTTON_CLICK = "Clic izquierdo: Mostrar u ocultar marcadores"
+esMX.FEATURE_GATHERING_NODES_BUTTON_FILTERS = "Clic derecho: Filtros"
+esMX.FEATURE_GATHERING_NODES_BUTTON_DRAG = "Arrastrar izq.: Mover"
+esMX.FEATURE_GATHERING_NODES_BUTTON_WHEEL = "Mayus + rueda: Tamano"
 esMX.FEATURE_GATHERING_NODES_OPTIONS_TITLE = "Filtros de recoleccion"
 esMX.FEATURE_GATHERING_NODES_OPTIONS_EMPTY = "Aun no hay nodos guardados."
 esMX.FEATURE_GATHERING_NODES_OPTIONS_COUNT_FORMAT = "%d nodos"
@@ -1661,7 +1661,7 @@ esMX.COMPENDIUM_STAT_MISSING = "Faltan: %d"
 esMX.COMPENDIUM_STAT_OWNED = "Hecho: %d"
 esMX.COMPENDIUM_STAT_WAYPOINTS = "Puntos: %d"
 esMX.COMPENDIUM_FILTER_CATEGORIES = "Categorias"
-esMX.COMPENDIUM_SIDEBAR_HINT = "Consejo: haz clic en el icono de punto de una entrada para poner un punto de ruta de Blizzard."
+esMX.COMPENDIUM_SIDEBAR_HINT = "Consejo: Haz clic en el icono de punto de una entrada para poner un punto de ruta de Blizzard."
 esMX.COMPENDIUM_DECORATION_CATALOG_HINT = "Los recuentos de decoraciones vienen del catalogo de vivienda de Blizzard. Si siguen como desconocidos al entrar, abre una vez el panel de vivienda y pulsa Actualizar. Vaultloom guarda los recuentos conocidos por personaje."
 esMX.COMPENDIUM_SEARCH_PLACEHOLDER = "Buscar coleccion..."
 esMX.COMPENDIUM_FILTER_STATUS_MISSING = "Faltan"
@@ -1693,13 +1693,13 @@ esMX.COMPENDIUM_ACHIEVEMENT_ID_FORMAT = "Logro %d"
 esMX.COMPENDIUM_SOURCE_DROP_FROM_FORMAT = "Botín de: %s"
 esMX.COMPENDIUM_DETAIL_CURRENTLY_UNAVAILABLE = "No disponible actualmente"
 esMX.COMPENDIUM_DETAIL_PREPATCH_CURRENTLY_UNAVAILABLE = "Evento de preparche - no disponible actualmente"
-esMX.COMPENDIUM_DETAIL_MIDNIGHT_SEASON_1_PVP_REWARD = "Midnight: temporada 1 - recompensa de temporada de arena puntuado y campos de batalla puntuados"
+esMX.COMPENDIUM_DETAIL_MIDNIGHT_SEASON_1_PVP_REWARD = "Midnight: Temporada 1 - recompensa de temporada de arena puntuado y campos de batalla puntuados"
 esMX.COMPENDIUM_DETAIL_VOIDSTORM_FISHING = "Pesca de Tormenta del Vacío"
-esMX.COMPENDIUM_DETAIL_RITUAL_TREASURE_RARE_SPOILS = "Sitios rituales: tesoros y botín de raros"
+esMX.COMPENDIUM_DETAIL_RITUAL_TREASURE_RARE_SPOILS = "Sitios rituales: Tesoros y botín de raros"
 esMX.COMPENDIUM_DETAIL_RITUAL_DAGGERSPINE_POINT = "Sitio ritual: Punta Espinafilada"
 esMX.COMPENDIUM_DETAIL_RITUAL_BROKEN_THRONE = "Sitio ritual: Trono Roto"
 esMX.COMPENDIUM_DETAIL_DECOR_DUEL = "Duelo de decoración"
-esMX.COMPENDIUM_DETAIL_KEYSTONE_MYTH_UNLOCK = "Desbloqueo: logro Mito de piedra angular"
+esMX.COMPENDIUM_DETAIL_KEYSTONE_MYTH_UNLOCK = "Desbloqueo: Logro Mito de piedra angular"
 esMX.COMPENDIUM_DETAIL_DELVER_JOURNEY_RANK_5 = "Rango 5 del Viaje del explorador"
 esMX.COMPENDIUM_DETAIL_PREY_NIGHTMARE_MODE_III = "Logro: Prey: Nightmare Mode III"
 esMX.COMPENDIUM_DETAIL_ABUNDANCE_WORLD_EVENT = "Evento del mundo Abundance"

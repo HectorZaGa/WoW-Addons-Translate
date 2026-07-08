@@ -1142,6 +1142,10 @@ L["WRAP_WITH"] = "Envolver con"
 L["X_CHARACTERS_SHOWN"] = "%s personajes mostrados"
 
 
+
+-- [INICIO INTEGRACIÓN EDIT/ESMX] --
+
+-- [INICIO INTEGRACIÓN EDIT/ESMX] --
 local L = Locales.esMX
 
 L["SYNDICATOR"] = "Syndicator"
@@ -1329,7 +1333,7 @@ L["ITEM_LEVEL_RANGE"] = "Rango, -"
 L["ITEM_LEVEL_EQUALS"] = "Igual a, ="
 L["AUCTION_LOWER"] = "subasta"
 L["AUCTION_VALUE"] = "Valor de subasta"
-
+-- [FIN INTEGRACIÓN EDIT/ESMX] --
 
 local L = Locales.zhTW
 L["ALL_CHARACTERS_COLON"] = "全部角色："
