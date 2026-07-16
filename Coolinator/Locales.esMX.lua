@@ -43,7 +43,6 @@ L["CLOSE_DESIGNER"] = "Close Designer"
 L["INCOMPATIBLE_WIDGET_TYPE"] = "Incompatible widget type"
 L["BEHAVIOUR"] = "Behaviour"
 L["REMOVE_SPACING_FOR_HIDDEN_ICONS"] = "Remove spacing for hidden icons"
-L["FADE_WHEN_MOUNTED"] = "Fade when mounted"
 L["USE_BLIZZARD_WIDGETS"] = "Use Blizzard widgets (no styling)"
 L["SHOW_KEYBINDINGS"] = "Show keybindings"
 L["MOUSE_BUTTON_X"] = "M%s"
@@ -71,6 +70,9 @@ L["DURATION"] = "Duration"
 L["NAME"] = "Name"
 L["VALUE"] = "Value"
 L["ARCANE_FLURRY"] = "Arcane Flurry"
+L["COUNT"] = "Count"
+L["KEYBINDING"] = "Keybinding"
+L["START"] = "Start"
 
 L["ENTER_PROFILE_NAME"] = "Enter Profile Name:"
 L["ENTER_DESIGN_NAME"] = "Enter Profile Name:"
@@ -184,6 +186,10 @@ L["EMPOWERED_STAGE_2"] = "Empowered stage 2"
 L["EMPOWERED_STAGE_3"] = "Empowered stage 3"
 L["EMPOWERED_STAGE_HOLD"] = "Empowered stage hold"
 L["HIDE_WHEN_READY"] = "Hide when ready"
+L["DISPLAY"] = "Display"
+L["ELAPSED"] = "Elapsed"
+L["REMAINING"] = "Remaining"
+L["TOTAL"] = "Total"
 
 L["PLEASE_RELOAD_TO_GET_COOLINATOR_WORKING_REASON_X"] = "Please reload to get Coolinator working. Reason (%s)"
 L["DUE_TO_AURA_BARS_CHANGING_RELOAD_REQUIRED"] = "Due to aura bars changing a reload is required for Coolinator function"
@@ -234,6 +240,34 @@ L["ENTER_PRESET_NAME"] = "Enter preset name:"
 L["DETACH_PRESET"] = "Detach Preset"
 L["NONE_SET"] = "None set"
 
+L["HIDE_OUT_OF_COMBAT"] = "Hide out of combat"
+L["HIDE_WHEN_MOUNTED"] = "Hide when mounted"
+L["FADE_OUT_OF_COMBAT"] = "Fade out of combat"
+L["FADE_WHEN_MOUNTED"] = "Fade when mounted"
+L["VISIBILITY"] = "Visibility"
+L["CUSTOM"] = "Custom"
+L["COMBAT"] = "Combat"
+L["MOUNT"] = "Mount"
+L["TARGET"] = "Target"
+L["LOCATION"] = "Location"
+L["IN_COMBAT"] = "In Combat"
+L["OUT_OF_COMBAT"] = "Out of Combat"
+L["ON_MOUNT"] = "On Mount"
+L["OFF_MOUNT"] = "Off Mount"
+L["SKYRIDING_ZONE"] = "Skyriding Zone"
+L["HAS_TARGET"] = "Has Target"
+L["NO_TARGET"] = "No Target"
+L["WORLD"] = "World"
+L["DUNGEON"] = "Dungeon"
+L["RAID"] = "Raid"
+L["PVP"] = "PvP"
+L["DELVE"] = "Delve"
+L["ACTION"] = "Action"
+L["SITUATION"] = "Situation"
+L["SHOW"] = "Show"
+L["HIDE"] = "Hide"
+L["FADE"] = "Fade"
+
 L["THANKS_FOR_USING_COOLINATOR_DONATE"] = "Thanks for using Coolinator. Consider donating to support development"
 
 local L = Locales.frFR
@@ -245,6 +279,8 @@ L["ABILITY_BAR"] = "Ability Bar"
 L["ABILITY_CHARGE"] = "Ability Charge"
 --[[Translation missing --]]
 L["ABILITY_CHARGES"] = "Ability Charges"
+--[[Translation missing --]]
+L["ACTION"] = "Action"
 --[[Translation missing --]]
 L["ADD"] = "Add"
 --[[Translation missing --]]
@@ -328,6 +364,8 @@ L["COLOR"] = "Color"
 --[[Translation missing --]]
 L["COLORS"] = "Colors"
 --[[Translation missing --]]
+L["COMBAT"] = "Combat"
+--[[Translation missing --]]
 L["COMPLETED"] = "Completed"
 --[[Translation missing --]]
 L["CONFIRM_DELETE_DESIGN_X"] = "Are you sure you want to delete design \"%s\"?"
@@ -340,9 +378,13 @@ L["COOLDOWN"] = "Cooldown"
 --[[Translation missing --]]
 L["COOLINATOR"] = "Coolinator"
 --[[Translation missing --]]
+L["COUNT"] = "Count"
+--[[Translation missing --]]
 L["CREATE_PRESET"] = "Create Preset"
 --[[Translation missing --]]
 L["CTRL_C_TO_COPY"] = "Ctrl+C to copy"
+--[[Translation missing --]]
+L["CUSTOM"] = "Custom"
 --[[Translation missing --]]
 L["CUSTOMISE_COOLINATOR"] = "Customise Coolinator"
 --[[Translation missing --]]
@@ -358,6 +400,8 @@ L["DEFAULT"] = "Default"
 --[[Translation missing --]]
 L["DELETE"] = "Delete"
 --[[Translation missing --]]
+L["DELVE"] = "Delve"
+--[[Translation missing --]]
 L["DESATURATE_ON_COOLDOWN"] = "Desaturate on cooldown"
 --[[Translation missing --]]
 L["DESIGN"] = "Design"
@@ -370,13 +414,19 @@ L["DEVELOPMENT_IS_TIME_CONSUMING"] = "|cff04cca4Development takes a huge amount 
 --[[Translation missing --]]
 L["DISCORD_DESCRIPTION"] = "Updates, feature suggestions and support"
 --[[Translation missing --]]
+L["DISPLAY"] = "Display"
+--[[Translation missing --]]
 L["DONATE"] = "Donate"
 --[[Translation missing --]]
 L["DUE_TO_AURA_BARS_CHANGING_RELOAD_REQUIRED"] = "Due to aura bars changing a reload is required for Coolinator function"
 --[[Translation missing --]]
+L["DUNGEON"] = "Dungeon"
+--[[Translation missing --]]
 L["DURATION"] = "Duration"
 --[[Translation missing --]]
 L["EDIT_THE_ICONS_AND_BARS_ONSCREEN"] = "Edit the icons and bars onscreen by clicking on them"
+--[[Translation missing --]]
+L["ELAPSED"] = "Elapsed"
 --[[Translation missing --]]
 L["EMPOWERED_STAGE_1"] = "Empowered stage 1"
 --[[Translation missing --]]
@@ -406,6 +456,10 @@ L["ESSENTIAL"] = "Essential"
 --[[Translation missing --]]
 L["EXPORT"] = "Export"
 --[[Translation missing --]]
+L["FADE"] = "Fade"
+--[[Translation missing --]]
+L["FADE_OUT_OF_COMBAT"] = "Fade out of combat"
+--[[Translation missing --]]
 L["FADE_WHEN_MOUNTED"] = "Fade when mounted"
 --[[Translation missing --]]
 L["FONT"] = "Font"
@@ -422,9 +476,19 @@ L["GROUP"] = "Group"
 --[[Translation missing --]]
 L["GROW_FROM"] = "Grow from"
 --[[Translation missing --]]
+L["HAS_TARGET"] = "Has Target"
+--[[Translation missing --]]
 L["HEIGHT"] = "Height"
 --[[Translation missing --]]
+L["HIDE"] = "Hide"
+--[[Translation missing --]]
 L["HIDE_ON_COOLDOWN"] = "Hide on cooldown"
+--[[Translation missing --]]
+L["HIDE_OUT_OF_COMBAT"] = "Hide out of combat"
+--[[Translation missing --]]
+L["HIDE_WHEN_MOUNTED"] = "Hide when mounted"
+--[[Translation missing --]]
+L["HIDE_WHEN_READY"] = "Hide when ready"
 --[[Translation missing --]]
 L["HORIZONTAL"] = "Horizontal"
 --[[Translation missing --]]
@@ -437,6 +501,8 @@ L["ICON_POSITION"] = "Icon position"
 L["IMPORT"] = "Import"
 --[[Translation missing --]]
 L["IMPORTED_X"] = "Imported \"%s\""
+--[[Translation missing --]]
+L["IN_COMBAT"] = "In Combat"
 --[[Translation missing --]]
 L["INCOMPATIBLE_WIDGET_TYPE"] = "Incompatible widget type"
 --[[Translation missing --]]
@@ -454,15 +520,21 @@ L["ITEM"] = "Item"
 --[[Translation missing --]]
 L["JOIN_THE_DISCORD"] = "Join the Discord"
 --[[Translation missing --]]
+L["KEYBINDING"] = "Keybinding"
+--[[Translation missing --]]
 L["LAYOUT"] = "Layout"
 --[[Translation missing --]]
 L["LEFT"] = "Left"
 --[[Translation missing --]]
 L["LINK"] = "Link"
 --[[Translation missing --]]
+L["LOCATION"] = "Location"
+--[[Translation missing --]]
 L["MAELSTROM_WEAPON"] = "Maelstrom Weapon"
 --[[Translation missing --]]
 L["MAKE_NEW"] = "Make new"
+--[[Translation missing --]]
+L["MOUNT"] = "Mount"
 --[[Translation missing --]]
 L["MOUSE_BUTTON_X"] = "M%s"
 --[[Translation missing --]]
@@ -474,15 +546,23 @@ L["NEW_PROFILE_BLANK"] = "New Profile (blank)"
 --[[Translation missing --]]
 L["NEW_PROFILE_CLONE"] = "New Profile (clone current)"
 --[[Translation missing --]]
+L["NO_TARGET"] = "No Target"
+--[[Translation missing --]]
 L["NONE"] = "None"
 --[[Translation missing --]]
 L["NONE_SET"] = "None set"
 --[[Translation missing --]]
 L["NOTHING_IN_SLOT"] = "Nothing in slot"
 --[[Translation missing --]]
+L["OFF_MOUNT"] = "Off Mount"
+--[[Translation missing --]]
+L["ON_MOUNT"] = "On Mount"
+--[[Translation missing --]]
 L["OPEN_OPTIONS"] = "Open Options"
 --[[Translation missing --]]
 L["OPTIONS"] = "Options"
+--[[Translation missing --]]
+L["OUT_OF_COMBAT"] = "Out of Combat"
 --[[Translation missing --]]
 L["OVERWRITE"] = "Overwrite"
 --[[Translation missing --]]
@@ -504,9 +584,15 @@ L["PROFILE"] = "Profile"
 --[[Translation missing --]]
 L["PROFILES"] = "Profiles"
 --[[Translation missing --]]
+L["PVP"] = "PvP"
+--[[Translation missing --]]
+L["RAID"] = "Raid"
+--[[Translation missing --]]
 L["READY_BORDER_COLOR"] = "Ready border color"
 --[[Translation missing --]]
 L["READY_FOREGROUND_COLOR"] = "Ready foreground color"
+--[[Translation missing --]]
+L["REMAINING"] = "Remaining"
 --[[Translation missing --]]
 L["REMOVE_SPACING_FOR_HIDDEN_ICONS"] = "Remove spacing for hidden icons"
 --[[Translation missing --]]
@@ -530,6 +616,8 @@ L["SELECT_GROUP"] = "Select Group"
 --[[Translation missing --]]
 L["SETTING_CHANGED_THAT_REQUIRES_A_RELOAD"] = "Setting changed that requires a reload."
 --[[Translation missing --]]
+L["SHOW"] = "Show"
+--[[Translation missing --]]
 L["SHOW_FRACTIONS"] = "Show fractions"
 --[[Translation missing --]]
 L["SHOW_GCD_SWIPE"] = "Show GCD swipe"
@@ -545,6 +633,10 @@ L["SHOW_SHADOW"] = "Show shadow"
 L["SHOW_SWIPE"] = "Show swipe"
 --[[Translation missing --]]
 L["SHOW_TOOLTIPS"] = "Show tooltips"
+--[[Translation missing --]]
+L["SITUATION"] = "Situation"
+--[[Translation missing --]]
+L["SKYRIDING_ZONE"] = "Skyriding Zone"
 --[[Translation missing --]]
 L["SLASH_DESIGN"] = "design"
 --[[Translation missing --]]
@@ -568,9 +660,13 @@ L["SQUARE"] = "Square"
 --[[Translation missing --]]
 L["STACK"] = "Stack"
 --[[Translation missing --]]
+L["START"] = "Start"
+--[[Translation missing --]]
 L["STYLE"] = "Style"
 --[[Translation missing --]]
 L["SWIPE_COLOR"] = "Swipe color"
+--[[Translation missing --]]
+L["TARGET"] = "Target"
 --[[Translation missing --]]
 L["TEXTS"] = "Texts"
 --[[Translation missing --]]
@@ -594,6 +690,8 @@ L["TOP_LEFT"] = "Top Left"
 --[[Translation missing --]]
 L["TOP_RIGHT"] = "Top Right"
 --[[Translation missing --]]
+L["TOTAL"] = "Total"
+--[[Translation missing --]]
 L["TRANSPARENCY"] = "Transparency"
 --[[Translation missing --]]
 L["UNINTERRUPTABLE"] = "Uninterruptable"
@@ -612,6 +710,8 @@ L["VERSION_COLON_X"] = "Version: %s"
 --[[Translation missing --]]
 L["VERTICAL"] = "Vertical"
 --[[Translation missing --]]
+L["VISIBILITY"] = "Visibility"
+--[[Translation missing --]]
 L["VISIBLE"] = "Visible"
 --[[Translation missing --]]
 L["WARNING"] = "Warning"
@@ -623,6 +723,10 @@ L["WARNING_COLOR_FADED"] = "Warning color faded"
 L["WHAT_TO_EXPORT"] = "What to export?"
 --[[Translation missing --]]
 L["WIDTH"] = "Width"
+--[[Translation missing --]]
+L["WIDTH_RESTRICTION"] = "Width restriction"
+--[[Translation missing --]]
+L["WORLD"] = "World"
 
 
 local L = Locales.deDE
@@ -632,6 +736,8 @@ L["ABILITY_BAR"] = "Fähigkeitsleiste"
 L["ABILITY_CHARGE"] = "Ability Charge"
 --[[Translation missing --]]
 L["ABILITY_CHARGES"] = "Ability Charges"
+--[[Translation missing --]]
+L["ACTION"] = "Action"
 L["ADD"] = "hinzufügen"
 --[[Translation missing --]]
 L["ALIGN_X"] = "Align %s"
@@ -689,6 +795,8 @@ L["COLOR"] = "Farbe"
 --[[Translation missing --]]
 L["COLORS"] = "Colors"
 --[[Translation missing --]]
+L["COMBAT"] = "Combat"
+--[[Translation missing --]]
 L["COMPLETED"] = "Completed"
 --[[Translation missing --]]
 L["CONFIRM_DELETE_DESIGN_X"] = "Are you sure you want to delete design \"%s\"?"
@@ -698,8 +806,12 @@ L["CONFIRM_DELETE_PROFILE_X"] = "Bestätige Löschung Profil %s"
 L["COOLDOWN"] = "Abklingzeit"
 L["COOLINATOR"] = "Coolinator"
 --[[Translation missing --]]
+L["COUNT"] = "Count"
+--[[Translation missing --]]
 L["CREATE_PRESET"] = "Create Preset"
 L["CTRL_C_TO_COPY"] = "Strg+C zum kopieren"
+--[[Translation missing --]]
+L["CUSTOM"] = "Custom"
 L["CUSTOMISE_COOLINATOR"] = "Bearbeite Coolinator"
 L["CUSTOMISE_COOLINATOR_X"] = "Bearbeite Coolinator %s"
 --[[Translation missing --]]
@@ -713,6 +825,8 @@ L["DEFAULT"] = "Default"
 --[[Translation missing --]]
 L["DELETE"] = "Delete"
 --[[Translation missing --]]
+L["DELVE"] = "Delve"
+--[[Translation missing --]]
 L["DESATURATE_ON_COOLDOWN"] = "Desaturate on cooldown"
 L["DESIGN"] = "Design"
 --[[Translation missing --]]
@@ -724,13 +838,19 @@ L["DEVELOPMENT_IS_TIME_CONSUMING"] = "|cff04cca4Development takes a huge amount 
 --[[Translation missing --]]
 L["DISCORD_DESCRIPTION"] = "Updates, feature suggestions and support"
 --[[Translation missing --]]
+L["DISPLAY"] = "Display"
+--[[Translation missing --]]
 L["DONATE"] = "Donate"
 --[[Translation missing --]]
 L["DUE_TO_AURA_BARS_CHANGING_RELOAD_REQUIRED"] = "Due to aura bars changing a reload is required for Coolinator function"
 --[[Translation missing --]]
+L["DUNGEON"] = "Dungeon"
+--[[Translation missing --]]
 L["DURATION"] = "Duration"
 --[[Translation missing --]]
 L["EDIT_THE_ICONS_AND_BARS_ONSCREEN"] = "Edit the icons and bars onscreen by clicking on them"
+--[[Translation missing --]]
+L["ELAPSED"] = "Elapsed"
 --[[Translation missing --]]
 L["EMPOWERED_STAGE_1"] = "Empowered stage 1"
 --[[Translation missing --]]
@@ -760,6 +880,10 @@ L["ESSENTIAL"] = "Essential"
 --[[Translation missing --]]
 L["EXPORT"] = "Export"
 --[[Translation missing --]]
+L["FADE"] = "Fade"
+--[[Translation missing --]]
+L["FADE_OUT_OF_COMBAT"] = "Fade out of combat"
+--[[Translation missing --]]
 L["FADE_WHEN_MOUNTED"] = "Fade when mounted"
 --[[Translation missing --]]
 L["FONT"] = "Font"
@@ -776,9 +900,19 @@ L["GROUP"] = "Group"
 --[[Translation missing --]]
 L["GROW_FROM"] = "Grow from"
 --[[Translation missing --]]
+L["HAS_TARGET"] = "Has Target"
+--[[Translation missing --]]
 L["HEIGHT"] = "Height"
 --[[Translation missing --]]
+L["HIDE"] = "Hide"
+--[[Translation missing --]]
 L["HIDE_ON_COOLDOWN"] = "Hide on cooldown"
+--[[Translation missing --]]
+L["HIDE_OUT_OF_COMBAT"] = "Hide out of combat"
+--[[Translation missing --]]
+L["HIDE_WHEN_MOUNTED"] = "Hide when mounted"
+--[[Translation missing --]]
+L["HIDE_WHEN_READY"] = "Hide when ready"
 --[[Translation missing --]]
 L["HORIZONTAL"] = "Horizontal"
 --[[Translation missing --]]
@@ -791,6 +925,8 @@ L["ICON_POSITION"] = "Icon position"
 L["IMPORT"] = "Import"
 --[[Translation missing --]]
 L["IMPORTED_X"] = "Imported \"%s\""
+--[[Translation missing --]]
+L["IN_COMBAT"] = "In Combat"
 --[[Translation missing --]]
 L["INCOMPATIBLE_WIDGET_TYPE"] = "Incompatible widget type"
 --[[Translation missing --]]
@@ -808,15 +944,21 @@ L["ITEM"] = "Item"
 --[[Translation missing --]]
 L["JOIN_THE_DISCORD"] = "Join the Discord"
 --[[Translation missing --]]
+L["KEYBINDING"] = "Keybinding"
+--[[Translation missing --]]
 L["LAYOUT"] = "Layout"
 --[[Translation missing --]]
 L["LEFT"] = "Left"
 --[[Translation missing --]]
 L["LINK"] = "Link"
 --[[Translation missing --]]
+L["LOCATION"] = "Location"
+--[[Translation missing --]]
 L["MAELSTROM_WEAPON"] = "Maelstrom Weapon"
 --[[Translation missing --]]
 L["MAKE_NEW"] = "Make new"
+--[[Translation missing --]]
+L["MOUNT"] = "Mount"
 --[[Translation missing --]]
 L["MOUSE_BUTTON_X"] = "M%s"
 --[[Translation missing --]]
@@ -828,15 +970,23 @@ L["NEW_PROFILE_BLANK"] = "New Profile (blank)"
 --[[Translation missing --]]
 L["NEW_PROFILE_CLONE"] = "New Profile (clone current)"
 --[[Translation missing --]]
+L["NO_TARGET"] = "No Target"
+--[[Translation missing --]]
 L["NONE"] = "None"
 --[[Translation missing --]]
 L["NONE_SET"] = "None set"
 --[[Translation missing --]]
 L["NOTHING_IN_SLOT"] = "Nothing in slot"
 --[[Translation missing --]]
+L["OFF_MOUNT"] = "Off Mount"
+--[[Translation missing --]]
+L["ON_MOUNT"] = "On Mount"
+--[[Translation missing --]]
 L["OPEN_OPTIONS"] = "Open Options"
 --[[Translation missing --]]
 L["OPTIONS"] = "Options"
+--[[Translation missing --]]
+L["OUT_OF_COMBAT"] = "Out of Combat"
 --[[Translation missing --]]
 L["OVERWRITE"] = "Overwrite"
 --[[Translation missing --]]
@@ -858,9 +1008,15 @@ L["PROFILE"] = "Profile"
 --[[Translation missing --]]
 L["PROFILES"] = "Profiles"
 --[[Translation missing --]]
+L["PVP"] = "PvP"
+--[[Translation missing --]]
+L["RAID"] = "Raid"
+--[[Translation missing --]]
 L["READY_BORDER_COLOR"] = "Ready border color"
 --[[Translation missing --]]
 L["READY_FOREGROUND_COLOR"] = "Ready foreground color"
+--[[Translation missing --]]
+L["REMAINING"] = "Remaining"
 --[[Translation missing --]]
 L["REMOVE_SPACING_FOR_HIDDEN_ICONS"] = "Remove spacing for hidden icons"
 --[[Translation missing --]]
@@ -884,6 +1040,8 @@ L["SELECT_GROUP"] = "Select Group"
 --[[Translation missing --]]
 L["SETTING_CHANGED_THAT_REQUIRES_A_RELOAD"] = "Setting changed that requires a reload."
 --[[Translation missing --]]
+L["SHOW"] = "Show"
+--[[Translation missing --]]
 L["SHOW_FRACTIONS"] = "Show fractions"
 --[[Translation missing --]]
 L["SHOW_GCD_SWIPE"] = "Show GCD swipe"
@@ -899,6 +1057,10 @@ L["SHOW_SHADOW"] = "Show shadow"
 L["SHOW_SWIPE"] = "Show swipe"
 --[[Translation missing --]]
 L["SHOW_TOOLTIPS"] = "Show tooltips"
+--[[Translation missing --]]
+L["SITUATION"] = "Situation"
+--[[Translation missing --]]
+L["SKYRIDING_ZONE"] = "Skyriding Zone"
 --[[Translation missing --]]
 L["SLASH_DESIGN"] = "design"
 --[[Translation missing --]]
@@ -922,9 +1084,13 @@ L["SQUARE"] = "Square"
 --[[Translation missing --]]
 L["STACK"] = "Stack"
 --[[Translation missing --]]
+L["START"] = "Start"
+--[[Translation missing --]]
 L["STYLE"] = "Style"
 --[[Translation missing --]]
 L["SWIPE_COLOR"] = "Swipe color"
+--[[Translation missing --]]
+L["TARGET"] = "Target"
 --[[Translation missing --]]
 L["TEXTS"] = "Texts"
 --[[Translation missing --]]
@@ -948,6 +1114,8 @@ L["TOP_LEFT"] = "Top Left"
 --[[Translation missing --]]
 L["TOP_RIGHT"] = "Top Right"
 --[[Translation missing --]]
+L["TOTAL"] = "Total"
+--[[Translation missing --]]
 L["TRANSPARENCY"] = "Transparency"
 --[[Translation missing --]]
 L["UNINTERRUPTABLE"] = "Uninterruptable"
@@ -966,6 +1134,8 @@ L["VERSION_COLON_X"] = "Version: %s"
 --[[Translation missing --]]
 L["VERTICAL"] = "Vertical"
 --[[Translation missing --]]
+L["VISIBILITY"] = "Visibility"
+--[[Translation missing --]]
 L["VISIBLE"] = "Visible"
 --[[Translation missing --]]
 L["WARNING"] = "Warning"
@@ -977,6 +1147,10 @@ L["WARNING_COLOR_FADED"] = "Warning color faded"
 L["WHAT_TO_EXPORT"] = "What to export?"
 --[[Translation missing --]]
 L["WIDTH"] = "Width"
+--[[Translation missing --]]
+L["WIDTH_RESTRICTION"] = "Width restriction"
+--[[Translation missing --]]
+L["WORLD"] = "World"
 
 
 local L = Locales.ruRU
@@ -984,11 +1158,11 @@ L["ABILITY"] = "Способность"
 L["ABILITY_BAR"] = "Панель способностей"
 L["ABILITY_CHARGE"] = "Перезарядка способности"
 L["ABILITY_CHARGES"] = "Перезарядка способностей"
+L["ACTION"] = "Действие"
 L["ADD"] = "Добавить"
 L["ALIGN_X"] = "Выравнивание %s"
 L["ALIGNMENT"] = "Выравнивание"
---[[Translation missing --]]
-L["ARCANE_FLURRY"] = "Arcane Flurry"
+L["ARCANE_FLURRY"] = "Тайный шквал"
 L["ARE_YOU_SURE_CLEAR_ANCHORS"] = "Вы уверены, что хотите удалить сохраненные привязки?"
 L["AURA"] = "Аура"
 L["AURA_BAR"] = "Полоса аур"
@@ -1026,14 +1200,17 @@ L["CLASS"] = "Класс"
 L["CLOSE_DESIGNER"] = "Закрыть конструктор"
 L["COLOR"] = "Цвет"
 L["COLORS"] = "Цвета"
+L["COMBAT"] = "Бой"
 L["COMPLETED"] = "Завершено"
 L["CONFIRM_DELETE_DESIGN_X"] = "Вы уверены, что хотите удалить стиль \"%s\"?"
 L["CONFIRM_DELETE_PRESET_X"] = "Вы уверены, что хотите удалить шаблон \"%s\"? Это повлияет на ВСЕ стили."
 L["CONFIRM_DELETE_PROFILE_X"] = "Вы уверены, что хотите удалить профиль \"%s\"?"
 L["COOLDOWN"] = "Время перезарядки"
 L["COOLINATOR"] = "Coolinator"
+L["COUNT"] = "Счёт"
 L["CREATE_PRESET"] = "Создать шаблон"
 L["CTRL_C_TO_COPY"] = "Ctrl + C для копирования"
+L["CUSTOM"] = "Пользовательский"
 L["CUSTOMISE_COOLINATOR"] = "Настройка Coolinator"
 L["CUSTOMISE_COOLINATOR_X"] = "Настройка Coolinator: %s"
 L["DANGER"] = "Опасность"
@@ -1041,25 +1218,24 @@ L["DANGER_COLOR"] = "Цвет опасности"
 L["DANGER_COLOR_FADED"] = "Блеклый цвет опасности"
 L["DEFAULT"] = "По умолчанию"
 L["DELETE"] = "Удалить"
+L["DELVE"] = "Углубиться"
 L["DESATURATE_ON_COOLDOWN"] = "Обесцвечивается при перезарядке"
 L["DESIGN"] = "Дизайн"
 L["DESIGNER"] = "Конструктор"
 L["DETACH_PRESET"] = "Отсоединить шаблон"
 L["DEVELOPMENT_IS_TIME_CONSUMING"] = "|cff04cca4Разработка занимает огромное количество времени|r"
 L["DISCORD_DESCRIPTION"] = "Обновления, предложения и поддержка"
+L["DISPLAY"] = "Индикация"
 L["DONATE"] = "Пожертвовать"
 L["DUE_TO_AURA_BARS_CHANGING_RELOAD_REQUIRED"] = "Для изменения панелей аур Coolinator требуется перезагрузка"
---[[Translation missing --]]
-L["DURATION"] = "Duration"
+L["DUNGEON"] = "Подземелье"
+L["DURATION"] = "Продолжительность"
 L["EDIT_THE_ICONS_AND_BARS_ONSCREEN"] = "Редактируйте значки и полосы на экране, нажимая на них"
---[[Translation missing --]]
-L["EMPOWERED_STAGE_1"] = "Empowered stage 1"
---[[Translation missing --]]
-L["EMPOWERED_STAGE_2"] = "Empowered stage 2"
---[[Translation missing --]]
-L["EMPOWERED_STAGE_3"] = "Empowered stage 3"
---[[Translation missing --]]
-L["EMPOWERED_STAGE_HOLD"] = "Empowered stage hold"
+L["ELAPSED"] = "Истекать"
+L["EMPOWERED_STAGE_1"] = "Усиленная стадия 1"
+L["EMPOWERED_STAGE_2"] = "Усиленная стадия 2"
+L["EMPOWERED_STAGE_3"] = "Усиленная стадия 3"
+L["EMPOWERED_STAGE_HOLD"] = "Усиленная стадия удержания"
 L["ENABLE"] = "Включить"
 L["ENABLE_IF_LINES_FALLING_OFF_FONT"] = "Включить, если строки выходят за границы шрифта"
 L["ENTER_DESIGN_NAME"] = "Введите имя профиля:"
@@ -1070,7 +1246,9 @@ L["ENTER_THE_NEW_PROFILE_NAME"] = "Введите новое имя профил
 L["EQUIPMENT"] = "Снаряжение"
 L["ESSENTIAL"] = "Существенный"
 L["EXPORT"] = "Экспорт"
-L["FADE_WHEN_MOUNTED"] = "Скрывать на транспорте"
+L["FADE"] = "Выцветать"
+L["FADE_OUT_OF_COMBAT"] = "Выцветать вне боя"
+L["FADE_WHEN_MOUNTED"] = "Выцветать на транспорте"
 L["FONT"] = "Шрифт"
 L["FONT_SIZE"] = "Размер шрифта"
 L["FOREGROUND"] = "Передний план"
@@ -1078,15 +1256,20 @@ L["FOREGROUND_COLOR"] = "Цвет переднего плана"
 L["GENERAL"] = "Общее"
 L["GROUP"] = "Группа"
 L["GROW_FROM"] = "Рост"
+L["HAS_TARGET"] = "Имеет цель"
 L["HEIGHT"] = "Высота"
---[[Translation missing --]]
-L["HIDE_ON_COOLDOWN"] = "Hide on cooldown"
+L["HIDE"] = "Скрыть"
+L["HIDE_ON_COOLDOWN"] = "Скрыть на время перезарядки"
+L["HIDE_OUT_OF_COMBAT"] = "Скрыть вне боя"
+L["HIDE_WHEN_MOUNTED"] = "Скрыть на транспорте"
+L["HIDE_WHEN_READY"] = "Скрыть при готовности"
 L["HORIZONTAL"] = "Горизонтальное"
 L["ICICLES"] = "Сосулька"
 L["ICON"] = "Иконка"
 L["ICON_POSITION"] = "Положение иконки"
 L["IMPORT"] = "Импорт"
 L["IMPORTED_X"] = "Импортированный \"%s\""
+L["IN_COMBAT"] = "В бою"
 L["INCOMPATIBLE_WIDGET_TYPE"] = "Несовместимый тип виджета"
 L["INSERT"] = "Вставить"
 L["INTERRUPTED"] = "Прерывание"
@@ -1095,23 +1278,28 @@ L["INVALID_DESIGN_NAME"] = "Недопустимое название дизай
 L["INVALID_IMPORT"] = "Недопустимый импорт"
 L["ITEM"] = "Предмет"
 L["JOIN_THE_DISCORD"] = "Присоединиться к Discord"
+L["KEYBINDING"] = "Привязка клавиш"
 L["LAYOUT"] = "Расположение"
 L["LEFT"] = "Слева"
 L["LINK"] = "Ссылка"
+L["LOCATION"] = "Местоположение"
 L["MAELSTROM_WEAPON"] = "Оружие водоворота"
 L["MAKE_NEW"] = "Создать новый"
---[[Translation missing --]]
+L["MOUNT"] = "Транспорт"
 L["MOUSE_BUTTON_X"] = "M%s"
---[[Translation missing --]]
-L["NAME"] = "Name"
+L["NAME"] = "Название"
 L["NEW_DESIGN"] = "Новый стиль"
 L["NEW_PROFILE_BLANK"] = "Новый профиль (пустой)"
 L["NEW_PROFILE_CLONE"] = "Новый профиль (клонированный текущий)"
+L["NO_TARGET"] = "Нет цели"
 L["NONE"] = "Нет"
 L["NONE_SET"] = "Не установлено"
 L["NOTHING_IN_SLOT"] = "В слоте ничего нет"
+L["OFF_MOUNT"] = "Без транспорта"
+L["ON_MOUNT"] = "На транспорте"
 L["OPEN_OPTIONS"] = "Открыть настройки"
 L["OPTIONS"] = "Настройки"
+L["OUT_OF_COMBAT"] = "Вне боя"
 L["OVERWRITE"] = "Перезаписать"
 L["OVERWRITE_CURRENT_PROFILE"] = "Перезаписать текущий профиль?"
 L["PADDING"] = "Заполнение"
@@ -1122,14 +1310,14 @@ L["POTION_EFFECT"] = "Эффект Зелья"
 L["PRESET"] = "Шаблон"
 L["PROFILE"] = "Профиль"
 L["PROFILES"] = "Профили"
+L["PVP"] = "PvP"
+L["RAID"] = "Рейд"
 L["READY_BORDER_COLOR"] = "Цвет рамки при готовности"
---[[Translation missing --]]
-L["READY_FOREGROUND_COLOR"] = "Ready foreground color"
---[[Translation missing --]]
-L["REMOVE_SPACING_FOR_HIDDEN_ICONS"] = "Remove spacing for hidden icons"
+L["READY_FOREGROUND_COLOR"] = "Цвет готовности переднего плана"
+L["REMAINING"] = "Оставшийся "
+L["REMOVE_SPACING_FOR_HIDDEN_ICONS"] = "Удалить интервалы между скрытыми значками"
 L["RESET_SAVED_ANCHORS"] = "Сбросить сохраненные привязки"
---[[Translation missing --]]
-L["REVERSE"] = "Reverse"
+L["REVERSE"] = "Реверс"
 L["RIGHT"] = "Справа"
 L["SAFE"] = "Безопасный"
 L["SAFE_COLOR"] = "Безопасный цвет"
@@ -1138,6 +1326,7 @@ L["SAVE_ANCHOR"] = "Сохранить привязку"
 L["SCALE"] = "Масштаб"
 L["SELECT_GROUP"] = "Выберите группу"
 L["SETTING_CHANGED_THAT_REQUIRES_A_RELOAD"] = "Для изменения настроек, требуется перезагрузка."
+L["SHOW"] = "Показывать"
 L["SHOW_FRACTIONS"] = "Показывать доли"
 L["SHOW_GCD_SWIPE"] = "Показывать взмах GCD"
 L["SHOW_ICON"] = "Показать иконку"
@@ -1146,6 +1335,8 @@ L["SHOW_OUTLINE"] = "Показать контур"
 L["SHOW_SHADOW"] = "Показать тень"
 L["SHOW_SWIPE"] = "Показать взмах"
 L["SHOW_TOOLTIPS"] = "Показывать всплывающие подсказки"
+L["SITUATION"] = "Ситуация"
+L["SKYRIDING_ZONE"] = "Зона скайрайдинга"
 L["SLASH_DESIGN"] = "Стиль"
 L["SLASH_DESIGN_HELP"] = "Вход в режим Coolinator Designer / выход из него"
 L["SLASH_HELP"] = "Открыть настройки Coolinator"
@@ -1156,11 +1347,11 @@ L["SLASH_RESET_HELP"] = "Сбросьте все настройки Coolinator �
 L["SLASH_UNKNOWN_COMMAND"] = "Неизвестная команда '%s'"
 L["SPEC_MISMATCH_IN_BLIZZARD_CDM"] = "Несоответствие данных о специализации в Blizzard CDM"
 L["SQUARE"] = "Квадратный"
---[[Translation missing --]]
-L["STACK"] = "Stack"
+L["STACK"] = "Стопка"
+L["START"] = "Старт"
 L["STYLE"] = "Стиль"
---[[Translation missing --]]
-L["SWIPE_COLOR"] = "Swipe color"
+L["SWIPE_COLOR"] = "Цвет взмаха"
+L["TARGET"] = "Цель"
 L["TEXTS"] = "Тексты"
 L["TEXTURES"] = "Текстуры"
 L["THANKS_FOR_USING_COOLINATOR_DONATE"] = "Спасибо, что пользуетесь Coolinator. Подумайте о том, чтобы сделать пожертвование в поддержку разработки"
@@ -1172,22 +1363,25 @@ L["TO_OPEN_OPTIONS_X"] = "Доступ к настройкам с помощью
 L["TOP"] = "Вверх"
 L["TOP_LEFT"] = "Вверху слева"
 L["TOP_RIGHT"] = "Вверху справа"
+L["TOTAL"] = "Итог"
 L["TRANSPARENCY"] = "Прозрачность"
 L["UNINTERRUPTABLE"] = "Бесперебойный"
 L["UNLEARNED"] = "Необученный"
 L["USE_BLIZZARD_WIDGETS"] = "Используйте виджеты Blizzard (без оформления)"
 L["USE_MASQUE"] = "Использовать Masque"
 L["UTILITY"] = "Утилита"
---[[Translation missing --]]
-L["VALUE"] = "Value"
+L["VALUE"] = "Полезность"
 L["VERSION_COLON_X"] = "Версия: %s"
 L["VERTICAL"] = "Вертикальное"
+L["VISIBILITY"] = "Видимость"
 L["VISIBLE"] = "Видимость"
 L["WARNING"] = "Предупреждение"
 L["WARNING_COLOR"] = "Предупреждающий цвет"
 L["WARNING_COLOR_FADED"] = "Блеклый предупреждающий цвет"
 L["WHAT_TO_EXPORT"] = "Что экспортировать?"
 L["WIDTH"] = "Ширина"
+L["WIDTH_RESTRICTION"] = "Ограничение по ширине"
+L["WORLD"] = "Мир"
 
 
 local L = Locales.ptBR
@@ -1200,6 +1394,8 @@ L["ABILITY_CHARGE"] = "Ability Charge"
 --[[Translation missing --]]
 L["ABILITY_CHARGES"] = "Ability Charges"
 --[[Translation missing --]]
+L["ACTION"] = "Action"
+--[[Translation missing --]]
 L["ADD"] = "Add"
 --[[Translation missing --]]
 L["ALIGN_X"] = "Align %s"
@@ -1282,6 +1478,8 @@ L["COLOR"] = "Color"
 --[[Translation missing --]]
 L["COLORS"] = "Colors"
 --[[Translation missing --]]
+L["COMBAT"] = "Combat"
+--[[Translation missing --]]
 L["COMPLETED"] = "Completed"
 --[[Translation missing --]]
 L["CONFIRM_DELETE_DESIGN_X"] = "Are you sure you want to delete design \"%s\"?"
@@ -1294,9 +1492,13 @@ L["COOLDOWN"] = "Cooldown"
 --[[Translation missing --]]
 L["COOLINATOR"] = "Coolinator"
 --[[Translation missing --]]
+L["COUNT"] = "Count"
+--[[Translation missing --]]
 L["CREATE_PRESET"] = "Create Preset"
 --[[Translation missing --]]
 L["CTRL_C_TO_COPY"] = "Ctrl+C to copy"
+--[[Translation missing --]]
+L["CUSTOM"] = "Custom"
 --[[Translation missing --]]
 L["CUSTOMISE_COOLINATOR"] = "Customise Coolinator"
 --[[Translation missing --]]
@@ -1312,6 +1514,8 @@ L["DEFAULT"] = "Default"
 --[[Translation missing --]]
 L["DELETE"] = "Delete"
 --[[Translation missing --]]
+L["DELVE"] = "Delve"
+--[[Translation missing --]]
 L["DESATURATE_ON_COOLDOWN"] = "Desaturate on cooldown"
 --[[Translation missing --]]
 L["DESIGN"] = "Design"
@@ -1324,13 +1528,19 @@ L["DEVELOPMENT_IS_TIME_CONSUMING"] = "|cff04cca4Development takes a huge amount 
 --[[Translation missing --]]
 L["DISCORD_DESCRIPTION"] = "Updates, feature suggestions and support"
 --[[Translation missing --]]
+L["DISPLAY"] = "Display"
+--[[Translation missing --]]
 L["DONATE"] = "Donate"
 --[[Translation missing --]]
 L["DUE_TO_AURA_BARS_CHANGING_RELOAD_REQUIRED"] = "Due to aura bars changing a reload is required for Coolinator function"
 --[[Translation missing --]]
+L["DUNGEON"] = "Dungeon"
+--[[Translation missing --]]
 L["DURATION"] = "Duration"
 --[[Translation missing --]]
 L["EDIT_THE_ICONS_AND_BARS_ONSCREEN"] = "Edit the icons and bars onscreen by clicking on them"
+--[[Translation missing --]]
+L["ELAPSED"] = "Elapsed"
 --[[Translation missing --]]
 L["EMPOWERED_STAGE_1"] = "Empowered stage 1"
 --[[Translation missing --]]
@@ -1360,6 +1570,10 @@ L["ESSENTIAL"] = "Essential"
 --[[Translation missing --]]
 L["EXPORT"] = "Export"
 --[[Translation missing --]]
+L["FADE"] = "Fade"
+--[[Translation missing --]]
+L["FADE_OUT_OF_COMBAT"] = "Fade out of combat"
+--[[Translation missing --]]
 L["FADE_WHEN_MOUNTED"] = "Fade when mounted"
 --[[Translation missing --]]
 L["FONT"] = "Font"
@@ -1376,9 +1590,19 @@ L["GROUP"] = "Group"
 --[[Translation missing --]]
 L["GROW_FROM"] = "Grow from"
 --[[Translation missing --]]
+L["HAS_TARGET"] = "Has Target"
+--[[Translation missing --]]
 L["HEIGHT"] = "Height"
 --[[Translation missing --]]
+L["HIDE"] = "Hide"
+--[[Translation missing --]]
 L["HIDE_ON_COOLDOWN"] = "Hide on cooldown"
+--[[Translation missing --]]
+L["HIDE_OUT_OF_COMBAT"] = "Hide out of combat"
+--[[Translation missing --]]
+L["HIDE_WHEN_MOUNTED"] = "Hide when mounted"
+--[[Translation missing --]]
+L["HIDE_WHEN_READY"] = "Hide when ready"
 --[[Translation missing --]]
 L["HORIZONTAL"] = "Horizontal"
 --[[Translation missing --]]
@@ -1391,6 +1615,8 @@ L["ICON_POSITION"] = "Icon position"
 L["IMPORT"] = "Import"
 --[[Translation missing --]]
 L["IMPORTED_X"] = "Imported \"%s\""
+--[[Translation missing --]]
+L["IN_COMBAT"] = "In Combat"
 --[[Translation missing --]]
 L["INCOMPATIBLE_WIDGET_TYPE"] = "Incompatible widget type"
 --[[Translation missing --]]
@@ -1408,15 +1634,21 @@ L["ITEM"] = "Item"
 --[[Translation missing --]]
 L["JOIN_THE_DISCORD"] = "Join the Discord"
 --[[Translation missing --]]
+L["KEYBINDING"] = "Keybinding"
+--[[Translation missing --]]
 L["LAYOUT"] = "Layout"
 --[[Translation missing --]]
 L["LEFT"] = "Left"
 --[[Translation missing --]]
 L["LINK"] = "Link"
 --[[Translation missing --]]
+L["LOCATION"] = "Location"
+--[[Translation missing --]]
 L["MAELSTROM_WEAPON"] = "Maelstrom Weapon"
 --[[Translation missing --]]
 L["MAKE_NEW"] = "Make new"
+--[[Translation missing --]]
+L["MOUNT"] = "Mount"
 --[[Translation missing --]]
 L["MOUSE_BUTTON_X"] = "M%s"
 --[[Translation missing --]]
@@ -1428,15 +1660,23 @@ L["NEW_PROFILE_BLANK"] = "New Profile (blank)"
 --[[Translation missing --]]
 L["NEW_PROFILE_CLONE"] = "New Profile (clone current)"
 --[[Translation missing --]]
+L["NO_TARGET"] = "No Target"
+--[[Translation missing --]]
 L["NONE"] = "None"
 --[[Translation missing --]]
 L["NONE_SET"] = "None set"
 --[[Translation missing --]]
 L["NOTHING_IN_SLOT"] = "Nothing in slot"
 --[[Translation missing --]]
+L["OFF_MOUNT"] = "Off Mount"
+--[[Translation missing --]]
+L["ON_MOUNT"] = "On Mount"
+--[[Translation missing --]]
 L["OPEN_OPTIONS"] = "Open Options"
 --[[Translation missing --]]
 L["OPTIONS"] = "Options"
+--[[Translation missing --]]
+L["OUT_OF_COMBAT"] = "Out of Combat"
 --[[Translation missing --]]
 L["OVERWRITE"] = "Overwrite"
 --[[Translation missing --]]
@@ -1458,9 +1698,15 @@ L["PROFILE"] = "Profile"
 --[[Translation missing --]]
 L["PROFILES"] = "Profiles"
 --[[Translation missing --]]
+L["PVP"] = "PvP"
+--[[Translation missing --]]
+L["RAID"] = "Raid"
+--[[Translation missing --]]
 L["READY_BORDER_COLOR"] = "Ready border color"
 --[[Translation missing --]]
 L["READY_FOREGROUND_COLOR"] = "Ready foreground color"
+--[[Translation missing --]]
+L["REMAINING"] = "Remaining"
 --[[Translation missing --]]
 L["REMOVE_SPACING_FOR_HIDDEN_ICONS"] = "Remove spacing for hidden icons"
 --[[Translation missing --]]
@@ -1484,6 +1730,8 @@ L["SELECT_GROUP"] = "Select Group"
 --[[Translation missing --]]
 L["SETTING_CHANGED_THAT_REQUIRES_A_RELOAD"] = "Setting changed that requires a reload."
 --[[Translation missing --]]
+L["SHOW"] = "Show"
+--[[Translation missing --]]
 L["SHOW_FRACTIONS"] = "Show fractions"
 --[[Translation missing --]]
 L["SHOW_GCD_SWIPE"] = "Show GCD swipe"
@@ -1499,6 +1747,10 @@ L["SHOW_SHADOW"] = "Show shadow"
 L["SHOW_SWIPE"] = "Show swipe"
 --[[Translation missing --]]
 L["SHOW_TOOLTIPS"] = "Show tooltips"
+--[[Translation missing --]]
+L["SITUATION"] = "Situation"
+--[[Translation missing --]]
+L["SKYRIDING_ZONE"] = "Skyriding Zone"
 --[[Translation missing --]]
 L["SLASH_DESIGN"] = "design"
 --[[Translation missing --]]
@@ -1522,9 +1774,13 @@ L["SQUARE"] = "Square"
 --[[Translation missing --]]
 L["STACK"] = "Stack"
 --[[Translation missing --]]
+L["START"] = "Start"
+--[[Translation missing --]]
 L["STYLE"] = "Style"
 --[[Translation missing --]]
 L["SWIPE_COLOR"] = "Swipe color"
+--[[Translation missing --]]
+L["TARGET"] = "Target"
 --[[Translation missing --]]
 L["TEXTS"] = "Texts"
 --[[Translation missing --]]
@@ -1548,6 +1804,8 @@ L["TOP_LEFT"] = "Top Left"
 --[[Translation missing --]]
 L["TOP_RIGHT"] = "Top Right"
 --[[Translation missing --]]
+L["TOTAL"] = "Total"
+--[[Translation missing --]]
 L["TRANSPARENCY"] = "Transparency"
 --[[Translation missing --]]
 L["UNINTERRUPTABLE"] = "Uninterruptable"
@@ -1566,6 +1824,8 @@ L["VERSION_COLON_X"] = "Version: %s"
 --[[Translation missing --]]
 L["VERTICAL"] = "Vertical"
 --[[Translation missing --]]
+L["VISIBILITY"] = "Visibility"
+--[[Translation missing --]]
 L["VISIBLE"] = "Visible"
 --[[Translation missing --]]
 L["WARNING"] = "Warning"
@@ -1577,6 +1837,10 @@ L["WARNING_COLOR_FADED"] = "Warning color faded"
 L["WHAT_TO_EXPORT"] = "What to export?"
 --[[Translation missing --]]
 L["WIDTH"] = "Width"
+--[[Translation missing --]]
+L["WIDTH_RESTRICTION"] = "Width restriction"
+--[[Translation missing --]]
+L["WORLD"] = "World"
 
 
 local L = Locales.esES
@@ -1589,6 +1853,8 @@ L["ABILITY_CHARGE"] = "Ability Charge"
 --[[Translation missing --]]
 L["ABILITY_CHARGES"] = "Ability Charges"
 --[[Translation missing --]]
+L["ACTION"] = "Action"
+--[[Translation missing --]]
 L["ADD"] = "Add"
 --[[Translation missing --]]
 L["ALIGN_X"] = "Align %s"
@@ -1671,6 +1937,8 @@ L["COLOR"] = "Color"
 --[[Translation missing --]]
 L["COLORS"] = "Colors"
 --[[Translation missing --]]
+L["COMBAT"] = "Combat"
+--[[Translation missing --]]
 L["COMPLETED"] = "Completed"
 --[[Translation missing --]]
 L["CONFIRM_DELETE_DESIGN_X"] = "Are you sure you want to delete design \"%s\"?"
@@ -1683,9 +1951,13 @@ L["COOLDOWN"] = "Cooldown"
 --[[Translation missing --]]
 L["COOLINATOR"] = "Coolinator"
 --[[Translation missing --]]
+L["COUNT"] = "Count"
+--[[Translation missing --]]
 L["CREATE_PRESET"] = "Create Preset"
 --[[Translation missing --]]
 L["CTRL_C_TO_COPY"] = "Ctrl+C to copy"
+--[[Translation missing --]]
+L["CUSTOM"] = "Custom"
 --[[Translation missing --]]
 L["CUSTOMISE_COOLINATOR"] = "Customise Coolinator"
 --[[Translation missing --]]
@@ -1701,6 +1973,8 @@ L["DEFAULT"] = "Default"
 --[[Translation missing --]]
 L["DELETE"] = "Delete"
 --[[Translation missing --]]
+L["DELVE"] = "Delve"
+--[[Translation missing --]]
 L["DESATURATE_ON_COOLDOWN"] = "Desaturate on cooldown"
 --[[Translation missing --]]
 L["DESIGN"] = "Design"
@@ -1713,13 +1987,19 @@ L["DEVELOPMENT_IS_TIME_CONSUMING"] = "|cff04cca4Development takes a huge amount 
 --[[Translation missing --]]
 L["DISCORD_DESCRIPTION"] = "Updates, feature suggestions and support"
 --[[Translation missing --]]
+L["DISPLAY"] = "Display"
+--[[Translation missing --]]
 L["DONATE"] = "Donate"
 --[[Translation missing --]]
 L["DUE_TO_AURA_BARS_CHANGING_RELOAD_REQUIRED"] = "Due to aura bars changing a reload is required for Coolinator function"
 --[[Translation missing --]]
+L["DUNGEON"] = "Dungeon"
+--[[Translation missing --]]
 L["DURATION"] = "Duration"
 --[[Translation missing --]]
 L["EDIT_THE_ICONS_AND_BARS_ONSCREEN"] = "Edit the icons and bars onscreen by clicking on them"
+--[[Translation missing --]]
+L["ELAPSED"] = "Elapsed"
 --[[Translation missing --]]
 L["EMPOWERED_STAGE_1"] = "Empowered stage 1"
 --[[Translation missing --]]
@@ -1749,6 +2029,10 @@ L["ESSENTIAL"] = "Essential"
 --[[Translation missing --]]
 L["EXPORT"] = "Export"
 --[[Translation missing --]]
+L["FADE"] = "Fade"
+--[[Translation missing --]]
+L["FADE_OUT_OF_COMBAT"] = "Fade out of combat"
+--[[Translation missing --]]
 L["FADE_WHEN_MOUNTED"] = "Fade when mounted"
 --[[Translation missing --]]
 L["FONT"] = "Font"
@@ -1765,9 +2049,19 @@ L["GROUP"] = "Group"
 --[[Translation missing --]]
 L["GROW_FROM"] = "Grow from"
 --[[Translation missing --]]
+L["HAS_TARGET"] = "Has Target"
+--[[Translation missing --]]
 L["HEIGHT"] = "Height"
 --[[Translation missing --]]
+L["HIDE"] = "Hide"
+--[[Translation missing --]]
 L["HIDE_ON_COOLDOWN"] = "Hide on cooldown"
+--[[Translation missing --]]
+L["HIDE_OUT_OF_COMBAT"] = "Hide out of combat"
+--[[Translation missing --]]
+L["HIDE_WHEN_MOUNTED"] = "Hide when mounted"
+--[[Translation missing --]]
+L["HIDE_WHEN_READY"] = "Hide when ready"
 --[[Translation missing --]]
 L["HORIZONTAL"] = "Horizontal"
 --[[Translation missing --]]
@@ -1780,6 +2074,8 @@ L["ICON_POSITION"] = "Icon position"
 L["IMPORT"] = "Import"
 --[[Translation missing --]]
 L["IMPORTED_X"] = "Imported \"%s\""
+--[[Translation missing --]]
+L["IN_COMBAT"] = "In Combat"
 --[[Translation missing --]]
 L["INCOMPATIBLE_WIDGET_TYPE"] = "Incompatible widget type"
 --[[Translation missing --]]
@@ -1797,15 +2093,21 @@ L["ITEM"] = "Item"
 --[[Translation missing --]]
 L["JOIN_THE_DISCORD"] = "Join the Discord"
 --[[Translation missing --]]
+L["KEYBINDING"] = "Keybinding"
+--[[Translation missing --]]
 L["LAYOUT"] = "Layout"
 --[[Translation missing --]]
 L["LEFT"] = "Left"
 --[[Translation missing --]]
 L["LINK"] = "Link"
 --[[Translation missing --]]
+L["LOCATION"] = "Location"
+--[[Translation missing --]]
 L["MAELSTROM_WEAPON"] = "Maelstrom Weapon"
 --[[Translation missing --]]
 L["MAKE_NEW"] = "Make new"
+--[[Translation missing --]]
+L["MOUNT"] = "Mount"
 --[[Translation missing --]]
 L["MOUSE_BUTTON_X"] = "M%s"
 --[[Translation missing --]]
@@ -1817,15 +2119,23 @@ L["NEW_PROFILE_BLANK"] = "New Profile (blank)"
 --[[Translation missing --]]
 L["NEW_PROFILE_CLONE"] = "New Profile (clone current)"
 --[[Translation missing --]]
+L["NO_TARGET"] = "No Target"
+--[[Translation missing --]]
 L["NONE"] = "None"
 --[[Translation missing --]]
 L["NONE_SET"] = "None set"
 --[[Translation missing --]]
 L["NOTHING_IN_SLOT"] = "Nothing in slot"
 --[[Translation missing --]]
+L["OFF_MOUNT"] = "Off Mount"
+--[[Translation missing --]]
+L["ON_MOUNT"] = "On Mount"
+--[[Translation missing --]]
 L["OPEN_OPTIONS"] = "Open Options"
 --[[Translation missing --]]
 L["OPTIONS"] = "Options"
+--[[Translation missing --]]
+L["OUT_OF_COMBAT"] = "Out of Combat"
 --[[Translation missing --]]
 L["OVERWRITE"] = "Overwrite"
 --[[Translation missing --]]
@@ -1847,9 +2157,15 @@ L["PROFILE"] = "Profile"
 --[[Translation missing --]]
 L["PROFILES"] = "Profiles"
 --[[Translation missing --]]
+L["PVP"] = "PvP"
+--[[Translation missing --]]
+L["RAID"] = "Raid"
+--[[Translation missing --]]
 L["READY_BORDER_COLOR"] = "Ready border color"
 --[[Translation missing --]]
 L["READY_FOREGROUND_COLOR"] = "Ready foreground color"
+--[[Translation missing --]]
+L["REMAINING"] = "Remaining"
 --[[Translation missing --]]
 L["REMOVE_SPACING_FOR_HIDDEN_ICONS"] = "Remove spacing for hidden icons"
 --[[Translation missing --]]
@@ -1873,6 +2189,8 @@ L["SELECT_GROUP"] = "Select Group"
 --[[Translation missing --]]
 L["SETTING_CHANGED_THAT_REQUIRES_A_RELOAD"] = "Setting changed that requires a reload."
 --[[Translation missing --]]
+L["SHOW"] = "Show"
+--[[Translation missing --]]
 L["SHOW_FRACTIONS"] = "Show fractions"
 --[[Translation missing --]]
 L["SHOW_GCD_SWIPE"] = "Show GCD swipe"
@@ -1888,6 +2206,10 @@ L["SHOW_SHADOW"] = "Show shadow"
 L["SHOW_SWIPE"] = "Show swipe"
 --[[Translation missing --]]
 L["SHOW_TOOLTIPS"] = "Show tooltips"
+--[[Translation missing --]]
+L["SITUATION"] = "Situation"
+--[[Translation missing --]]
+L["SKYRIDING_ZONE"] = "Skyriding Zone"
 --[[Translation missing --]]
 L["SLASH_DESIGN"] = "design"
 --[[Translation missing --]]
@@ -1911,9 +2233,13 @@ L["SQUARE"] = "Square"
 --[[Translation missing --]]
 L["STACK"] = "Stack"
 --[[Translation missing --]]
+L["START"] = "Start"
+--[[Translation missing --]]
 L["STYLE"] = "Style"
 --[[Translation missing --]]
 L["SWIPE_COLOR"] = "Swipe color"
+--[[Translation missing --]]
+L["TARGET"] = "Target"
 --[[Translation missing --]]
 L["TEXTS"] = "Texts"
 --[[Translation missing --]]
@@ -1937,6 +2263,8 @@ L["TOP_LEFT"] = "Top Left"
 --[[Translation missing --]]
 L["TOP_RIGHT"] = "Top Right"
 --[[Translation missing --]]
+L["TOTAL"] = "Total"
+--[[Translation missing --]]
 L["TRANSPARENCY"] = "Transparency"
 --[[Translation missing --]]
 L["UNINTERRUPTABLE"] = "Uninterruptable"
@@ -1955,6 +2283,8 @@ L["VERSION_COLON_X"] = "Version: %s"
 --[[Translation missing --]]
 L["VERTICAL"] = "Vertical"
 --[[Translation missing --]]
+L["VISIBILITY"] = "Visibility"
+--[[Translation missing --]]
 L["VISIBLE"] = "Visible"
 --[[Translation missing --]]
 L["WARNING"] = "Warning"
@@ -1966,6 +2296,10 @@ L["WARNING_COLOR_FADED"] = "Warning color faded"
 L["WHAT_TO_EXPORT"] = "What to export?"
 --[[Translation missing --]]
 L["WIDTH"] = "Width"
+--[[Translation missing --]]
+L["WIDTH_RESTRICTION"] = "Width restriction"
+--[[Translation missing --]]
+L["WORLD"] = "World"
 
 
 
@@ -1997,7 +2331,6 @@ L["CLOSE_DESIGNER"] = "Cerrar diseñador"
 L["INCOMPATIBLE_WIDGET_TYPE"] = "Tipo de widget incompatible"
 L["BEHAVIOUR"] = "Comportamiento"
 L["REMOVE_SPACING_FOR_HIDDEN_ICONS"] = "Eliminar espacio para auras ocultas"
-L["FADE_WHEN_MOUNTED"] = "Desvanecer al montar"
 L["USE_BLIZZARD_WIDGETS"] = "Usar widgets de Blizzard (sin estilo)"
 L["SHOW_KEYBINDINGS"] = "Mostrar atajos de teclado"
 L["MOUSE_BUTTON_X"] = "M%s"
@@ -2025,9 +2358,12 @@ L["DURATION"] = "Duración"
 L["NAME"] = "Nombre"
 L["VALUE"] = "Valor"
 L["ARCANE_FLURRY"] = "Tormenta arcana"
+L["COUNT"] = "Contador"
+L["KEYBINDING"] = "Asignación de teclas"
+L["START"] = "Comenzar"
 
 L["ENTER_PROFILE_NAME"] = "Introduce el nombre del perfil:"
-L["ENTER_DESIGN_NAME"] = "Introduce el nombre del perfil:"
+L["ENTER_DESIGN_NAME"] = "Introduce el nombre del diseño:"
 L["PROFILES"] = "Perfiles"
 L["NEW_PROFILE_CLONE"] = "Nuevo perfil (clonar actual)"
 L["NEW_PROFILE_BLANK"] = "Nuevo perfil (vacío)"
@@ -2140,6 +2476,10 @@ L["EMPOWERED_STAGE_2"] = "Fase potenciada 2"
 L["EMPOWERED_STAGE_3"] = "Fase potenciada 3"
 L["EMPOWERED_STAGE_HOLD"] = "Mantener fase potenciada"
 L["HIDE_WHEN_READY"] = "Ocultar cuando está listo"
+L["DISPLAY"] = "Visualización"
+L["ELAPSED"] = "Transcurrido"
+L["REMAINING"] = "Restante"
+L["TOTAL"] = "Total"
 
 L["PLEASE_RELOAD_TO_GET_COOLINATOR_WORKING_REASON_X"] = "Recarga para que Coolinator funcione. Motivo (%s)"
 L["DUE_TO_AURA_BARS_CHANGING_RELOAD_REQUIRED"] = "Debido a cambios en las barras de auras, es necesaria una recarga para que Coolinator funcione"
@@ -2190,6 +2530,34 @@ L["ENTER_PRESET_NAME"] = "Introduce el nombre del preajuste:"
 L["DETACH_PRESET"] = "Desvincular preajuste"
 L["NONE_SET"] = "Ninguno establecido"
 
+L["HIDE_OUT_OF_COMBAT"] = "Ocultar fuera de combate"
+L["HIDE_WHEN_MOUNTED"] = "Ocultar cuando estás montado"
+L["FADE_OUT_OF_COMBAT"] = "Desvanecer fuera de combate"
+L["FADE_WHEN_MOUNTED"] = "Desvanecer cuando estás montado"
+L["VISIBILITY"] = "Visibilidad"
+L["CUSTOM"] = "Personalizado"
+L["COMBAT"] = "Combate"
+L["MOUNT"] = "Montura"
+L["TARGET"] = "Objetivo"
+L["LOCATION"] = "Ubicación"
+L["IN_COMBAT"] = "En combate"
+L["OUT_OF_COMBAT"] = "Fuera de combate"
+L["ON_MOUNT"] = "Montado"
+L["OFF_MOUNT"] = "Desmontado"
+L["SKYRIDING_ZONE"] = "Zona de vuelo dinámico"
+L["HAS_TARGET"] = "Con objetivo"
+L["NO_TARGET"] = "Sin objetivo"
+L["WORLD"] = "Mundo"
+L["DUNGEON"] = "Mazmorra"
+L["RAID"] = "Banda"
+L["PVP"] = "JcJ"
+L["DELVE"] = "Abismos"
+L["ACTION"] = "Acción"
+L["SITUATION"] = "Situación"
+L["SHOW"] = "Mostrar"
+L["HIDE"] = "Ocultar"
+L["FADE"] = "Desvanecer"
+
 L["THANKS_FOR_USING_COOLINATOR_DONATE"] = "Gracias por usar Coolinator. Considera donar para apoyar el desarrollo"
 -- [FIN INTEGRACIÓN EDIT/ESMX] --
 
@@ -2198,6 +2566,7 @@ L["ABILITY"] = "技能"
 L["ABILITY_BAR"] = "技能量條"
 L["ABILITY_CHARGE"] = "技能充能"
 L["ABILITY_CHARGES"] = "技能充能層數"
+L["ACTION"] = "動作"
 L["ADD"] = "新增"
 L["ALIGN_X"] = "對齊%s"
 L["ALIGNMENT"] = "對齊方式"
@@ -2239,14 +2608,17 @@ L["CLASS"] = "職業"
 L["CLOSE_DESIGNER"] = "關閉設計模式"
 L["COLOR"] = "顏色"
 L["COLORS"] = "顏色"
+L["COMBAT"] = "戰鬥"
 L["COMPLETED"] = "已完成"
 L["CONFIRM_DELETE_DESIGN_X"] = "您確定要刪除設計\"%s\"嗎？"
 L["CONFIRM_DELETE_PRESET_X"] = "您確定要刪除預設\"%s\"嗎？這將會影響所有設計。"
 L["CONFIRM_DELETE_PROFILE_X"] = "確定要刪除設定檔『%s』嗎？"
 L["COOLDOWN"] = "冷卻"
 L["COOLINATOR"] = "Coolinator"
+L["COUNT"] = "總數"
 L["CREATE_PRESET"] = "建立預設"
 L["CTRL_C_TO_COPY"] = "Ctrl+C 複製"
+L["CUSTOM"] = "自訂"
 L["CUSTOMISE_COOLINATOR"] = "自訂 Coolinator"
 L["CUSTOMISE_COOLINATOR_X"] = "自訂 Coolinator：%s"
 L["DANGER"] = "危險"
@@ -2254,16 +2626,20 @@ L["DANGER_COLOR"] = "危險顏色"
 L["DANGER_COLOR_FADED"] = "危險顏色（淡）"
 L["DEFAULT"] = "預設值"
 L["DELETE"] = "刪除"
+L["DELVE"] = "探究"
 L["DESATURATE_ON_COOLDOWN"] = "冷卻時變灰 "
 L["DESIGN"] = "設計"
 L["DESIGNER"] = "設計模式"
 L["DETACH_PRESET"] = "拆開預設"
 L["DEVELOPMENT_IS_TIME_CONSUMING"] = "|cff04cca4開發插件需要大量的時間|r"
 L["DISCORD_DESCRIPTION"] = "更新、功能建議與支持"
+L["DISPLAY"] = "顯示"
 L["DONATE"] = "贊助"
 L["DUE_TO_AURA_BARS_CHANGING_RELOAD_REQUIRED"] = "由於光環量條的更動，重載介面才能讓 Coolinator 正常運作"
+L["DUNGEON"] = "地城"
 L["DURATION"] = "持續時間"
 L["EDIT_THE_ICONS_AND_BARS_ONSCREEN"] = "點擊畫面上的圖示和量條即可進行編輯"
+L["ELAPSED"] = "經過時間"
 L["EMPOWERED_STAGE_1"] = "聚能階段1"
 L["EMPOWERED_STAGE_2"] = "聚能階段2"
 L["EMPOWERED_STAGE_3"] = "聚能階段3"
@@ -2278,6 +2654,8 @@ L["ENTER_THE_NEW_PROFILE_NAME"] = "輸入新設定檔名稱"
 L["EQUIPMENT"] = "裝備"
 L["ESSENTIAL"] = "核心"
 L["EXPORT"] = "匯出"
+L["FADE"] = "淡出"
+L["FADE_OUT_OF_COMBAT"] = "非戰鬥時淡出"
 L["FADE_WHEN_MOUNTED"] = "騎乘坐騎時淡出"
 L["FONT"] = "字型"
 L["FONT_SIZE"] = "字型大小"
@@ -2286,14 +2664,20 @@ L["FOREGROUND_COLOR"] = "前景顏色"
 L["GENERAL"] = "一般"
 L["GROUP"] = "群組"
 L["GROW_FROM"] = "增長方向"
+L["HAS_TARGET"] = "有目標時"
 L["HEIGHT"] = "高度"
+L["HIDE"] = "隱藏"
 L["HIDE_ON_COOLDOWN"] = "冷卻時隱藏"
+L["HIDE_OUT_OF_COMBAT"] = "非戰鬥時隱藏"
+L["HIDE_WHEN_MOUNTED"] = "騎乘坐騎時隱藏"
+L["HIDE_WHEN_READY"] = "準備就緒時隱藏"
 L["HORIZONTAL"] = "水平"
 L["ICICLES"] = "冰柱"
 L["ICON"] = "圖示"
 L["ICON_POSITION"] = "圖示位置"
 L["IMPORT"] = "匯入"
 L["IMPORTED_X"] = "已匯入\"%s\""
+L["IN_COMBAT"] = "戰鬥中"
 L["INCOMPATIBLE_WIDGET_TYPE"] = "不相容的元件類型"
 L["INSERT"] = "插入"
 L["INTERRUPTED"] = "被中斷"
@@ -2302,21 +2686,28 @@ L["INVALID_DESIGN_NAME"] = "無效的設計名稱"
 L["INVALID_IMPORT"] = "無效的匯入字串"
 L["ITEM"] = "道具"
 L["JOIN_THE_DISCORD"] = "加入 Discord"
+L["KEYBINDING"] = "按鍵綁定"
 L["LAYOUT"] = "佈局"
 L["LEFT"] = "左"
 L["LINK"] = "連結"
+L["LOCATION"] = "位置"
 L["MAELSTROM_WEAPON"] = "漩渦武器"
 L["MAKE_NEW"] = "新建"
+L["MOUNT"] = "坐騎"
 L["MOUSE_BUTTON_X"] = "M%s"
 L["NAME"] = "名稱"
 L["NEW_DESIGN"] = "新設計"
 L["NEW_PROFILE_BLANK"] = "新設定（空白）"
 L["NEW_PROFILE_CLONE"] = "新設定（複製目前）"
+L["NO_TARGET"] = "無目標"
 L["NONE"] = "無"
 L["NONE_SET"] = "未設定"
 L["NOTHING_IN_SLOT"] = "格子為空"
+L["OFF_MOUNT"] = "不在坐騎上"
+L["ON_MOUNT"] = "騎乘坐騎中"
 L["OPEN_OPTIONS"] = "打開選項"
 L["OPTIONS"] = "選項"
+L["OUT_OF_COMBAT"] = "非戰鬥時"
 L["OVERWRITE"] = "覆寫"
 L["OVERWRITE_CURRENT_PROFILE"] = "覆寫目前的設定？"
 L["PADDING"] = "間距"
@@ -2327,8 +2718,11 @@ L["POTION_EFFECT"] = "藥水效果"
 L["PRESET"] = "預設"
 L["PROFILE"] = "設定檔"
 L["PROFILES"] = "設定檔"
+L["PVP"] = "PvP"
+L["RAID"] = "團隊副本"
 L["READY_BORDER_COLOR"] = "準備就緒的邊框顏色"
 L["READY_FOREGROUND_COLOR"] = "準備就緒的前景顏色"
+L["REMAINING"] = "剩餘"
 L["REMOVE_SPACING_FOR_HIDDEN_ICONS"] = "圖示隱藏時不佔位"
 L["RESET_SAVED_ANCHORS"] = "重置已儲存的定位點"
 L["REVERSE"] = "反轉"
@@ -2340,6 +2734,7 @@ L["SAVE_ANCHOR"] = "儲存定位點"
 L["SCALE"] = "縮放"
 L["SELECT_GROUP"] = "選擇群組"
 L["SETTING_CHANGED_THAT_REQUIRES_A_RELOAD"] = "設定已修改完成，需要重載介面。"
+L["SHOW"] = "顯示"
 L["SHOW_FRACTIONS"] = "顯示小數"
 L["SHOW_GCD_SWIPE"] = "顯示公共冷卻動畫"
 L["SHOW_ICON"] = "顯示圖示"
@@ -2348,6 +2743,8 @@ L["SHOW_OUTLINE"] = "顯示邊框"
 L["SHOW_SHADOW"] = "顯示陰影"
 L["SHOW_SWIPE"] = "顯示過渡動畫"
 L["SHOW_TOOLTIPS"] = "顯示提示訊息"
+L["SITUATION"] = "狀態"
+L["SKYRIDING_ZONE"] = "天空騎術區域"
 L["SLASH_DESIGN"] = "設計"
 L["SLASH_DESIGN_HELP"] = "進入/退出 Coolinator 設計模式"
 L["SLASH_HELP"] = "打開 Coolinator 設定。"
@@ -2359,8 +2756,10 @@ L["SLASH_UNKNOWN_COMMAND"] = "未知指令 '%s'"
 L["SPEC_MISMATCH_IN_BLIZZARD_CDM"] = "暴雪冷卻管理器中的專精資料不符"
 L["SQUARE"] = "方形"
 L["STACK"] = "疊層 "
+L["START"] = "起始"
 L["STYLE"] = "樣式"
 L["SWIPE_COLOR"] = "過渡動畫顏色"
+L["TARGET"] = "目標"
 L["TEXTS"] = "文字"
 L["TEXTURES"] = "材質"
 L["THANKS_FOR_USING_COOLINATOR_DONATE"] = "感謝使用 Coolinator。請考慮贊助以支持開發"
@@ -2372,6 +2771,7 @@ L["TO_OPEN_OPTIONS_X"] = "輸入 /cooli 打開設定"
 L["TOP"] = "上"
 L["TOP_LEFT"] = "左上"
 L["TOP_RIGHT"] = "右上"
+L["TOTAL"] = "總數"
 L["TRANSPARENCY"] = "透明度"
 L["UNINTERRUPTABLE"] = "無法中斷"
 L["UNLEARNED"] = "未習得"
@@ -2381,12 +2781,15 @@ L["UTILITY"] = "通用"
 L["VALUE"] = "數值"
 L["VERSION_COLON_X"] = "版本：%s"
 L["VERTICAL"] = "垂直"
+L["VISIBILITY"] = "可見度"
 L["VISIBLE"] = "可見"
 L["WARNING"] = "警告"
 L["WARNING_COLOR"] = "警告顏色"
 L["WARNING_COLOR_FADED"] = "警告顏色（淡）"
 L["WHAT_TO_EXPORT"] = "匯出什麼？"
 L["WIDTH"] = "寬度"
+L["WIDTH_RESTRICTION"] = "寬度限制"
+L["WORLD"] = "世界"
 
 
 local L = Locales.zhCN
@@ -2394,6 +2797,7 @@ L["ABILITY"] = "技能"
 L["ABILITY_BAR"] = "技能栏"
 L["ABILITY_CHARGE"] = "技能充能"
 L["ABILITY_CHARGES"] = "技能充能层数"
+L["ACTION"] = "动作"
 L["ADD"] = "添加"
 L["ALIGN_X"] = "对齐 %s"
 L["ALIGNMENT"] = "对齐方式"
@@ -2435,14 +2839,17 @@ L["CLASS"] = "职业"
 L["CLOSE_DESIGNER"] = "关闭设计"
 L["COLOR"] = "颜色"
 L["COLORS"] = "颜色"
+L["COMBAT"] = "战斗"
 L["COMPLETED"] = "已完成"
 L["CONFIRM_DELETE_DESIGN_X"] = "确定要删除设计“%s”吗？"
 L["CONFIRM_DELETE_PRESET_X"] = "确定要删除预设“%s”吗？此操作将影响所有设计方案。"
 L["CONFIRM_DELETE_PROFILE_X"] = "确定要删除配置“%s”吗？"
 L["COOLDOWN"] = "冷却"
 L["COOLINATOR"] = "Coolinator"
+L["COUNT"] = "次数"
 L["CREATE_PRESET"] = "创建预设"
 L["CTRL_C_TO_COPY"] = "Ctrl+C 复制"
+L["CUSTOM"] = "自定义"
 L["CUSTOMISE_COOLINATOR"] = "自定义 Coolinator"
 L["CUSTOMISE_COOLINATOR_X"] = "自定义 Coolinator：%s"
 L["DANGER"] = "危险"
@@ -2450,16 +2857,20 @@ L["DANGER_COLOR"] = "危险颜色"
 L["DANGER_COLOR_FADED"] = "危险颜色（淡化）"
 L["DEFAULT"] = "默认"
 L["DELETE"] = "删除"
+L["DELVE"] = "地下堡"
 L["DESATURATE_ON_COOLDOWN"] = "冷却时去色"
 L["DESIGN"] = "方案"
 L["DESIGNER"] = "设计模式"
 L["DETACH_PRESET"] = "分离预设"
 L["DEVELOPMENT_IS_TIME_CONSUMING"] = "|cff04cca4开发耗时巨大|r"
 L["DISCORD_DESCRIPTION"] = "更新、功能建议与支持"
+L["DISPLAY"] = "显示"
 L["DONATE"] = "赞助"
 L["DUE_TO_AURA_BARS_CHANGING_RELOAD_REQUIRED"] = "由于光环栏变更，需重载才能使 Coolinator 正常工作"
+L["DUNGEON"] = "地下城"
 L["DURATION"] = "持续时间"
 L["EDIT_THE_ICONS_AND_BARS_ONSCREEN"] = "点击屏幕上的图标和状态栏即可编辑"
+L["ELAPSED"] = "已用时间"
 L["EMPOWERED_STAGE_1"] = "蓄力阶段1"
 L["EMPOWERED_STAGE_2"] = "蓄力阶段2"
 L["EMPOWERED_STAGE_3"] = "蓄力阶段3"
@@ -2474,6 +2885,8 @@ L["ENTER_THE_NEW_PROFILE_NAME"] = "输入新配置名称"
 L["EQUIPMENT"] = "装备"
 L["ESSENTIAL"] = "核心"
 L["EXPORT"] = "导出"
+L["FADE"] = "淡出"
+L["FADE_OUT_OF_COMBAT"] = "非战斗时淡出"
 L["FADE_WHEN_MOUNTED"] = "骑乘时淡出"
 L["FONT"] = "字体"
 L["FONT_SIZE"] = "字体大小"
@@ -2482,14 +2895,20 @@ L["FOREGROUND_COLOR"] = "前景颜色"
 L["GENERAL"] = "常规"
 L["GROUP"] = "组"
 L["GROW_FROM"] = "增长方向"
+L["HAS_TARGET"] = "有目标"
 L["HEIGHT"] = "高度"
+L["HIDE"] = "隐藏"
 L["HIDE_ON_COOLDOWN"] = "冷却时隐藏"
+L["HIDE_OUT_OF_COMBAT"] = "非战斗时隐藏"
+L["HIDE_WHEN_MOUNTED"] = "骑乘时隐藏"
+L["HIDE_WHEN_READY"] = "就绪时隐藏"
 L["HORIZONTAL"] = "水平"
 L["ICICLES"] = "冰刺"
 L["ICON"] = "图标"
 L["ICON_POSITION"] = "图标位置"
 L["IMPORT"] = "导入"
 L["IMPORTED_X"] = "已导入“%s”"
+L["IN_COMBAT"] = "战斗中"
 L["INCOMPATIBLE_WIDGET_TYPE"] = "不兼容的控件类型"
 L["INSERT"] = "插入"
 L["INTERRUPTED"] = "被打断"
@@ -2498,21 +2917,28 @@ L["INVALID_DESIGN_NAME"] = "无效的方案名称"
 L["INVALID_IMPORT"] = "无效的导入字符串"
 L["ITEM"] = "物品"
 L["JOIN_THE_DISCORD"] = "加入 Discord"
+L["KEYBINDING"] = "快捷键"
 L["LAYOUT"] = "布局"
 L["LEFT"] = "左"
 L["LINK"] = "链接"
+L["LOCATION"] = "位置"
 L["MAELSTROM_WEAPON"] = "漩涡武器"
 L["MAKE_NEW"] = "新建"
+L["MOUNT"] = "坐骑"
 L["MOUSE_BUTTON_X"] = "M%s"
 L["NAME"] = "名称"
 L["NEW_DESIGN"] = "新建方案"
 L["NEW_PROFILE_BLANK"] = "新建配置（空白）"
 L["NEW_PROFILE_CLONE"] = "新建配置（复制当前）"
+L["NO_TARGET"] = "没有目标"
 L["NONE"] = "无"
 L["NONE_SET"] = "未设置"
 L["NOTHING_IN_SLOT"] = "格子为空"
+L["OFF_MOUNT"] = "非骑乘"
+L["ON_MOUNT"] = "骑乘中"
 L["OPEN_OPTIONS"] = "打开设置"
 L["OPTIONS"] = "设置"
+L["OUT_OF_COMBAT"] = "非战斗"
 L["OVERWRITE"] = "覆盖"
 L["OVERWRITE_CURRENT_PROFILE"] = "覆盖当前配置？"
 L["PADDING"] = "间距"
@@ -2523,8 +2949,11 @@ L["POTION_EFFECT"] = "药水效果"
 L["PRESET"] = "预设"
 L["PROFILE"] = "配置"
 L["PROFILES"] = "配置"
+L["PVP"] = "PvP"
+L["RAID"] = "团队"
 L["READY_BORDER_COLOR"] = "就绪边框颜色"
 L["READY_FOREGROUND_COLOR"] = "就绪前景色"
+L["REMAINING"] = "剩余"
 L["REMOVE_SPACING_FOR_HIDDEN_ICONS"] = "移除隐藏图标的间距"
 L["RESET_SAVED_ANCHORS"] = "重置已保存的锚点"
 L["REVERSE"] = "反向"
@@ -2536,6 +2965,7 @@ L["SAVE_ANCHOR"] = "保存锚点"
 L["SCALE"] = "缩放"
 L["SELECT_GROUP"] = "选择组"
 L["SETTING_CHANGED_THAT_REQUIRES_A_RELOAD"] = "设置已更改，需重载界面。"
+L["SHOW"] = "显示"
 L["SHOW_FRACTIONS"] = "显示分数"
 L["SHOW_GCD_SWIPE"] = "显示公共冷却动画"
 L["SHOW_ICON"] = "显示图标"
@@ -2544,6 +2974,8 @@ L["SHOW_OUTLINE"] = "显示轮廓"
 L["SHOW_SHADOW"] = "显示阴影"
 L["SHOW_SWIPE"] = "显示动画"
 L["SHOW_TOOLTIPS"] = "显示提示信息"
+L["SITUATION"] = "状态"
+L["SKYRIDING_ZONE"] = "驭空术区域"
 L["SLASH_DESIGN"] = "设计"
 L["SLASH_DESIGN_HELP"] = "进入/退出 Coolinator 设计模式"
 L["SLASH_HELP"] = "打开 Coolinator 设置。"
@@ -2555,8 +2987,10 @@ L["SLASH_UNKNOWN_COMMAND"] = "未知命令 “%s”"
 L["SPEC_MISMATCH_IN_BLIZZARD_CDM"] = "暴雪冷却管理器中专精数据不匹配"
 L["SQUARE"] = "方形"
 L["STACK"] = "堆叠"
+L["START"] = "开始"
 L["STYLE"] = "样式"
 L["SWIPE_COLOR"] = "滑动颜色"
+L["TARGET"] = "目标"
 L["TEXTS"] = "文本"
 L["TEXTURES"] = "材质"
 L["THANKS_FOR_USING_COOLINATOR_DONATE"] = "感谢使用Coolinator，请考虑赞助以支持开发"
@@ -2568,6 +3002,7 @@ L["TO_OPEN_OPTIONS_X"] = "输入 /cooli 打开设置"
 L["TOP"] = "顶部"
 L["TOP_LEFT"] = "左上"
 L["TOP_RIGHT"] = "右上"
+L["TOTAL"] = "总计"
 L["TRANSPARENCY"] = "透明度"
 L["UNINTERRUPTABLE"] = "不能打断"
 L["UNLEARNED"] = "未学习"
@@ -2577,12 +3012,15 @@ L["UTILITY"] = "通用"
 L["VALUE"] = "数值"
 L["VERSION_COLON_X"] = "版本：%s"
 L["VERTICAL"] = "垂直"
+L["VISIBILITY"] = "可见性"
 L["VISIBLE"] = "可见"
 L["WARNING"] = "警告"
 L["WARNING_COLOR"] = "警告颜色"
 L["WARNING_COLOR_FADED"] = "警告颜色（淡化）"
 L["WHAT_TO_EXPORT"] = "导出什么？"
 L["WIDTH"] = "宽度"
+L["WIDTH_RESTRICTION"] = "宽度限制"
+L["WORLD"] = "世界"
 
 
 local L = Locales.koKR
@@ -2592,6 +3030,8 @@ L["ABILITY_BAR"] = "능력 바"
 L["ABILITY_CHARGE"] = "Ability Charge"
 --[[Translation missing --]]
 L["ABILITY_CHARGES"] = "Ability Charges"
+--[[Translation missing --]]
+L["ACTION"] = "Action"
 L["ADD"] = "추가"
 --[[Translation missing --]]
 L["ALIGN_X"] = "Align %s"
@@ -2650,6 +3090,8 @@ L["COLOR"] = "색상"
 --[[Translation missing --]]
 L["COLORS"] = "Colors"
 --[[Translation missing --]]
+L["COMBAT"] = "Combat"
+--[[Translation missing --]]
 L["COMPLETED"] = "Completed"
 --[[Translation missing --]]
 L["CONFIRM_DELETE_DESIGN_X"] = "Are you sure you want to delete design \"%s\"?"
@@ -2659,8 +3101,12 @@ L["CONFIRM_DELETE_PROFILE_X"] = "프로필 \\\"%s\\\"을(를) 삭제하시겠습
 L["COOLDOWN"] = "재사용 대기시간"
 L["COOLINATOR"] = "Coolinator"
 --[[Translation missing --]]
+L["COUNT"] = "Count"
+--[[Translation missing --]]
 L["CREATE_PRESET"] = "Create Preset"
 L["CTRL_C_TO_COPY"] = "Ctrl+C로 복사"
+--[[Translation missing --]]
+L["CUSTOM"] = "Custom"
 L["CUSTOMISE_COOLINATOR"] = "Coolinator 사용자 지정"
 L["CUSTOMISE_COOLINATOR_X"] = "Coolinator 사용자 지정: %s"
 L["DANGER"] = "위험"
@@ -2670,6 +3116,8 @@ L["DANGER_COLOR_FADED"] = "위험 색상 (흐림)"
 L["DEFAULT"] = "Default"
 L["DELETE"] = "삭제"
 --[[Translation missing --]]
+L["DELVE"] = "Delve"
+--[[Translation missing --]]
 L["DESATURATE_ON_COOLDOWN"] = "Desaturate on cooldown"
 L["DESIGN"] = "디자인"
 L["DESIGNER"] = "디자인"
@@ -2677,11 +3125,17 @@ L["DESIGNER"] = "디자인"
 L["DETACH_PRESET"] = "Detach Preset"
 L["DEVELOPMENT_IS_TIME_CONSUMING"] = "|cff04cca4개발에는 엄청난 시간이 듭니다|r"
 L["DISCORD_DESCRIPTION"] = "업데이트, 기능 제안 및 지원"
+--[[Translation missing --]]
+L["DISPLAY"] = "Display"
 L["DONATE"] = "후원"
 L["DUE_TO_AURA_BARS_CHANGING_RELOAD_REQUIRED"] = "오라 바 변경으로 Coolinator 작동을 위해 다시 불러와야 합니다"
 --[[Translation missing --]]
+L["DUNGEON"] = "Dungeon"
+--[[Translation missing --]]
 L["DURATION"] = "Duration"
 L["EDIT_THE_ICONS_AND_BARS_ONSCREEN"] = "화면의 아이콘과 바를 클릭해 편집하세요"
+--[[Translation missing --]]
+L["ELAPSED"] = "Elapsed"
 --[[Translation missing --]]
 L["EMPOWERED_STAGE_1"] = "Empowered stage 1"
 --[[Translation missing --]]
@@ -2705,6 +3159,10 @@ L["EQUIPMENT"] = "장비"
 L["ESSENTIAL"] = "Essential"
 L["EXPORT"] = "내보내기"
 --[[Translation missing --]]
+L["FADE"] = "Fade"
+--[[Translation missing --]]
+L["FADE_OUT_OF_COMBAT"] = "Fade out of combat"
+--[[Translation missing --]]
 L["FADE_WHEN_MOUNTED"] = "Fade when mounted"
 --[[Translation missing --]]
 L["FONT"] = "Font"
@@ -2715,9 +3173,19 @@ L["FOREGROUND_COLOR"] = "전경 색상"
 L["GENERAL"] = "일반"
 L["GROUP"] = "그룹"
 L["GROW_FROM"] = "확장 시작점"
+--[[Translation missing --]]
+L["HAS_TARGET"] = "Has Target"
 L["HEIGHT"] = "높이"
 --[[Translation missing --]]
+L["HIDE"] = "Hide"
+--[[Translation missing --]]
 L["HIDE_ON_COOLDOWN"] = "Hide on cooldown"
+--[[Translation missing --]]
+L["HIDE_OUT_OF_COMBAT"] = "Hide out of combat"
+--[[Translation missing --]]
+L["HIDE_WHEN_MOUNTED"] = "Hide when mounted"
+--[[Translation missing --]]
+L["HIDE_WHEN_READY"] = "Hide when ready"
 L["HORIZONTAL"] = "가로"
 L["ICICLES"] = "고드름"
 L["ICON"] = "아이콘"
@@ -2725,6 +3193,8 @@ L["ICON_POSITION"] = "아이콘 위치"
 L["IMPORT"] = "가져오기"
 --[[Translation missing --]]
 L["IMPORTED_X"] = "Imported \"%s\""
+--[[Translation missing --]]
+L["IN_COMBAT"] = "In Combat"
 L["INCOMPATIBLE_WIDGET_TYPE"] = "호환되지 않는 위젯 유형"
 L["INSERT"] = "삽입"
 --[[Translation missing --]]
@@ -2735,12 +3205,18 @@ L["INVALID_DESIGN_NAME"] = "잘못된 디자인 이름"
 L["INVALID_IMPORT"] = "잘못된 가져오기"
 L["ITEM"] = "아이템"
 L["JOIN_THE_DISCORD"] = "디스코드 참여"
+--[[Translation missing --]]
+L["KEYBINDING"] = "Keybinding"
 L["LAYOUT"] = "배치"
 L["LEFT"] = "왼쪽"
 L["LINK"] = "링크"
 --[[Translation missing --]]
+L["LOCATION"] = "Location"
+--[[Translation missing --]]
 L["MAELSTROM_WEAPON"] = "Maelstrom Weapon"
 L["MAKE_NEW"] = "새로 만들기"
+--[[Translation missing --]]
+L["MOUNT"] = "Mount"
 --[[Translation missing --]]
 L["MOUSE_BUTTON_X"] = "M%s"
 --[[Translation missing --]]
@@ -2748,12 +3224,20 @@ L["NAME"] = "Name"
 L["NEW_DESIGN"] = "새 디자인"
 L["NEW_PROFILE_BLANK"] = "새 프로필 (빈)"
 L["NEW_PROFILE_CLONE"] = "새 프로필 (현재 복제)"
+--[[Translation missing --]]
+L["NO_TARGET"] = "No Target"
 L["NONE"] = "없음"
 --[[Translation missing --]]
 L["NONE_SET"] = "None set"
 L["NOTHING_IN_SLOT"] = "슬롯 비어 있음"
+--[[Translation missing --]]
+L["OFF_MOUNT"] = "Off Mount"
+--[[Translation missing --]]
+L["ON_MOUNT"] = "On Mount"
 L["OPEN_OPTIONS"] = "설정 열기"
 L["OPTIONS"] = "설정"
+--[[Translation missing --]]
+L["OUT_OF_COMBAT"] = "Out of Combat"
 L["OVERWRITE"] = "덮어쓰기"
 L["OVERWRITE_CURRENT_PROFILE"] = "현재 프로필을 덮어쓸까요?"
 L["PADDING"] = "여백"
@@ -2766,9 +3250,15 @@ L["PRESET"] = "Preset"
 L["PROFILE"] = "프로필"
 L["PROFILES"] = "프로필"
 --[[Translation missing --]]
+L["PVP"] = "PvP"
+--[[Translation missing --]]
+L["RAID"] = "Raid"
+--[[Translation missing --]]
 L["READY_BORDER_COLOR"] = "Ready border color"
 --[[Translation missing --]]
 L["READY_FOREGROUND_COLOR"] = "Ready foreground color"
+--[[Translation missing --]]
+L["REMAINING"] = "Remaining"
 --[[Translation missing --]]
 L["REMOVE_SPACING_FOR_HIDDEN_ICONS"] = "Remove spacing for hidden icons"
 --[[Translation missing --]]
@@ -2786,6 +3276,8 @@ L["SELECT_GROUP"] = "그룹 선택"
 --[[Translation missing --]]
 L["SETTING_CHANGED_THAT_REQUIRES_A_RELOAD"] = "Setting changed that requires a reload."
 --[[Translation missing --]]
+L["SHOW"] = "Show"
+--[[Translation missing --]]
 L["SHOW_FRACTIONS"] = "Show fractions"
 --[[Translation missing --]]
 L["SHOW_GCD_SWIPE"] = "Show GCD swipe"
@@ -2798,6 +3290,10 @@ L["SHOW_SHADOW"] = "Show shadow"
 --[[Translation missing --]]
 L["SHOW_SWIPE"] = "Show swipe"
 L["SHOW_TOOLTIPS"] = "툴팁 표시"
+--[[Translation missing --]]
+L["SITUATION"] = "Situation"
+--[[Translation missing --]]
+L["SKYRIDING_ZONE"] = "Skyriding Zone"
 L["SLASH_DESIGN"] = "design"
 L["SLASH_DESIGN_HELP"] = "Coolinator 디자이너 모드 진입/종료"
 L["SLASH_HELP"] = "Coolinator 설정을 엽니다."
@@ -2810,9 +3306,13 @@ L["SPEC_MISMATCH_IN_BLIZZARD_CDM"] = "블리자드 CDM의 전문화 데이터 �
 L["SQUARE"] = "사각형"
 --[[Translation missing --]]
 L["STACK"] = "Stack"
+--[[Translation missing --]]
+L["START"] = "Start"
 L["STYLE"] = "스타일"
 --[[Translation missing --]]
 L["SWIPE_COLOR"] = "Swipe color"
+--[[Translation missing --]]
+L["TARGET"] = "Target"
 --[[Translation missing --]]
 L["TEXTS"] = "Texts"
 L["TEXTURES"] = "텍스처"
@@ -2826,6 +3326,8 @@ L["TO_OPEN_OPTIONS_X"] = "/cooli 로 설정 열기"
 L["TOP"] = "위"
 L["TOP_LEFT"] = "왼쪽 위"
 L["TOP_RIGHT"] = "오른쪽 위"
+--[[Translation missing --]]
+L["TOTAL"] = "Total"
 L["TRANSPARENCY"] = "투명도"
 --[[Translation missing --]]
 L["UNINTERRUPTABLE"] = "Uninterruptable"
@@ -2840,12 +3342,18 @@ L["VALUE"] = "Value"
 L["VERSION_COLON_X"] = "버전: %s"
 L["VERTICAL"] = "세로"
 --[[Translation missing --]]
+L["VISIBILITY"] = "Visibility"
+--[[Translation missing --]]
 L["VISIBLE"] = "Visible"
 L["WARNING"] = "경고"
 L["WARNING_COLOR"] = "경고 색상"
 L["WARNING_COLOR_FADED"] = "경고 색상 (흐림)"
 L["WHAT_TO_EXPORT"] = "무엇을 내보낼까요?"
 L["WIDTH"] = "너비"
+--[[Translation missing --]]
+L["WIDTH_RESTRICTION"] = "Width restriction"
+--[[Translation missing --]]
+L["WORLD"] = "World"
 
 
 local L = Locales.itIT
@@ -2857,6 +3365,8 @@ L["ABILITY_BAR"] = "Ability Bar"
 L["ABILITY_CHARGE"] = "Ability Charge"
 --[[Translation missing --]]
 L["ABILITY_CHARGES"] = "Ability Charges"
+--[[Translation missing --]]
+L["ACTION"] = "Action"
 --[[Translation missing --]]
 L["ADD"] = "Add"
 --[[Translation missing --]]
@@ -2940,6 +3450,8 @@ L["COLOR"] = "Color"
 --[[Translation missing --]]
 L["COLORS"] = "Colors"
 --[[Translation missing --]]
+L["COMBAT"] = "Combat"
+--[[Translation missing --]]
 L["COMPLETED"] = "Completed"
 --[[Translation missing --]]
 L["CONFIRM_DELETE_DESIGN_X"] = "Are you sure you want to delete design \"%s\"?"
@@ -2952,9 +3464,13 @@ L["COOLDOWN"] = "Cooldown"
 --[[Translation missing --]]
 L["COOLINATOR"] = "Coolinator"
 --[[Translation missing --]]
+L["COUNT"] = "Count"
+--[[Translation missing --]]
 L["CREATE_PRESET"] = "Create Preset"
 --[[Translation missing --]]
 L["CTRL_C_TO_COPY"] = "Ctrl+C to copy"
+--[[Translation missing --]]
+L["CUSTOM"] = "Custom"
 --[[Translation missing --]]
 L["CUSTOMISE_COOLINATOR"] = "Customise Coolinator"
 --[[Translation missing --]]
@@ -2970,6 +3486,8 @@ L["DEFAULT"] = "Default"
 --[[Translation missing --]]
 L["DELETE"] = "Delete"
 --[[Translation missing --]]
+L["DELVE"] = "Delve"
+--[[Translation missing --]]
 L["DESATURATE_ON_COOLDOWN"] = "Desaturate on cooldown"
 --[[Translation missing --]]
 L["DESIGN"] = "Design"
@@ -2982,13 +3500,19 @@ L["DEVELOPMENT_IS_TIME_CONSUMING"] = "|cff04cca4Development takes a huge amount 
 --[[Translation missing --]]
 L["DISCORD_DESCRIPTION"] = "Updates, feature suggestions and support"
 --[[Translation missing --]]
+L["DISPLAY"] = "Display"
+--[[Translation missing --]]
 L["DONATE"] = "Donate"
 --[[Translation missing --]]
 L["DUE_TO_AURA_BARS_CHANGING_RELOAD_REQUIRED"] = "Due to aura bars changing a reload is required for Coolinator function"
 --[[Translation missing --]]
+L["DUNGEON"] = "Dungeon"
+--[[Translation missing --]]
 L["DURATION"] = "Duration"
 --[[Translation missing --]]
 L["EDIT_THE_ICONS_AND_BARS_ONSCREEN"] = "Edit the icons and bars onscreen by clicking on them"
+--[[Translation missing --]]
+L["ELAPSED"] = "Elapsed"
 --[[Translation missing --]]
 L["EMPOWERED_STAGE_1"] = "Empowered stage 1"
 --[[Translation missing --]]
@@ -3018,6 +3542,10 @@ L["ESSENTIAL"] = "Essential"
 --[[Translation missing --]]
 L["EXPORT"] = "Export"
 --[[Translation missing --]]
+L["FADE"] = "Fade"
+--[[Translation missing --]]
+L["FADE_OUT_OF_COMBAT"] = "Fade out of combat"
+--[[Translation missing --]]
 L["FADE_WHEN_MOUNTED"] = "Fade when mounted"
 --[[Translation missing --]]
 L["FONT"] = "Font"
@@ -3034,9 +3562,19 @@ L["GROUP"] = "Group"
 --[[Translation missing --]]
 L["GROW_FROM"] = "Grow from"
 --[[Translation missing --]]
+L["HAS_TARGET"] = "Has Target"
+--[[Translation missing --]]
 L["HEIGHT"] = "Height"
 --[[Translation missing --]]
+L["HIDE"] = "Hide"
+--[[Translation missing --]]
 L["HIDE_ON_COOLDOWN"] = "Hide on cooldown"
+--[[Translation missing --]]
+L["HIDE_OUT_OF_COMBAT"] = "Hide out of combat"
+--[[Translation missing --]]
+L["HIDE_WHEN_MOUNTED"] = "Hide when mounted"
+--[[Translation missing --]]
+L["HIDE_WHEN_READY"] = "Hide when ready"
 --[[Translation missing --]]
 L["HORIZONTAL"] = "Horizontal"
 --[[Translation missing --]]
@@ -3049,6 +3587,8 @@ L["ICON_POSITION"] = "Icon position"
 L["IMPORT"] = "Import"
 --[[Translation missing --]]
 L["IMPORTED_X"] = "Imported \"%s\""
+--[[Translation missing --]]
+L["IN_COMBAT"] = "In Combat"
 --[[Translation missing --]]
 L["INCOMPATIBLE_WIDGET_TYPE"] = "Incompatible widget type"
 --[[Translation missing --]]
@@ -3066,15 +3606,21 @@ L["ITEM"] = "Item"
 --[[Translation missing --]]
 L["JOIN_THE_DISCORD"] = "Join the Discord"
 --[[Translation missing --]]
+L["KEYBINDING"] = "Keybinding"
+--[[Translation missing --]]
 L["LAYOUT"] = "Layout"
 --[[Translation missing --]]
 L["LEFT"] = "Left"
 --[[Translation missing --]]
 L["LINK"] = "Link"
 --[[Translation missing --]]
+L["LOCATION"] = "Location"
+--[[Translation missing --]]
 L["MAELSTROM_WEAPON"] = "Maelstrom Weapon"
 --[[Translation missing --]]
 L["MAKE_NEW"] = "Make new"
+--[[Translation missing --]]
+L["MOUNT"] = "Mount"
 --[[Translation missing --]]
 L["MOUSE_BUTTON_X"] = "M%s"
 --[[Translation missing --]]
@@ -3086,15 +3632,23 @@ L["NEW_PROFILE_BLANK"] = "New Profile (blank)"
 --[[Translation missing --]]
 L["NEW_PROFILE_CLONE"] = "New Profile (clone current)"
 --[[Translation missing --]]
+L["NO_TARGET"] = "No Target"
+--[[Translation missing --]]
 L["NONE"] = "None"
 --[[Translation missing --]]
 L["NONE_SET"] = "None set"
 --[[Translation missing --]]
 L["NOTHING_IN_SLOT"] = "Nothing in slot"
 --[[Translation missing --]]
+L["OFF_MOUNT"] = "Off Mount"
+--[[Translation missing --]]
+L["ON_MOUNT"] = "On Mount"
+--[[Translation missing --]]
 L["OPEN_OPTIONS"] = "Open Options"
 --[[Translation missing --]]
 L["OPTIONS"] = "Options"
+--[[Translation missing --]]
+L["OUT_OF_COMBAT"] = "Out of Combat"
 --[[Translation missing --]]
 L["OVERWRITE"] = "Overwrite"
 --[[Translation missing --]]
@@ -3116,9 +3670,15 @@ L["PROFILE"] = "Profile"
 --[[Translation missing --]]
 L["PROFILES"] = "Profiles"
 --[[Translation missing --]]
+L["PVP"] = "PvP"
+--[[Translation missing --]]
+L["RAID"] = "Raid"
+--[[Translation missing --]]
 L["READY_BORDER_COLOR"] = "Ready border color"
 --[[Translation missing --]]
 L["READY_FOREGROUND_COLOR"] = "Ready foreground color"
+--[[Translation missing --]]
+L["REMAINING"] = "Remaining"
 --[[Translation missing --]]
 L["REMOVE_SPACING_FOR_HIDDEN_ICONS"] = "Remove spacing for hidden icons"
 --[[Translation missing --]]
@@ -3142,6 +3702,8 @@ L["SELECT_GROUP"] = "Select Group"
 --[[Translation missing --]]
 L["SETTING_CHANGED_THAT_REQUIRES_A_RELOAD"] = "Setting changed that requires a reload."
 --[[Translation missing --]]
+L["SHOW"] = "Show"
+--[[Translation missing --]]
 L["SHOW_FRACTIONS"] = "Show fractions"
 --[[Translation missing --]]
 L["SHOW_GCD_SWIPE"] = "Show GCD swipe"
@@ -3157,6 +3719,10 @@ L["SHOW_SHADOW"] = "Show shadow"
 L["SHOW_SWIPE"] = "Show swipe"
 --[[Translation missing --]]
 L["SHOW_TOOLTIPS"] = "Show tooltips"
+--[[Translation missing --]]
+L["SITUATION"] = "Situation"
+--[[Translation missing --]]
+L["SKYRIDING_ZONE"] = "Skyriding Zone"
 --[[Translation missing --]]
 L["SLASH_DESIGN"] = "design"
 --[[Translation missing --]]
@@ -3180,9 +3746,13 @@ L["SQUARE"] = "Square"
 --[[Translation missing --]]
 L["STACK"] = "Stack"
 --[[Translation missing --]]
+L["START"] = "Start"
+--[[Translation missing --]]
 L["STYLE"] = "Style"
 --[[Translation missing --]]
 L["SWIPE_COLOR"] = "Swipe color"
+--[[Translation missing --]]
+L["TARGET"] = "Target"
 --[[Translation missing --]]
 L["TEXTS"] = "Texts"
 --[[Translation missing --]]
@@ -3206,6 +3776,8 @@ L["TOP_LEFT"] = "Top Left"
 --[[Translation missing --]]
 L["TOP_RIGHT"] = "Top Right"
 --[[Translation missing --]]
+L["TOTAL"] = "Total"
+--[[Translation missing --]]
 L["TRANSPARENCY"] = "Transparency"
 --[[Translation missing --]]
 L["UNINTERRUPTABLE"] = "Uninterruptable"
@@ -3224,6 +3796,8 @@ L["VERSION_COLON_X"] = "Version: %s"
 --[[Translation missing --]]
 L["VERTICAL"] = "Vertical"
 --[[Translation missing --]]
+L["VISIBILITY"] = "Visibility"
+--[[Translation missing --]]
 L["VISIBLE"] = "Visible"
 --[[Translation missing --]]
 L["WARNING"] = "Warning"
@@ -3235,4 +3809,8 @@ L["WARNING_COLOR_FADED"] = "Warning color faded"
 L["WHAT_TO_EXPORT"] = "What to export?"
 --[[Translation missing --]]
 L["WIDTH"] = "Width"
+--[[Translation missing --]]
+L["WIDTH_RESTRICTION"] = "Width restriction"
+--[[Translation missing --]]
+L["WORLD"] = "World"
 

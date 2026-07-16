@@ -70,7 +70,7 @@ L["Wrath of the Lich King"] = true
 L["WW"] = true
 
 L = AceLocale:NewLocale(AddonName, "deDE")
-if not L then return end
+if L then
 --[[Translation missing --]]
 L["Added in {expacIcon} ({versionTriple})"] = "Added in {expacIcon} ({versionTriple})"
 --[[Translation missing --]]
@@ -193,10 +193,10 @@ L["WoW Version"] = "WoW Version"
 L["Wrath of the Lich King"] = "Wrath of the Lich King"
 --[[Translation missing --]]
 L["WW"] = "WW"
-
+end
 
 L = AceLocale:NewLocale(AddonName, "esES")
-if not L then return end
+if L then
 --[[Translation missing --]]
 L["Added in {expacIcon} ({versionTriple})"] = "Added in {expacIcon} ({versionTriple})"
 --[[Translation missing --]]
@@ -319,136 +319,75 @@ L["WoW Version"] = "WoW Version"
 L["Wrath of the Lich King"] = "Wrath of the Lich King"
 --[[Translation missing --]]
 L["WW"] = "WW"
-
+end
 
 L = AceLocale:NewLocale(AddonName, "esMX")
-if not L then return end
---[[Translation missing --]]
-L["Added in {expacIcon} ({versionTriple})"] = "Added in {expacIcon} ({versionTriple})"
---[[Translation missing --]]
-L["Addon Version"] = "Addon Version"
---[[Translation missing --]]
-L["Apply version corrections"] = "Apply version corrections"
---[[Translation missing --]]
+if L then
+L["Added in {expacIcon} ({versionTriple})"] = "Añadido en {expacIcon} ({versionTriple})"
+L["Addon Version"] = "Versión del addon"
+L["Apply version corrections"] = "Aplicar correcciones de versión"
 L["Battle for Azeroth"] = "Battle for Azeroth"
---[[Translation missing --]]
 L["BfA"] = "BfA"
---[[Translation missing --]]
-L["Build number only"] = "Build number only"
---[[Translation missing --]]
+L["Build number only"] = "Solo número de compilación"
 L["Cata"] = "Cata"
---[[Translation missing --]]
 L["Cataclysm"] = "Cataclysm"
---[[Translation missing --]]
-L["Color of the line of text in the tooltip"] = "Color of the line of text in the tooltip"
---[[Translation missing --]]
-L["Correct the version for some items whose release version is different than their usable version."] = "Correct the version for some items whose release version is different than their usable version."
---[[Translation missing --]]
-L["Customize the format of the item version information shown in tooltips."] = "Customize the format of the item version information shown in tooltips."
---[[Translation missing --]]
-L["Description"] = "Description"
---[[Translation missing --]]
+L["Color of the line of text in the tooltip"] = "Color de la línea de texto en la descripción emergente"
+L["Correct the version for some items whose release version is different than their usable version."] = "Corrige la versión de algunos objetos cuya versión de lanzamiento es diferente de la versión en la que pueden usarse."
+L["Customize the format of the item version information shown in tooltips."] = "Personaliza el formato de la información de versión de los objetos mostrada en las descripciones emergentes."
+L["Description"] = "Descripción"
 L["DF"] = "DF"
---[[Translation missing --]]
 L["Dragonflight"] = "Dragonflight"
---[[Translation missing --]]
-L["Enable tooltip integration"] = "Enable tooltip integration"
---[[Translation missing --]]
-L["Example"] = "Example"
---[[Translation missing --]]
-L["Expansion icon"] = "Expansion icon"
---[[Translation missing --]]
-L["Format Tokens"] = "Format Tokens"
---[[Translation missing --]]
-L["Full name of the expansion"] = "Full name of the expansion"
---[[Translation missing --]]
-L["Full version"] = "Full version"
---[[Translation missing --]]
-L["Invalid item ID or link provided"] = "Invalid item ID or link provided"
---[[Translation missing --]]
-L["Key Modifiers Needed to Show Info"] = "Key Modifiers Needed to Show Info"
---[[Translation missing --]]
+L["Enable tooltip integration"] = "Activar integración con las descripciones emergentes"
+L["Example"] = "Ejemplo"
+L["Expansion icon"] = "Icono de expansión"
+L["Format Tokens"] = "Tokens de formato"
+L["Full name of the expansion"] = "Nombre completo de la expansión"
+L["Full version"] = "Versión completa"
+L["Invalid item ID or link provided"] = "Se proporcionó un ID o enlace de objeto no válido"
+L["Key Modifiers Needed to Show Info"] = "Teclas modificadoras necesarias para mostrar la información"
 L["Legion"] = "Legion"
---[[Translation missing --]]
-L["Line Color"] = "Line Color"
---[[Translation missing --]]
-L["Lookup item ID or Link and print tooltip line"] = "Lookup item ID or Link and print tooltip line"
---[[Translation missing --]]
-L["Major, minor, and patch version"] = "Major, minor, and patch version"
---[[Translation missing --]]
+L["Line Color"] = "Color de la línea"
+L["Lookup item ID or Link and print tooltip line"] = "Buscar un ID o enlace de objeto y mostrar la línea de la descripción emergente"
+L["Major, minor, and patch version"] = "Versión mayor, menor y de parche"
 L["Midnight"] = "Midnight"
---[[Translation missing --]]
 L["Mists of Pandaria"] = "Mists of Pandaria"
---[[Translation missing --]]
 L["MN"] = "MN"
---[[Translation missing --]]
 L["MoP"] = "MoP"
---[[Translation missing --]]
-L["Mouseover Preview"] = "Mouseover Preview"
---[[Translation missing --]]
-L["Must supply an item ID or link to lookup"] = "Must supply an item ID or link to lookup"
---[[Translation missing --]]
-L["No version information found for item ID %d"] = "No version information found for item ID %d"
---[[Translation missing --]]
-L["Open options"] = "Open options"
---[[Translation missing --]]
-L["Platform"] = "Platform"
---[[Translation missing --]]
-L["Profiles"] = "Profiles"
---[[Translation missing --]]
-L["Provide a template to format the tooltip line"] = "Provide a template to format the tooltip line"
---[[Translation missing --]]
+L["Mouseover Preview"] = "Vista previa al pasar el cursor"
+L["Must supply an item ID or link to lookup"] = "Debe proporcionar un ID o enlace de objeto para realizar la búsqueda"
+L["No version information found for item ID %d"] = "No se encontró información de versión para el ID de objeto %d"
+L["Open options"] = "Abrir opciones"
+L["Platform"] = "Plataforma"
+L["Profiles"] = "Perfiles"
+L["Provide a template to format the tooltip line"] = "Proporcione una plantilla para dar formato a la línea de la descripción emergente"
 L["Shadowlands"] = "Shadowlands"
---[[Translation missing --]]
-L["Short name of the expansion"] = "Short name of the expansion"
---[[Translation missing --]]
-L["Show item version info in tooltips when the %s key is held down."] = "Show item version info in tooltips when the %s key is held down."
---[[Translation missing --]]
-L["Show item version information in tooltips."] = "Show item version information in tooltips."
---[[Translation missing --]]
-L["Show this message"] = "Show this message"
---[[Translation missing --]]
-L["Show version info"] = "Show version info"
---[[Translation missing --]]
+L["Short name of the expansion"] = "Nombre corto de la expansión"
+L["Show item version info in tooltips when the %s key is held down."] = "Mostrar la información de versión del objeto en las descripciones emergentes al mantener presionada la tecla %s."
+L["Show item version information in tooltips."] = "Mostrar la información de versión de los objetos en las descripciones emergentes."
+L["Show this message"] = "Mostrar este mensaje"
+L["Show version info"] = "Mostrar información de versión"
 L["SL"] = "SL"
---[[Translation missing --]]
 L["TBC"] = "TBC"
---[[Translation missing --]]
 L["The Burning Crusade"] = "The Burning Crusade"
---[[Translation missing --]]
 L["The War Within"] = "The War Within"
---[[Translation missing --]]
 L["Token"] = "Token"
---[[Translation missing --]]
-L["Tooltip format"] = "Tooltip format"
---[[Translation missing --]]
-L["Usage: /itemversion <command>"] = "Usage: /itemversion <command>"
---[[Translation missing --]]
+L["Tooltip format"] = "Formato de la descripción emergente"
+L["Usage: /itemversion <command>"] = "Uso: /itemversion <comando>"
 L["Vanilla"] = "Vanilla"
---[[Translation missing --]]
-L["Version Information"] = "Version Information"
---[[Translation missing --]]
+L["Version Information"] = "Información de versión"
 L["Warlords of Draenor"] = "Warlords of Draenor"
---[[Translation missing --]]
 L["WoD"] = "WoD"
---[[Translation missing --]]
 L["World of Warcraft"] = "World of Warcraft"
---[[Translation missing --]]
 L["WotLK"] = "WotLK"
---[[Translation missing --]]
-L["WoW Build"] = "WoW Build"
---[[Translation missing --]]
-L["WoW Build Date"] = "WoW Build Date"
---[[Translation missing --]]
-L["WoW Version"] = "WoW Version"
---[[Translation missing --]]
+L["WoW Build"] = "Compilación de WoW"
+L["WoW Build Date"] = "Fecha de compilación de WoW"
+L["WoW Version"] = "Versión de WoW"
 L["Wrath of the Lich King"] = "Wrath of the Lich King"
---[[Translation missing --]]
 L["WW"] = "WW"
-
+end
 
 L = AceLocale:NewLocale(AddonName, "frFR")
-if not L then return end
+if L then
 --[[Translation missing --]]
 L["Added in {expacIcon} ({versionTriple})"] = "Added in {expacIcon} ({versionTriple})"
 --[[Translation missing --]]
@@ -571,10 +510,10 @@ L["WoW Version"] = "WoW Version"
 L["Wrath of the Lich King"] = "Wrath of the Lich King"
 --[[Translation missing --]]
 L["WW"] = "WW"
-
+end
 
 L = AceLocale:NewLocale(AddonName, "itIT")
-if not L then return end
+if L then
 --[[Translation missing --]]
 L["Added in {expacIcon} ({versionTriple})"] = "Added in {expacIcon} ({versionTriple})"
 --[[Translation missing --]]
@@ -697,10 +636,10 @@ L["WoW Version"] = "WoW Version"
 L["Wrath of the Lich King"] = "Wrath of the Lich King"
 --[[Translation missing --]]
 L["WW"] = "WW"
-
+end
 
 L = AceLocale:NewLocale(AddonName, "koKR")
-if not L then return end
+if L then
 --[[Translation missing --]]
 L["Added in {expacIcon} ({versionTriple})"] = "Added in {expacIcon} ({versionTriple})"
 --[[Translation missing --]]
@@ -823,10 +762,10 @@ L["WoW Version"] = "WoW Version"
 L["Wrath of the Lich King"] = "Wrath of the Lich King"
 --[[Translation missing --]]
 L["WW"] = "WW"
-
+end
 
 L = AceLocale:NewLocale(AddonName, "ptBR")
-if not L then return end
+if L then
 L["Added in {expacIcon} ({versionTriple})"] = "Adicionado em {expacIcon} ({versionTriple})"
 L["Addon Version"] = "Versão do Addon"
 L["Apply version corrections"] = "Aplicar correção de versão"
@@ -935,10 +874,10 @@ L["WoW Version"] = "WoW Version"
 L["Wrath of the Lich King"] = "Wrath of the Lich King"
 --[[Translation missing --]]
 L["WW"] = "WW"
-
+end
 
 L = AceLocale:NewLocale(AddonName, "ruRU")
-if not L then return end
+if L then
 --[[Translation missing --]]
 L["Added in {expacIcon} ({versionTriple})"] = "Added in {expacIcon} ({versionTriple})"
 --[[Translation missing --]]
@@ -1061,10 +1000,10 @@ L["WoW Version"] = "WoW Version"
 L["Wrath of the Lich King"] = "Wrath of the Lich King"
 --[[Translation missing --]]
 L["WW"] = "WW"
-
+end
 
 L = AceLocale:NewLocale(AddonName, "zhCN")
-if not L then return end
+if L then
 L["Added in {expacIcon} ({versionTriple})"] = "添加于 {expacIcon} ({versionTriple})"
 L["Addon Version"] = "插件版本"
 L["Apply version corrections"] = "应用版本修正"
@@ -1126,10 +1065,10 @@ L["WoW Build Date"] = "构建日期"
 L["WoW Version"] = "游戏版本"
 L["Wrath of the Lich King"] = "巫妖王之怒"
 L["WW"] = true
-
+end
 
 L = AceLocale:NewLocale(AddonName, "zhTW")
-if not L then return end
+if L then
 --[[Translation missing --]]
 L["Added in {expacIcon} ({versionTriple})"] = "Added in {expacIcon} ({versionTriple})"
 --[[Translation missing --]]
@@ -1252,3 +1191,5 @@ L["WoW Version"] = "WoW Version"
 L["Wrath of the Lich King"] = "Wrath of the Lich King"
 --[[Translation missing --]]
 L["WW"] = "WW"
+end
+

@@ -2195,6 +2195,10 @@ L["X_AURAS"] = "%d auras"
 
 
 -- [INICIO INTEGRACIÓN EDIT/ESMX] --
+
+-- [INICIO INTEGRACIÓN EDIT/ESMX] --
+
+-- [INICIO INTEGRACIÓN EDIT/ESMX] --
 local L = Locales.esMX
 
 L["THANKS_FOR_USING_PLATYNATOR_DONATE"] = "Gracias por usar Platynator. Considera hacer una donación para apoyar el desarrollo"

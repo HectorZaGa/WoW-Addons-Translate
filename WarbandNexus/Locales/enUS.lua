@@ -1145,30 +1145,18 @@ L["CONFIG_HIDE_PLAYED_TIME_CHAT"] = "Hide Time Played in chat"
 L["CONFIG_HIDE_PLAYED_TIME_CHAT_DESC"] = "Filter out Total time played and Time played this level system messages. Turn off to show them again (including when you type /played)."
 
 
-L["CHANGELOG_V330"] = [=[v3.3.0 (2026-07-05)
+L["CHANGELOG_V332"] = [=[v3.3.2 (2026-07-11)
 
 Added:
-- PvP tab: rated bracket progress, honor, conquest, and recent match history across your warband.
-- Settings: Classic UI style option uses Blizzard default buttons, frames, and scrollbars.
+- Columns menu: drag rows to reorder your columns; each row now has a drag handle (the up/down arrows were removed).
 
 Updated:
-- Classic theme: transparent list hosts and Blizzard scroll arrows (no grey slab behind character lists).
-- Gear tab: refreshed paperdoll and stash panel chrome, especially in Classic UI.
-- PvP overview: warband column layout and bracket column order tuned for readability.
-- Mini tracker windows (To-Do, Vault, Saved Instances): layout overhaul with symmetric scroll lanes.
-- Professions tab: layout and equipment rows improved for Classic and Modern UI.
-- Settings: UI Style (Modern vs Classic) separated from dark/light color mode.
-- Guild bank: scan completion reports item count and refreshes WN Search tooltips.
-- Gear stash recommendations: more reliable ilvl comparison when items move between bags and slots.
+- Item tooltips now show the 5 characters holding the most of an item; hold Shift for the full list.
 
 Fixed:
-- To-Do tracker: layout and scrollbar no longer overlap plan rows.
-- PvE tab: character grid redraws correctly after column or tab changes.
-- Guild bank: opening the bank commits a full scan atomically (avoids stale empty snapshots).
-- Collections: empty scans retry once collection APIs finish loading.
-- Chat integrations: throttled when message volume would overload processing.
-- Guild bank scanning: throttled to reduce repeated scan churn during open bank.
-- Try Counter: improved Netherwarped Cursed Egg drop detection and tracking.
+- Fixed a Lua error that could appear when opening the Columns menu.
+- The Hide filter menu now closes when you click the Hide button again.
+- Fixed a Lua error that could occur when hovering points of interest on the world map.
 
 CurseForge: Warband Nexus]=]
 
