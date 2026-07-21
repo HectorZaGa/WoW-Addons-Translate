@@ -2405,6 +2405,8 @@ L["XS_GUILD_BANK"] = "Banco de hermandad de %s"
 -- [INICIO INTEGRACIÓN EDIT/ESMX] --
 
 -- [INICIO INTEGRACIÓN EDIT/ESMX] --
+
+-- [INICIO INTEGRACIÓN EDIT/ESMX] --
 local L = Locales.esMX
 
 L["THANKS_FOR_USING_BAGANATOR_DONATE"] = "Gracias por usar Baganator. Considera hacer una donación para apoyar el desarrollo"

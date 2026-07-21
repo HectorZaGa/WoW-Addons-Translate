@@ -132,6 +132,7 @@ L["COMBAT"] = "Combate"
 L["FRIENDLY_PLAYER"] = "Jugador amistoso"
 L["ENEMY_PLAYER"] = "Jugador enemigo"
 L["SHOW_ON_INTERRUPT"] = "Mostrar al interrumpir"
+L["CANNOT_ALTER_AURAS_IN_COMBAT"] = "No se pueden alterar las auras en combate"
 
 L["FOREGROUND"] = "Primer plano"
 L["VISUAL"] = "Visual"
@@ -360,6 +361,8 @@ L["SLASH_RESET"] = "restablecer"
 L["SLASH_RESET_HELP"] = "Restablece toda la configuración de Platynator y luego recargar"
 L["SLASH_HELP"] = "Abre la configuración de Platynator."
 L["SLASH_UNKNOWN_COMMAND"] = "Comando desconocido '%s'"
+
+L["BAD_CUSTOM_STYLE_SELECT"] = "Platynator: La configuración de selección del estilo \"Personalizado\" no incluye ajustes para un tipo de unidad (ya sea \"Puede atacar\" o \"No puede atacar\")."
 
 L["ANIMATE"] = "Animar"
 L["PET"] = "Mascota"

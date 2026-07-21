@@ -5,8 +5,12 @@
 local ADDON_NAME, ns = ...
 
 ---@class WarbandNexusLocale
-local L = LibStub("AceLocale-3.0"):NewLocale(ADDON_NAME, "enUS", true, true)
-if not L then return end
+-- All locales load into ns.LOCALES so any language can be selected regardless of the
+-- game client (WoW has no trTR client, and non-client AceLocale locales never load).
+-- enUS is the fallback base; Core.lua builds ns.L from this registry.
+ns.LOCALES = ns.LOCALES or {}
+ns.LOCALES.enUS = ns.LOCALES.enUS or {}
+local L = ns.LOCALES.enUS
 
 -- General
 L["ADDON_NAME"] = "Warband Nexus"
@@ -33,6 +37,9 @@ L["PVE_COLLAPSE_ALL_TOOLTIP"] = "Collapse all PvE sections and character rows."
 L["SETTINGS_SECTION_GENERAL_FEATURES"] = "Features"
 L["SETTINGS_SECTION_GENERAL_TOOLTIPS"] = "Item tooltips"
 L["SETTINGS_SECTION_GENERAL_CONTROLS"] = "Controls & Scaling"
+L["SETTINGS_SECTION_GENERAL_INTERFACE"] = "Interface"
+L["SETTINGS_SECTION_GENERAL_STARTUP"] = "Startup"
+L["SETTINGS_SECTION_MINIMAP_BUTTON"] = "Minimap Button"
 L["SETTINGS_SECTION_MODULES_LIST"] = "Enabled modules"
 L["SETTINGS_SECTION_MODULES_PROFESSION_TOOLS"] = "Profession tools"
 L["SETTINGS_SECTION_VAULT_GENERAL"] = "Shortcut behavior"
@@ -605,6 +612,10 @@ L["QUEST_LABEL"] = "Quest:"
 -- Settings
 L["CURRENT_LANGUAGE"] = "Current Language:"
 L["LANGUAGE_TOOLTIP"] = "Addon uses your WoW game client's language automatically. To change, update your Battle.net settings."
+L["LANGUAGE_SELECT_LABEL"] = "Language"
+L["LANGUAGE_SELECT_DESC"] = "Choose the addon interface language. Auto follows your WoW game client. Some game terms stay in the client language."
+L["LANGUAGE_AUTO"] = "Auto (Game Client)"
+L["LANGUAGE_RELOAD_NOTICE"] = "Language change applies after a UI reload."
 L["NOTIFICATION_DURATION"] = "Notification Duration"
 L["NOTIFICATION_POSITION"] = "Notification Position"
 L["SET_POSITION"] = "Set Position"
@@ -1056,8 +1067,8 @@ L["SETTINGS_PANEL_GENERAL"] = "General"
 L["SETTINGS_PANEL_GENERAL_DESC"] = "Display, shortcuts, keybinding, and window scaling."
 L["SETTINGS_PANEL_MODULES"] = "Modules"
 L["SETTINGS_PANEL_MODULES_DESC"] = "Turn data modules on or off and control which tabs appear."
-L["SETTINGS_PANEL_ACCESS"] = "Easy Access"
-L["SETTINGS_PANEL_ACCESS_DESC"] = "Floating shortcut button and quick-open actions."
+L["SETTINGS_PANEL_ACCESS"] = "Shortcuts"
+L["SETTINGS_PANEL_ACCESS_DESC"] = "Minimap button and the floating quick-access shortcut."
 L["SETTINGS_PANEL_FILTERS"] = "Tab filters"
 L["SETTINGS_PANEL_FILTERS_DESC"] = "Choose which main tabs show in the navigation."
 L["SETTINGS_PANEL_NOTIFICATIONS"] = "Notifications"
@@ -1135,8 +1146,7 @@ L["TRACK_USAGE"] = "Usage: enable | disable | status"
 L["CLICK_TO_COPY"] = "Click to copy invite link"
 
 L["WELCOME_MSG_FORMAT"] = "Welcome to Warband Nexus v%s"
-L["WELCOME_TYPE_CMD"] = "Please type"
-L["WELCOME_OPEN_INTERFACE"] = "to open the interface."
+L["WELCOME_CMD_HINT"] = "Please type %s to open the interface."
 L["WELCOME_NEW_VERSION_CHAT"] = "|cffffff00What's New:|r a popup may appear above chat, or type |cffffff00/wn changelog|r."
 L["CHARACTER_LINK_HINT_CHAT"] = "Your saved data was kept. If something looks wrong in the panel, type |cffffff00/reload|r once."
 L["CONFIG_SHOW_LOGIN_CHAT"] = "Login message in chat"
@@ -1145,18 +1155,17 @@ L["CONFIG_HIDE_PLAYED_TIME_CHAT"] = "Hide Time Played in chat"
 L["CONFIG_HIDE_PLAYED_TIME_CHAT_DESC"] = "Filter out Total time played and Time played this level system messages. Turn off to show them again (including when you type /played)."
 
 
-L["CHANGELOG_V332"] = [=[v3.3.2 (2026-07-11)
-
-Added:
-- Columns menu: drag rows to reorder your columns; each row now has a drag handle (the up/down arrows were removed).
-
-Updated:
-- Item tooltips now show the 5 characters holding the most of an item; hold Shift for the full list.
+L["CHANGELOG_V334"] = [=[v3.3.4 (2026-07-19)
 
 Fixed:
-- Fixed a Lua error that could appear when opening the Columns menu.
-- The Hide filter menu now closes when you click the Hide button again.
-- Fixed a Lua error that could occur when hovering points of interest on the world map.
+- Gear tab: your weapons no longer overlap the Character Stats and Upgrade Currencies panel beneath the paperdoll.
+- The Characters tab no longer snaps back to the top when the list refreshes (for example when your gold or currencies change); your scroll position is kept.
+- Fixed a Gear tab error that could stop the tab from loading for characters carrying older saved upgrade-track data.
+- Collection views for Mounts, Pets, Toys, and Titles now redraw correctly when switching tabs, including the "Show completed" filter.
+- Reminders that could silently never fire now trigger reliably, covering daily, weekly, and days-before-reset alerts as well as zone, instance, and world-event triggers.
+- Zone, instance, and world-event reminders now update as soon as you change their settings, instead of waiting for a zone change.
+- Weekly reset timing is now timezone-correct, so "days before reset" counts down accurately regardless of your game client's region.
+- Saving a reminder now shows a confirmation, and clearing all of a reminder's triggers turns it off instead of leaving it enabled with nothing to fire.
 
 CurseForge: Warband Nexus]=]
 
@@ -1614,6 +1623,11 @@ L["REMINDER_SHORT_BEFORE_RESET"] = "%dd before reset"
 L["REMINDER_SHORT_ZONE"] = "Zone enter"
 L["REMINDER_SHORT_INSTANCE"] = "Instance"
 L["REMINDER_SHORT_FOCUS"] = "Location focus"
+L["REMINDER_SHORT_WORLD_EVENT"] = "World events"
+L["REMINDER_CONFIGURED_TITLE"] = "Reminder saved"
+L["REMINDER_CONFIGURED_BODY"] = "Alerts: %s"
+L["REMINDER_CONFIGURED_NONE"] = "No alerts selected"
+L["REMINDER_CLEARED_TITLE"] = "Alert cleared"
 L["REMINDER_CARD_CLICK_CONFIGURE"] = "Click to configure reminders."
 L["REMINDER_COLLECTIBLE_ZONE_HINT"] = "Collectibles rarely expose one 'required zone' in the API; add uiMapIDs, capture an instance, or match zone names from your stored/source text."
 L["REMINDER_TOY_ZONE_HINT"] = "Toys often lack rich source text in the journal - use manual uiMapID(s) or capture an instance."
